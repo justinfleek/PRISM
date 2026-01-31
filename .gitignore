@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+bun.lockb
+
+# Build outputs
+dist/*.vsix
+*.vsix
+build/
+.turbo/
+out/
+*.js.map
+
+# Internal/marketing files
+marketing/
+_screenshots/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.eggs/
+
+# Haskell
+dist-newstyle/
+.stack-work/
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Lean
+.lake/
+lake-packages/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temp files
+*.log
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary scripts
+*.ps1
