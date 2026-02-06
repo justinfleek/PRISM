@@ -1,6 +1,6 @@
 # PRISM - Where every color has purpose. (Emacs)
 
-**64 curated color themes** with OKLCH color science for perceptual uniformity and WCAG AA compliance.
+**64 curated color themes** with WCAG AA compliant contrast.
 
 **Developer:** j-pyxal | **Organization:** [Omega Agentic](https://omega.ms)
 

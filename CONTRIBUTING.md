@@ -13,6 +13,7 @@ Thank you for your interest in contributing to PRISM! This document provides gui
 Run all commands from the **project root** (the directory containing `README.md`).
 
 ### Building VS Code / Cursor extensions
+
 ```bash
 cd cursor
 npm install
@@ -25,10 +26,12 @@ npx vsce package
 ```
 
 ### Theme and terminal configs
+
 - **VS Code/Cursor:** Themes live in `cursor/themes/*.json` and `vscode/themes/*.json`. Test by loading the extension from the `cursor/` or `vscode/` folder.
 - **Terminal:** Configs in `terminal/` (alacritty/, kitty/, wezterm/, etc.).
 
 ### Contrast verification (optional)
+
 ```bash
 cd core/tools
 python contrast_checker.py
@@ -51,6 +54,7 @@ python contrast_checker.py
 ## Commit Messages
 
 Use conventional commits:
+
 - `feat:` New feature
 - `fix:` Bug fix
 - `docs:` Documentation changes
@@ -70,6 +74,7 @@ Example: `feat: add Ocean Depths theme with WCAG AA verification`
 ## Reporting Issues
 
 When reporting bugs, include:
+
 - Platform (VSCode, Cursor, Neovim, etc.)
 - Theme name
 - Screenshot if visual issue

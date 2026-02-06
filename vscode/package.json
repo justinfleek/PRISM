@@ -135,6 +135,9 @@
         }
       }
     },
+    "markdown.previewStyles": [
+      "./media/readme-override.css"
+    ],
     "themes": [
       { "label": "Prism Acid Rain", "uiTheme": "vs-dark", "path": "./themes/acid_rain.json" },
       { "label": "Prism Amethyst Dusk", "uiTheme": "vs-dark", "path": "./themes/amethyst_dusk.json" },

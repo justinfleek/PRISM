@@ -11,6 +11,7 @@ import * as vscode from "vscode";
 
 // Status bar item for quick access
 let statusBarItem: vscode.StatusBarItem;
+let applyEffectsRef: (() => Promise<void>) | null = null;
 
 // Effects configuration
 interface PrismEffectsConfig {
@@ -90,19 +91,49 @@ export function activate(context: vscode.ExtensionContext) {
     const effects = getEffectsConfig();
     const editorConfig = vscode.workspace.getConfiguration("editor");
     
-    // Smooth caret animation
-    if (effects.smoothCaret) {
-      await editorConfig.update("cursorBlinking", "smooth", vscode.ConfigurationTarget.Global);
-      await editorConfig.update("cursorSmoothCaretAnimation", "on", vscode.ConfigurationTarget.Global);
-    }
+    // Smooth caret animation - turn ON or OFF
+    await editorConfig.update(
+      "cursorBlinking",
+      effects.smoothCaret ? "smooth" : "blink",
+      vscode.ConfigurationTarget.Global
+    );
+    await editorConfig.update(
+      "cursorSmoothCaretAnimation",
+      effects.smoothCaret ? "on" : "off",
+      vscode.ConfigurationTarget.Global
+    );
     
-    // Rainbow bracket colors (using native bracket colorization)
-    const bracketConfig = vscode.workspace.getConfiguration("editor.bracketPairColorization");
+    // Rainbow bracket colors - turn ON or OFF
+    await editorConfig.update(
+      "bracketPairColorization.enabled",
+      effects.rainbowBrackets,
+      vscode.ConfigurationTarget.Global
+    );
     if (effects.rainbowBrackets) {
-      await bracketConfig.update("enabled", true, vscode.ConfigurationTarget.Global);
-      await bracketConfig.update("independentColorPoolPerBracketType", true, vscode.ConfigurationTarget.Global);
+      await editorConfig.update(
+        "bracketPairColorization.independentColorPoolPerBracketType",
+        true,
+        vscode.ConfigurationTarget.Global
+      );
     }
+
+    // Cursor glow: current-line highlight
+    await editorConfig.update(
+      "renderLineHighlight",
+      effects.cursorGlow ? "line" : "none",
+      vscode.ConfigurationTarget.Global
+    );
+
+    // Bracket highlight: bracket pair guides
+    await editorConfig.update(
+      "guides.bracketPairs",
+      effects.bracketHighlight ? "active" : false,
+      vscode.ConfigurationTarget.Global
+    );
   };
+
+  // Store reference so panel can call it
+  applyEffectsRef = applyEffects;
 
   // Apply effects on activation
   applyEffects();
@@ -214,12 +245,14 @@ class PrismEffectsPanel {
     this._panel.webview.onDidReceiveMessage(
       async (message) => {
         switch (message.command) {
-          case "toggleEffect":
+          case "toggleEffect": {
             const config = vscode.workspace.getConfiguration("prism.effects");
             const current = config.get(message.effect, false);
             await config.update(message.effect, !current, vscode.ConfigurationTarget.Global);
+            if (applyEffectsRef) await applyEffectsRef();
             this._update();
             break;
+          }
           case "setIntensity":
             const intensityConfig = vscode.workspace.getConfiguration("prism.effects");
             await intensityConfig.update("glowIntensity", message.value, vscode.ConfigurationTarget.Global);

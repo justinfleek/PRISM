@@ -1,6 +1,6 @@
 # PRISM - Where every color has purpose. (Neovim)
 
-64 curated color themes with OKLCH color science.
+64 curated color themes.
 
 **Developer:** j-pyxal | **Organization:** [Omega Agentic](https://omega.ms)
 
@@ -136,15 +136,11 @@ require("prism").setup({
 })
 ```
 
-## Mathematical Foundation
+## Color Science
 
-PRISM uses formally verified color science:
-
-- **OKLCH**: Perceptually uniform color space (L=lightness, C=chroma, H=hue)
-- **Golden Angle**: 137.5077640500378° for maximum hue separation
-- **WCAG Contrast**: Proven ≥4.5:1 for text, ≥3:1 for large text
-
-All math matches Lean4 proofs in `core/lean4/PrismColor/`.
+- **WCAG 2.1 AA** – ≥4.5:1 contrast for normal text
+- **OLED safe** – Minimum L=11% to prevent smearing
+- **64 themes** – Hand-crafted palettes, one preset per theme
 
 ## License
 

@@ -7,19 +7,21 @@ Every theme is hand-crafted with WCAG AA verified contrast ratios.
 ## Installation
 
 ### From VSIX
-1. Download `prism-themes-cursor-2.0.0.vsix` from releases
-2. In Cursor: `Cmd/Ctrl+Shift+P` → "Extensions: Install from VSIX"
-3. Select the downloaded file
-4. `Cmd/Ctrl+K Cmd/Ctrl+T` to open theme picker
+1. Download `prism-themes-cursor-2.0.0.vsix` from releases (or build with `npm run package` in this folder).
+2. In Cursor: **`Ctrl+Shift+P`** → **Extensions: Install from VSIX** → select the `.vsix` file.
+3. **`Ctrl+K Ctrl+T`** to open the theme picker and choose a **Prism** theme (e.g. Prism Nord Aurora). The editor and effects panel use the selected theme’s colors.
 
 ## Visual Effects
 
 Access via `Ctrl+Alt+P` → "Prism: Open Effects Panel"
 
-- **Smooth Caret** - Silky cursor animation
-- **Cursor Glow** - Subtle glow around the cursor
-- **Rainbow Brackets** - Colorful bracket pairs
-- **Bracket Highlight** - Highlight matching brackets
+- **Smooth Caret** - Silky cursor animation (native)
+- **Cursor Glow** - Current-line highlight using the theme’s color (native `editor.renderLineHighlight`)
+- **Rainbow Brackets** - Colorful bracket pairs (native)
+- **Bracket Highlight** - Bracket pair guides and native matching-bracket highlight (theme colors)
+- **Syntax Pulse** – Error ranges highlighted (decoration; may not render in all hosts)
+
+Effects use native editor settings. The effects panel (toggles, button, headings) is styled from the **currently selected Prism theme**.
 
 ## 64 Themes
 

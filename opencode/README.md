@@ -142,7 +142,7 @@ Or add to your project's `opencode.json`:
 
 **Developer:** j-pyxal | **Organization:** [Omega Agentic](https://omega.ms)
 
-Part of the **PRISM Theme System** - also available for:
+Part of the **PRISM Theme System** – also available for:
 - [VS Code / Cursor](../vscode)
 - [Neovim](../neovim)
 - [Emacs](../emacs)

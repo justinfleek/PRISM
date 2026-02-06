@@ -1,16 +1,180 @@
 /**
  * PRISM Theme Extension
- * 
+ *
  * 64 curated color themes with optional visual effects
- * 
+ *
  * Project: PRISM - When Color meets Math
  * Author: Omega
  */
 
+import * as fs from "fs";
+import * as path from "path";
 import * as vscode from "vscode";
 
 // Status bar item for quick access
 let statusBarItem: vscode.StatusBarItem;
+let extensionPath = "";
+
+// Decoration types for syntax pulse only
+let syntaxPulseDecorationType: vscode.TextEditorDecorationType | null = null;
+let syntaxPulseDecorationTypeAlt: vscode.TextEditorDecorationType | null = null;
+let pulseTimer: ReturnType<typeof setInterval> | null = null;
+let applyEffectsRef: (() => Promise<void>) | null = null;
+
+interface ThemeColors {
+  errorBg: string;
+  /** Current-line highlight: lightest theme color at low alpha for max readability */
+  lineHighlightVisible: string;
+  /** Bracket match background and border - more visible than default */
+  bracketMatchBg: string;
+  bracketMatchBorder: string;
+}
+
+function getThemeColors(): ThemeColors | null {
+  const themeName = vscode.workspace.getConfiguration("workbench").get<string>("colorTheme", "");
+  if (!themeName.startsWith("Prism ")) return null;
+  if (!extensionPath) return null;
+  const slug = themeName.replace(/^Prism\s+/, "").replace(/\s+/g, "_").toLowerCase().replace(/&/g, "and");
+  const themePath = path.join(extensionPath, "themes", slug + ".json");
+  try {
+    const raw = fs.readFileSync(themePath, "utf8");
+    const theme = JSON.parse(raw) as { colors?: Record<string, string>; type?: string };
+    const colors = theme.colors;
+    if (!colors) return null;
+    const errorFg = colors["editorError.foreground"];
+    const cursorHex = colors["editorCursor.foreground"] ?? colors["editor.foreground"] ?? "#81a1c1";
+    const bracketBorder = colors["editorBracketMatch.border"] ?? cursorHex;
+    const bracketBg = colors["editorBracketMatch.background"];
+    // Use the theme's own line highlight if defined, otherwise derive from background
+    // This respects each theme's intended "lightest" highlight for the current line
+    const themeLineHighlight = colors["editor.lineHighlightBackground"];
+    const bgHex = colors["editor.background"] ?? "#09090b";
+    const isDark = (theme.type ?? "dark") === "dark";
+    
+    // For the line highlight, we want a subtle brightening/darkening of the background
+    // Parse background and shift it slightly lighter (dark themes) or darker (light themes)
+    let lineHighlightVisible: string;
+    if (themeLineHighlight) {
+      // Theme already defines a line highlight - use it directly
+      lineHighlightVisible = themeLineHighlight;
+    } else {
+      // Derive from background: lighten for dark themes, darken for light themes
+      const bgMatch = bgHex.match(/^#?([0-9a-f]{6})$/i);
+      if (bgMatch) {
+        const r = parseInt(bgMatch[1].slice(0, 2), 16);
+        const g = parseInt(bgMatch[1].slice(2, 4), 16);
+        const b = parseInt(bgMatch[1].slice(4, 6), 16);
+        if (isDark) {
+          // Lighten: add ~12 to each channel
+          const lr = Math.min(255, r + 12);
+          const lg = Math.min(255, g + 12);
+          const lb = Math.min(255, b + 12);
+          lineHighlightVisible = `#${lr.toString(16).padStart(2, "0")}${lg.toString(16).padStart(2, "0")}${lb.toString(16).padStart(2, "0")}`;
+        } else {
+          // Darken: subtract ~10 from each channel
+          const lr = Math.max(0, r - 10);
+          const lg = Math.max(0, g - 10);
+          const lb = Math.max(0, b - 10);
+          lineHighlightVisible = `#${lr.toString(16).padStart(2, "0")}${lg.toString(16).padStart(2, "0")}${lb.toString(16).padStart(2, "0")}`;
+        }
+      } else {
+        lineHighlightVisible = isDark ? "#151515" : "#f0f0f0";
+      }
+    }
+    return {
+      errorBg: errorFg ? hexToRgba(errorFg, 0.25) : "rgba(239,68,68,0.2)",
+      lineHighlightVisible,
+      bracketMatchBg: bracketBg ?? hexToRgba(bracketBorder, 0.35),
+      bracketMatchBorder: bracketBorder,
+    };
+  } catch {
+    return null;
+  }
+}
+
+/** Colors for the Effects panel UI so it matches the active Prism theme */
+interface PanelThemeColors {
+  bg: string;
+  fg: string;
+  surface: string;
+  border: string;
+  accent: string;
+  accent2: string;
+  buttonBg: string;
+  buttonFg: string;
+  toggleThumb: string;
+}
+
+function getPanelThemeColors(): PanelThemeColors {
+  const themeName = vscode.workspace.getConfiguration("workbench").get<string>("colorTheme", "");
+  if (!themeName.startsWith("Prism ") || !extensionPath) {
+    return {
+      bg: "#09090b",
+      fg: "#e4e4e8",
+      surface: "#0f0f12",
+      border: "#1f1f25",
+      accent: "#6366f1",
+      accent2: "#818cf8",
+      buttonBg: "#6366f1",
+      buttonFg: "#fff",
+      toggleThumb: "#fff",
+    };
+  }
+  const slug = themeName.replace(/^Prism\s+/, "").replace(/\s+/g, "_").toLowerCase().replace(/&/g, "and");
+  const themePath = path.join(extensionPath, "themes", slug + ".json");
+  try {
+    const raw = fs.readFileSync(themePath, "utf8");
+    const theme = JSON.parse(raw) as { colors?: Record<string, string> };
+    const c = theme.colors ?? {};
+    const accent = c["editorCursor.foreground"] ?? c["focusBorder"] ?? c["tab.activeBorder"] ?? c["activityBar.activeBorder"] ?? "#81a1c1";
+    const accent2 = c["button.hoverBackground"] ?? c["gitDecoration.modifiedResourceForeground"] ?? accent;
+    return {
+      bg: c["editor.background"] ?? "#09090b",
+      fg: c["editor.foreground"] ?? "#e4e4e8",
+      surface: c["sideBar.background"] ?? c["panel.background"] ?? "#0f0f12",
+      border: c["panel.border"] ?? c["sideBar.border"] ?? "#1f1f25",
+      accent,
+      accent2,
+      buttonBg: c["button.background"] ?? accent,
+      buttonFg: c["button.foreground"] ?? c["editor.background"] ?? "#fff",
+      toggleThumb: c["button.foreground"] ?? c["editor.background"] ?? "#fff",
+    };
+  } catch {
+    return {
+      bg: "#09090b",
+      fg: "#e4e4e8",
+      surface: "#0f0f12",
+      border: "#1f1f25",
+      accent: "#6366f1",
+      accent2: "#818cf8",
+      buttonBg: "#6366f1",
+      buttonFg: "#fff",
+      toggleThumb: "#fff",
+    };
+  }
+}
+
+function hexToRgba(hex: string, alpha: number): string {
+  const m = hex.match(/^#?([0-9a-f]{3,8})$/i);
+  if (!m) return `rgba(239,68,68,${alpha})`;
+  let r = 0, g = 0, b = 0;
+  const s = m[1];
+  if (s.length === 3) {
+    r = parseInt(s[0] + s[0], 16);
+    g = parseInt(s[1] + s[1], 16);
+    b = parseInt(s[2] + s[2], 16);
+  } else if (s.length === 6) {
+    r = parseInt(s.slice(0, 2), 16);
+    g = parseInt(s.slice(2, 4), 16);
+    b = parseInt(s.slice(4, 6), 16);
+  } else if (s.length === 8) {
+    r = parseInt(s.slice(0, 2), 16);
+    g = parseInt(s.slice(2, 4), 16);
+    b = parseInt(s.slice(4, 6), 16);
+    alpha = parseInt(s.slice(6, 8), 16) / 255;
+  }
+  return `rgba(${r},${g},${b},${alpha})`;
+}
 
 // Effects configuration
 interface PrismEffectsConfig {
@@ -34,8 +198,111 @@ function getEffectsConfig(): PrismEffectsConfig {
   };
 }
 
+const PRISM_CUSTOMIZATION_KEYS = [
+  "editor.lineHighlightBackground",
+  "editorBracketMatch.background",
+  "editorBracketMatch.border",
+] as const;
+
+async function applyColorCustomizations(effects: PrismEffectsConfig): Promise<void> {
+  const workbench = vscode.workspace.getConfiguration("workbench");
+  const current = workbench.get<Record<string, string>>("colorCustomizations") ?? {};
+  const next = { ...current };
+
+  for (const key of PRISM_CUSTOMIZATION_KEYS) {
+    delete next[key];
+  }
+
+  const theme = getThemeColors();
+  if (effects.cursorGlow) {
+    next["editor.lineHighlightBackground"] =
+      theme?.lineHighlightVisible ?? "rgba(255, 255, 255, 0.06)";
+  }
+  if (effects.bracketHighlight) {
+    next["editorBracketMatch.background"] =
+      theme?.bracketMatchBg ?? "rgba(129, 161, 193, 0.35)";
+    next["editorBracketMatch.border"] =
+      theme?.bracketMatchBorder ?? "rgba(129, 161, 193, 0.9)";
+  }
+
+  await workbench.update("colorCustomizations", next, vscode.ConfigurationTarget.Global);
+}
+
+function disposeSyntaxPulseDecorations(): void {
+  if (syntaxPulseDecorationType) {
+    syntaxPulseDecorationType.dispose();
+    syntaxPulseDecorationType = null;
+  }
+  if (syntaxPulseDecorationTypeAlt) {
+    syntaxPulseDecorationTypeAlt.dispose();
+    syntaxPulseDecorationTypeAlt = null;
+  }
+}
+
+function getSyntaxPulseDecorationTypes(): void {
+  const theme = getThemeColors();
+  const errorBg = theme?.errorBg ?? "rgba(239, 68, 68, 0.2)";
+  const errorBgAlt = errorBg.replace(/[\d.]+\)\s*$/, "0.35)");
+  disposeSyntaxPulseDecorations();
+  syntaxPulseDecorationType = vscode.window.createTextEditorDecorationType({
+    backgroundColor: errorBg,
+    borderRadius: "2px",
+  });
+  syntaxPulseDecorationTypeAlt = vscode.window.createTextEditorDecorationType({
+    backgroundColor: errorBgAlt,
+    borderRadius: "2px",
+  });
+}
+
+function updateSyntaxPulse(editor: vscode.TextEditor | undefined): void {
+  const effects = getEffectsConfig();
+  if (!effects.syntaxPulse || !editor) {
+    if (editor && syntaxPulseDecorationType) editor.setDecorations(syntaxPulseDecorationType, []);
+    if (editor && syntaxPulseDecorationTypeAlt) editor.setDecorations(syntaxPulseDecorationTypeAlt, []);
+    return;
+  }
+  if (!syntaxPulseDecorationType || !syntaxPulseDecorationTypeAlt) {
+    getSyntaxPulseDecorationTypes();
+  }
+  const type1 = syntaxPulseDecorationType;
+  const type2 = syntaxPulseDecorationTypeAlt;
+  if (!type1 || !type2) return;
+  const uri = editor.document.uri;
+  const diagnostics = vscode.languages.getDiagnostics(uri).filter((d) => d.severity === vscode.DiagnosticSeverity.Error);
+  const ranges = diagnostics.map((d) => d.range);
+  editor.setDecorations(type1, ranges);
+  editor.setDecorations(type2, []);
+}
+
+function startSyntaxPulseTimer(): void {
+  if (pulseTimer) return;
+  pulseTimer = setInterval(() => {
+    const editor = vscode.window.activeTextEditor;
+    const effects = getEffectsConfig();
+    if (!effects.syntaxPulse || !editor || !syntaxPulseDecorationType || !syntaxPulseDecorationTypeAlt) return;
+    const uri = editor.document.uri;
+    const diagnostics = vscode.languages.getDiagnostics(uri).filter((d) => d.severity === vscode.DiagnosticSeverity.Error);
+    const ranges = diagnostics.map((d) => d.range);
+    const useAlt = Date.now() % 1000 < 500;
+    const t1 = syntaxPulseDecorationType;
+    const t2 = syntaxPulseDecorationTypeAlt;
+    if (t1 && t2) {
+      editor.setDecorations(t1, useAlt ? [] : ranges);
+      editor.setDecorations(t2, useAlt ? ranges : []);
+    }
+  }, 500);
+}
+
+function stopSyntaxPulseTimer(): void {
+  if (pulseTimer) {
+    clearInterval(pulseTimer);
+    pulseTimer = null;
+  }
+}
+
 export function activate(context: vscode.ExtensionContext) {
   console.log("PRISM Theme extension is now active");
+  extensionPath = context.extensionPath;
 
   // =====================================================================
   // STATUS BAR: Always-visible prism icon
@@ -89,29 +356,88 @@ export function activate(context: vscode.ExtensionContext) {
   const applyEffects = async () => {
     const effects = getEffectsConfig();
     const editorConfig = vscode.workspace.getConfiguration("editor");
-    
-    // Smooth caret animation
-    if (effects.smoothCaret) {
-      await editorConfig.update("cursorBlinking", "smooth", vscode.ConfigurationTarget.Global);
-      await editorConfig.update("cursorSmoothCaretAnimation", "on", vscode.ConfigurationTarget.Global);
-    }
-    
-    // Rainbow bracket colors (using native bracket colorization)
-    const bracketConfig = vscode.workspace.getConfiguration("editor.bracketPairColorization");
+
+    // Smooth caret animation (native setting) - turn ON or OFF
+    await editorConfig.update(
+      "cursorBlinking",
+      effects.smoothCaret ? "smooth" : "blink",
+      vscode.ConfigurationTarget.Global
+    );
+    await editorConfig.update(
+      "cursorSmoothCaretAnimation",
+      effects.smoothCaret ? "on" : "off",
+      vscode.ConfigurationTarget.Global
+    );
+
+    // Rainbow bracket colors (native bracket pair colorization) - turn ON or OFF
+    await editorConfig.update(
+      "bracketPairColorization.enabled",
+      effects.rainbowBrackets,
+      vscode.ConfigurationTarget.Global
+    );
     if (effects.rainbowBrackets) {
-      await bracketConfig.update("enabled", true, vscode.ConfigurationTarget.Global);
-      await bracketConfig.update("independentColorPoolPerBracketType", true, vscode.ConfigurationTarget.Global);
+      await editorConfig.update(
+        "bracketPairColorization.independentColorPoolPerBracketType",
+        true,
+        vscode.ConfigurationTarget.Global
+      );
     }
+
+    // Visible current-line and bracket colors (override theme so they're actually visible)
+    await applyColorCustomizations(effects);
+
+    // Cursor glow: turn on native current-line highlight (color from customizations above)
+    await editorConfig.update(
+      "renderLineHighlight",
+      effects.cursorGlow ? "line" : "none",
+      vscode.ConfigurationTarget.Global
+    );
+
+    // Bracket highlight: enable bracket pair guides and native match (colors from customizations)
+    await editorConfig.update(
+      "guides.bracketPairs",
+      effects.bracketHighlight ? "active" : false,
+      vscode.ConfigurationTarget.Global
+    );
+
+    // Syntax pulse (decoration-based; may not render in all hosts)
+    disposeSyntaxPulseDecorations();
+    if (!effects.syntaxPulse) {
+      stopSyntaxPulseTimer();
+    } else {
+      getSyntaxPulseDecorationTypes();
+      startSyntaxPulseTimer();
+    }
+    const editor = vscode.window.activeTextEditor;
+    updateSyntaxPulse(editor);
   };
+
+  // Store reference so panel can call it
+  applyEffectsRef = applyEffects;
 
   // Apply effects on activation
   applyEffects();
 
-  // Re-apply effects when configuration changes
+  context.subscriptions.push(
+    vscode.window.onDidChangeActiveTextEditor((editor) => {
+      updateSyntaxPulse(editor);
+    })
+  );
+
   context.subscriptions.push(
     vscode.workspace.onDidChangeConfiguration((e) => {
-      if (e.affectsConfiguration("prism.effects")) {
+      if (e.affectsConfiguration("prism.effects") || e.affectsConfiguration("workbench.colorTheme")) {
         applyEffects();
+        PrismEffectsPanel.currentPanel?.refresh();
+      }
+    })
+  );
+
+  context.subscriptions.push(
+    vscode.languages.onDidChangeDiagnostics((e) => {
+      const editor = vscode.window.activeTextEditor;
+      if (editor && e.uris.some((u) => u.toString() === editor.document.uri.toString())) {
+        updateSyntaxPulse(editor);
       }
     })
   );
@@ -201,6 +527,8 @@ class PrismEffectsPanel {
     );
 
     PrismEffectsPanel.currentPanel = new PrismEffectsPanel(panel, context);
+    const editor = vscode.window.activeTextEditor;
+    updateSyntaxPulse(editor);
   }
 
   private constructor(panel: vscode.WebviewPanel, context: vscode.ExtensionContext) {
@@ -214,16 +542,21 @@ class PrismEffectsPanel {
     this._panel.webview.onDidReceiveMessage(
       async (message) => {
         switch (message.command) {
-          case "toggleEffect":
+          case "toggleEffect": {
             const config = vscode.workspace.getConfiguration("prism.effects");
             const current = config.get(message.effect, false);
             await config.update(message.effect, !current, vscode.ConfigurationTarget.Global);
+            if (applyEffectsRef) await applyEffectsRef();
             this._update();
+            const editor = vscode.window.activeTextEditor;
+            updateSyntaxPulse(editor);
             break;
-          case "setIntensity":
+          }
+          case "setIntensity": {
             const intensityConfig = vscode.workspace.getConfiguration("prism.effects");
             await intensityConfig.update("glowIntensity", message.value, vscode.ConfigurationTarget.Global);
             break;
+          }
           case "openThemes":
             vscode.commands.executeCommand("workbench.action.selectTheme");
             break;
@@ -238,8 +571,14 @@ class PrismEffectsPanel {
     this._panel.webview.html = this._getHtmlForWebview();
   }
 
+  /** Call when theme or effects config changes so panel restyles to match loaded theme */
+  public refresh() {
+    this._update();
+  }
+
   private _getHtmlForWebview(): string {
     const effects = getEffectsConfig();
+    const theme = getPanelThemeColors();
     
     return `<!DOCTYPE html>
 <html lang="en">
@@ -249,13 +588,16 @@ class PrismEffectsPanel {
   <title>PRISM Effects</title>
   <style>
     :root {
-      --bg: var(--vscode-editor-background);
-      --fg: var(--vscode-editor-foreground);
-      --surface: var(--vscode-sideBar-background);
-      --border: var(--vscode-panel-border);
-      --accent: #ff6b9d;
-      --accent2: #54aeff;
-      --accent3: #9d65ff;
+      --bg: ${theme.bg};
+      --fg: ${theme.fg};
+      --surface: ${theme.surface};
+      --border: ${theme.border};
+      --accent: ${theme.accent};
+      --accent2: ${theme.accent2};
+      --accent3: ${theme.accent};
+      --button-bg: ${theme.buttonBg};
+      --button-fg: ${theme.buttonFg};
+      --toggle-thumb: ${theme.toggleThumb};
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -274,14 +616,11 @@ class PrismEffectsPanel {
     }
     h1 {
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 600;
       margin-bottom: 8px;
-      background: linear-gradient(135deg, var(--accent), var(--accent2), var(--accent3));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      color: var(--accent);
     }
-    .subtitle { opacity: 0.7; font-size: 0.9rem; }
+    .subtitle { opacity: 0.7; font-size: 0.9rem; color: var(--fg); }
     
     .effect-grid {
       display: grid;
@@ -304,7 +643,7 @@ class PrismEffectsPanel {
     }
     .effect-card.active {
       border-color: var(--accent);
-      box-shadow: 0 0 20px rgba(255, 107, 157, 0.2);
+      box-shadow: 0 0 20px color-mix(in srgb, var(--accent) 25%, transparent);
     }
     
     .effect-header {
@@ -334,13 +673,14 @@ class PrismEffectsPanel {
       width: 20px;
       height: 20px;
       border-radius: 50%;
-      background: white;
+      background: var(--toggle-thumb);
       top: 3px;
       left: 3px;
       transition: transform 0.2s;
     }
     .effect-toggle.on::after {
       transform: translateX(22px);
+      background: var(--toggle-thumb);
     }
     
     .effect-description {
@@ -403,10 +743,10 @@ class PrismEffectsPanel {
     .themes-btn {
       width: 100%;
       padding: 16px;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      background: var(--button-bg);
+      color: var(--button-fg);
       border: none;
       border-radius: 8px;
-      color: white;
       font-size: 1rem;
       font-weight: 600;
       cursor: pointer;
@@ -414,16 +754,17 @@ class PrismEffectsPanel {
     }
     .themes-btn:hover {
       transform: scale(1.02);
-      box-shadow: 0 4px 20px rgba(255, 107, 157, 0.3);
+      filter: brightness(1.1);
     }
     
     .info-box {
-      background: linear-gradient(135deg, rgba(84, 174, 255, 0.1), rgba(84, 174, 255, 0.02));
-      border: 1px solid rgba(84, 174, 255, 0.2);
+      background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
       border-radius: 8px;
       padding: 16px;
       margin-top: 24px;
       font-size: 0.85rem;
+      color: var(--fg);
     }
     
     @keyframes glow {
@@ -463,7 +804,7 @@ class PrismEffectsPanel {
         <span class="effect-name">Cursor Glow</span>
         <div class="effect-toggle ${effects.cursorGlow ? 'on' : ''}"></div>
       </div>
-      <p class="effect-description">Subtle glow effect around the cursor</p>
+      <p class="effect-description">Highlight current line (uses theme color)</p>
       <div class="effect-preview preview-glow">
         <span>|</span>
       </div>
@@ -485,7 +826,7 @@ class PrismEffectsPanel {
         <span class="effect-name">Bracket Highlight</span>
         <div class="effect-toggle ${effects.bracketHighlight ? 'on' : ''}"></div>
       </div>
-      <p class="effect-description">Highlight matching brackets on hover</p>
+      <p class="effect-description">Bracket pair guides and native match highlight</p>
       <div class="effect-preview">
         <span style="background: rgba(255,107,157,0.2); padding: 2px 4px; border-radius: 3px;">{</span> ... <span style="background: rgba(255,107,157,0.2); padding: 2px 4px; border-radius: 3px;">}</span>
       </div>
@@ -517,8 +858,7 @@ class PrismEffectsPanel {
   </button>
   
   <div class="info-box">
-    <strong>Tip:</strong> All effects respect <code>prefers-reduced-motion</code> for accessibility.
-    Effects are applied via native VSCode settings for maximum performance.
+    <strong>Tip:</strong> Use <strong>Ctrl+K Ctrl+T</strong> and pick a <strong>Prism</strong> theme so syntax and effects use the theme. Line and bracket highlights are boosted so they’re visible in the code window.
   </div>
 
   <script>
@@ -551,6 +891,15 @@ class PrismEffectsPanel {
 }
 
 export function deactivate() {
+  stopSyntaxPulseTimer();
+  if (syntaxPulseDecorationType) {
+    syntaxPulseDecorationType.dispose();
+    syntaxPulseDecorationType = null;
+  }
+  if (syntaxPulseDecorationTypeAlt) {
+    syntaxPulseDecorationTypeAlt.dispose();
+    syntaxPulseDecorationTypeAlt = null;
+  }
   if (statusBarItem) {
     statusBarItem.dispose();
   }

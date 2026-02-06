@@ -1,0 +1,22 @@
+/* Readable text + clear h1/h2/h3/body/bold hierarchy in extension details & markdown preview. */
+body,
+.markdown-body,
+.vscode-body,
+p, li, span, div[class*="markdown"], div[class*="readme"] {
+  color: var(--vscode-editor-foreground) !important;
+}
+
+h1 { font-size: 1.75em !important; font-weight: 700 !important; color: var(--vscode-editor-foreground) !important; margin: 0.67em 0 !important; }
+h2 { font-size: 1.4em !important; font-weight: 600 !important; color: var(--vscode-editor-foreground) !important; margin: 0.75em 0 !important; }
+h3 { font-size: 1.2em !important; font-weight: 600 !important; color: var(--vscode-editor-foreground) !important; margin: 0.83em 0 !important; }
+h4, h5, h6 { font-size: 1.1em !important; font-weight: 600 !important; color: var(--vscode-editor-foreground) !important; margin: 0.5em 0 !important; }
+
+strong, b { font-weight: 700 !important; color: var(--vscode-editor-foreground) !important; }
+
+a {
+  color: var(--vscode-textLink-foreground) !important;
+}
+code, pre {
+  color: var(--vscode-editor-foreground) !important;
+  background: var(--vscode-textCodeBlock-background) !important;
+}

@@ -102,16 +102,18 @@ Alacritty, Kitty, WezTerm, Windows Terminal, Zed, and more. See [terminal/README
 | Night Owl | Sarah Drasner's Night Owl |
 | Tokyo Night Bento | Tokyo Night with bento aesthetics |
 
-## Visual Effects
+## Visual Effects (VS Code / Cursor)
 
-The VS Code/Cursor extensions include optional visual enhancements:
+The VS Code and Cursor extensions add optional effects that use **native editor settings** (no custom rendering):
 
-- **Smooth Caret** - Silky cursor animation
-- **Cursor Glow** - Subtle glow around the cursor
-- **Rainbow Brackets** - Colorful bracket pairs
-- **Bracket Highlight** - Highlight matching brackets
+- **Smooth Caret** – Native smooth cursor animation
+- **Cursor Glow** – Current-line highlight using the theme’s accent (native `editor.renderLineHighlight` + color customizations)
+- **Rainbow Brackets** – Native bracket pair colorization
+- **Bracket Highlight** – Bracket pair guides and matching-bracket highlight (theme colors)
+- **Syntax Pulse** – Error ranges highlighted (decoration; may not apply in all hosts)
 
-Access via: `Ctrl+Alt+P` → "Prism: Open Effects Panel"
+Open the effects panel: **`Ctrl+Alt+P`** → **Prism: Open Effects Panel**.  
+Pick a **Prism** theme (**`Ctrl+K Ctrl+T`**) so the editor and effects use that theme’s colors.
 
 ## Color Science
 

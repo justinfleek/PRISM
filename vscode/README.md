@@ -18,12 +18,15 @@
 
 ## Visual Effects
 
-Access via `Ctrl+Alt+P` → "Prism: Open Effects Panel"
+**`Ctrl+Alt+P`** → **Prism: Open Effects Panel**
 
-- **Smooth Caret** - Silky cursor animation
-- **Cursor Glow** - Subtle glow around the cursor
-- **Rainbow Brackets** - Colorful bracket pairs
-- **Bracket Highlight** - Highlight matching brackets
+Effects use native editor settings. Pick a Prism theme (**`Ctrl+K Ctrl+T`**) so colors match.
+
+- **Smooth Caret** – Native smooth cursor animation
+- **Cursor Glow** – Current-line highlight (theme accent)
+- **Rainbow Brackets** – Native bracket pair colorization
+- **Bracket Highlight** – Bracket pair guides + matching-bracket highlight (theme colors)
+- **Syntax Pulse** – Error ranges highlighted (decoration)
 
 ## Theme Collections
 

@@ -112,15 +112,6 @@ All themes are designed with:
 - **OLED Safe** - Minimum L=11% to prevent smearing
 - **Harmonious Palettes** - Mathematical color relationships
 
-## Syncing terminal configs from source (maintainers)
-
-To update terminal configs from the source theme JSONs (e.g. after adding or editing themes in `vscode/themes/`):
-
-```bash
-cd core/tools
-python generate_terminal_themes.py
-```
-
 ## License
 
 MIT License - Created by [Omega Agentic](https://omega.ms)
