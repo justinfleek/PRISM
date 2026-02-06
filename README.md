@@ -12,7 +12,6 @@ Every theme is hand-crafted with WCAG AA verified contrast ratios and carefully 
 | :---: | :---: |
 | ![Holographic, Inferno](media/1.png) | ![Twilight Lagoon, Ultraviolet](media/2.png) |
 | Grape, Gruvbox Material | Arctic, Aurora Glass |
-| :---: | :---: |
 | ![Grape, Gruvbox Material](media/3.png) | ![Arctic, Aurora Glass](media/4.png) |
 
 ## Features
