@@ -8,17 +8,12 @@ Every theme is hand-crafted with WCAG AA verified contrast ratios and carefully 
 ![WCAG AA](https://img.shields.io/badge/contrast-WCAG%20AA-green)
 ![Platforms](https://img.shields.io/badge/platforms-6-blue)
 
-## Theme previews
-
-| Nord Aurora | Nero Marquina | Catppuccin Mocha |
-| :---: | :---: | :---: |
-| ![Nord Aurora](media/previews/nord_aurora.png) | ![Nero Marquina](media/previews/nero_marquina.png) | ![Catppuccin Mocha](media/previews/catppuccin_mocha.png) |
-
-| Neon Nexus | Aurora Glass | Ghost |
-| :---: | :---: | :---: |
-| ![Neon Nexus](media/previews/neon_nexus.png) | ![Aurora Glass](media/previews/aurora_glass.png) | ![Ghost](media/previews/ghost.png) |
-
-*Browse all 64 themes in the [Theme Gallery](gallery.html).* To regenerate these previews from the gallery: `npm install puppeteer && node scripts/generate_readme_previews.js` (from repo root).
+| Holographic, Inferno | Twilight Lagoon, Ultraviolet |
+| :---: | :---: |
+| ![Holographic, Inferno](media/1.png) | ![Twilight Lagoon, Ultraviolet](media/2.png) |
+| Grape, Gruvbox Material | Arctic, Aurora Glass |
+| :---: | :---: |
+| ![Grape, Gruvbox Material](media/3.png) | ![Arctic, Aurora Glass](media/4.png) |
 
 ## Features
 
