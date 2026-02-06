@@ -1,0 +1,32 @@
+# Prism Obsidian Rose Gold - Alacritty
+[colors.primary]
+background = "#050404"
+foreground = "#f0e8e8"
+
+[colors.cursor]
+cursor = "#e8b4b8"
+text = "#050404"
+
+[colors.selection]
+background = "#0c0a0a"
+text = "#f0e8e8"
+
+[colors.normal]
+black = "#050404"
+red = "#c5999c"
+green = "#eabbbf"
+yellow = "#7b7777"
+blue = "#e8b4b8"
+magenta = "#ae878a"
+cyan = "#ecc3c6"
+white = "#f0e8e8"
+
+[colors.bright]
+black = "#5a5555"
+red = "#e8b4b8"
+green = "#ecc3c6"
+yellow = "#f0e8e8"
+blue = "#ebbfc2"
+magenta = "#d0a2a5"
+cyan = "#eecacd"
+white = "#f1eaea"

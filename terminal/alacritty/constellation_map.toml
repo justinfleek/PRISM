@@ -1,0 +1,32 @@
+# Prism Constellation Map - Alacritty
+[colors.primary]
+background = "#050608"
+foreground = "#e8f0ff"
+
+[colors.cursor]
+cursor = "#ffd700"
+text = "#050608"
+
+[colors.selection]
+background = "#0a0c10"
+text = "#e8f0ff"
+
+[colors.normal]
+black = "#050608"
+red = "#d8b600"
+green = "#ffdb19"
+yellow = "#6c737f"
+blue = "#ffd700"
+magenta = "#bfa100"
+cyan = "#ffdf33"
+white = "#e8f0ff"
+
+[colors.bright]
+black = "#485060"
+red = "#ffd700"
+green = "#ffdf33"
+yellow = "#e8f0ff"
+blue = "#ffdd26"
+magenta = "#e5c100"
+cyan = "#ffe34c"
+white = "#eaf1ff"

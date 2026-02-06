@@ -1,0 +1,32 @@
+# Prism Slate & Gold - Alacritty
+[colors.primary]
+background = "#12141a"
+foreground = "#d8dce8"
+
+[colors.cursor]
+cursor = "#ffd700"
+text = "#12141a"
+
+[colors.selection]
+background = "#181a20"
+text = "#d8dce8"
+
+[colors.normal]
+black = "#12141a"
+red = "#d8b600"
+green = "#ffdb19"
+yellow = "#7f8693"
+blue = "#ffd700"
+magenta = "#bfa100"
+cyan = "#ffdf33"
+white = "#d8dce8"
+
+[colors.bright]
+black = "#606878"
+red = "#ffd700"
+green = "#ffdf33"
+yellow = "#d8dce8"
+blue = "#ffdd26"
+magenta = "#e5c100"
+cyan = "#ffe34c"
+white = "#dbdfea"

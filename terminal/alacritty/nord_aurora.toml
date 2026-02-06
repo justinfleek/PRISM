@@ -1,0 +1,32 @@
+# Prism Nord Aurora - Alacritty
+[colors.primary]
+background = "#2e3440"
+foreground = "#bf616a"
+
+[colors.cursor]
+cursor = "#81a1c1"
+text = "#2e3440"
+
+[colors.selection]
+background = "#3b4252"
+text = "#bf616a"
+
+[colors.normal]
+black = "#2e3440"
+red = "#6d88a4"
+green = "#8daac7"
+yellow = "#9fccd9"
+blue = "#81a1c1"
+magenta = "#607890"
+cyan = "#9ab3cd"
+white = "#bf616a"
+
+[colors.bright]
+black = "#88c0d0"
+red = "#81a1c1"
+green = "#9ab3cd"
+yellow = "#bf616a"
+blue = "#93afca"
+magenta = "#7490ad"
+cyan = "#a6bdd3"
+white = "#c57078"

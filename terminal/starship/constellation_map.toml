@@ -1,0 +1,19 @@
+# Prism Constellation Map - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_constellation_map]
+background = "#050608"
+foreground = "#e8f0ff"
+accent = "#ffd700"
+muted = "#485060"
+success = "#ffdb19"
+warning = "#6c737f"
+error = "#d8b600"
+info = "#ffd700"
+
+# Example usage:
+# palette = "prism_constellation_map"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

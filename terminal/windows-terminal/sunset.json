@@ -1,0 +1,23 @@
+{
+  "name": "Prism Sunset",
+  "background": "#1a0820",
+  "foreground": "#FFBD00",
+  "cursorColor": "#FF0054",
+  "selectionBackground": "#4a00bf",
+  "black": "#390099",
+  "red": "#d80047",
+  "green": "#ff1965",
+  "yellow": "#b1337a",
+  "blue": "#FF0054",
+  "purple": "#bf003f",
+  "cyan": "#ff3376",
+  "white": "#FFBD00",
+  "brightBlack": "#9E0059",
+  "brightRed": "#FF0054",
+  "brightGreen": "#ff3376",
+  "brightYellow": "#FFBD00",
+  "brightBlue": "#ff266d",
+  "brightPurple": "#e5004b",
+  "brightCyan": "#ff4c87",
+  "brightWhite": "#ffc319"
+}

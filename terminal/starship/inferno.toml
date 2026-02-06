@@ -1,0 +1,19 @@
+# Prism Inferno - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_inferno]
+background = "#180808"
+foreground = "#FFDB99"
+accent = "#FB590E"
+muted = "#886848"
+success = "#fb6926"
+warning = "#e45345"
+error = "#d54b0b"
+info = "#FB590E"
+
+# Example usage:
+# palette = "prism_inferno"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

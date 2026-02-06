@@ -1,0 +1,19 @@
+# Prism Tuned - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_tuned]
+background = "#191c20"
+foreground = "#c5d0dd"
+accent = "#54aeff"
+muted = "#3a424f"
+success = "#65b6ff"
+warning = "#616772"
+error = "#4793d8"
+info = "#54aeff"
+
+# Example usage:
+# palette = "prism_tuned"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,19 @@
+# Prism One Dark Pro - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_one_dark_pro]
+background = "#1e2127"
+foreground = "#c678dd"
+accent = "#c678dd"
+muted = "#5c6370"
+success = "#a2c986"
+warning = "#e68990"
+error = "#81a566"
+info = "#98c379"
+
+# Example usage:
+# palette = "prism_one_dark_pro"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

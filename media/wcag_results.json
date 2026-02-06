@@ -1,0 +1,258 @@
+{
+  "acid_rain": {
+    "ratio": 7.51,
+    "wcag_aa": true
+  },
+  "amethyst_dusk": {
+    "ratio": 12.74,
+    "wcag_aa": true
+  },
+  "arctic": {
+    "ratio": 17.08,
+    "wcag_aa": true
+  },
+  "aurora_glass": {
+    "ratio": 17.24,
+    "wcag_aa": true
+  },
+  "ayu_mirage": {
+    "ratio": 9.45,
+    "wcag_aa": true
+  },
+  "biopic": {
+    "ratio": 12.4,
+    "wcag_aa": true
+  },
+  "blood_moon": {
+    "ratio": 18.26,
+    "wcag_aa": true
+  },
+  "catppuccin_mocha": {
+    "ratio": 9.27,
+    "wcag_aa": true
+  },
+  "champagne_noir": {
+    "ratio": 16.78,
+    "wcag_aa": true
+  },
+  "coastal": {
+    "ratio": 13.48,
+    "wcag_aa": true
+  },
+  "cobalt2": {
+    "ratio": 10.29,
+    "wcag_aa": true
+  },
+  "constellation_map": {
+    "ratio": 17.7,
+    "wcag_aa": true
+  },
+  "cyber_noir": {
+    "ratio": 8.33,
+    "wcag_aa": true
+  },
+  "diamond_dust": {
+    "ratio": 17.38,
+    "wcag_aa": true
+  },
+  "ember_hearth": {
+    "ratio": 16.29,
+    "wcag_aa": true
+  },
+  "emerald_velvet": {
+    "ratio": 14.27,
+    "wcag_aa": true
+  },
+  "faded_glory": {
+    "ratio": 12.25,
+    "wcag_aa": true
+  },
+  "fleek_gold": {
+    "ratio": 17.94,
+    "wcag_aa": true
+  },
+  "fleek_gradient": {
+    "ratio": 19.68,
+    "wcag_aa": true
+  },
+  "forest": {
+    "ratio": 15.1,
+    "wcag_aa": true
+  },
+  "forest_canopy": {
+    "ratio": 14.78,
+    "wcag_aa": true
+  },
+  "ghost": {
+    "ratio": 8.36,
+    "wcag_aa": true
+  },
+  "github": {
+    "ratio": 11.26,
+    "wcag_aa": true
+  },
+  "golden_haze": {
+    "ratio": 14.16,
+    "wcag_aa": true
+  },
+  "grape": {
+    "ratio": 14.58,
+    "wcag_aa": true
+  },
+  "gruvbox_material": {
+    "ratio": 5.37,
+    "wcag_aa": true
+  },
+  "holographic": {
+    "ratio": 6.06,
+    "wcag_aa": true
+  },
+  "inferno": {
+    "ratio": 14.71,
+    "wcag_aa": true
+  },
+  "lavender_dusk": {
+    "ratio": 13.48,
+    "wcag_aa": true
+  },
+  "memphis": {
+    "ratio": 15.74,
+    "wcag_aa": true
+  },
+  "midnight_sapphire": {
+    "ratio": 16.28,
+    "wcag_aa": true
+  },
+  "minimal": {
+    "ratio": 16.6,
+    "wcag_aa": true
+  },
+  "mint": {
+    "ratio": 16.53,
+    "wcag_aa": true
+  },
+  "moonlight_ii": {
+    "ratio": 11.2,
+    "wcag_aa": true
+  },
+  "neoform": {
+    "ratio": 11.05,
+    "wcag_aa": true
+  },
+  "neon_nexus": {
+    "ratio": 18.14,
+    "wcag_aa": true
+  },
+  "nero_marquina": {
+    "ratio": 15.78,
+    "wcag_aa": true
+  },
+  "night_owl": {
+    "ratio": 13.54,
+    "wcag_aa": true
+  },
+  "nord_aurora": {
+    "ratio": 4.56,
+    "wcag_aa": true
+  },
+  "obsidian_rose_gold": {
+    "ratio": 16.98,
+    "wcag_aa": true
+  },
+  "ocean": {
+    "ratio": 5.18,
+    "wcag_aa": true
+  },
+  "ocean_depths": {
+    "ratio": 14.18,
+    "wcag_aa": true
+  },
+  "one_dark_pro": {
+    "ratio": 5.48,
+    "wcag_aa": true
+  },
+  "palenight": {
+    "ratio": 7.42,
+    "wcag_aa": true
+  },
+  "rose": {
+    "ratio": 16.32,
+    "wcag_aa": true
+  },
+  "rose_gold": {
+    "ratio": 6.2,
+    "wcag_aa": true
+  },
+  "slate_and_gold": {
+    "ratio": 13.43,
+    "wcag_aa": true
+  },
+  "soft_charcoal": {
+    "ratio": 11.68,
+    "wcag_aa": true
+  },
+  "sunset": {
+    "ratio": 11.4,
+    "wcag_aa": true
+  },
+  "synthwave": {
+    "ratio": 14.13,
+    "wcag_aa": true
+  },
+  "synthwave_84": {
+    "ratio": 6.55,
+    "wcag_aa": true
+  },
+  "tessier": {
+    "ratio": 16.39,
+    "wcag_aa": true
+  },
+  "tide_pool": {
+    "ratio": 17.1,
+    "wcag_aa": true
+  },
+  "tokyo_night_bento": {
+    "ratio": 15.64,
+    "wcag_aa": true
+  },
+  "tropical": {
+    "ratio": 16.85,
+    "wcag_aa": true
+  },
+  "tuned": {
+    "ratio": 10.94,
+    "wcag_aa": true
+  },
+  "twilight_lagoon": {
+    "ratio": 8.43,
+    "wcag_aa": true
+  },
+  "ultraviolet": {
+    "ratio": 13.58,
+    "wcag_aa": true
+  },
+  "vaporwave": {
+    "ratio": 12.06,
+    "wcag_aa": true
+  },
+  "vaporwave_sunset": {
+    "ratio": 15.71,
+    "wcag_aa": true
+  },
+  "verde": {
+    "ratio": 16.76,
+    "wcag_aa": true
+  },
+  "verde_light": {
+    "ratio": 16.68,
+    "wcag_aa": true
+  },
+  "vesper": {
+    "ratio": 14.06,
+    "wcag_aa": true
+  },
+  "zen_garden": {
+    "ratio": 16.18,
+    "wcag_aa": true
+  }
+}

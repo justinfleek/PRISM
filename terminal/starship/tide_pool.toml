@@ -1,0 +1,19 @@
+# Prism Tide Pool - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_tide_pool]
+background = "#06090c"
+foreground = "#e0f0f8"
+accent = "#40e0d0"
+muted = "#485560"
+success = "#53e3d4"
+warning = "#6c777f"
+error = "#36beb0"
+info = "#40e0d0"
+
+# Example usage:
+# palette = "prism_tide_pool"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,32 @@
+# Prism Fleek Gold - Alacritty
+[colors.primary]
+background = "#161616"
+foreground = "#fefefe"
+
+[colors.cursor]
+cursor = "#cbba9f"
+text = "#161616"
+
+[colors.selection]
+background = "#1e1e1e"
+text = "#fefefe"
+
+[colors.normal]
+black = "#161616"
+red = "#ac9e87"
+green = "#d0c0a8"
+yellow = "#ae9f89"
+blue = "#cbba9f"
+magenta = "#988b77"
+cyan = "#d5c7b2"
+white = "#fefefe"
+
+[colors.bright]
+black = "#9a886c"
+red = "#cbba9f"
+green = "#d5c7b2"
+yellow = "#fefefe"
+blue = "#d2c4ad"
+magenta = "#b6a78f"
+cyan = "#dacebb"
+white = "#fefefe"

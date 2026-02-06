@@ -1,0 +1,19 @@
+# Prism Slate & Gold - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_slate_and_gold]
+background = "#12141a"
+foreground = "#d8dce8"
+accent = "#ffd700"
+muted = "#606878"
+success = "#ffdb19"
+warning = "#7f8693"
+error = "#d8b600"
+info = "#ffd700"
+
+# Example usage:
+# palette = "prism_slate_and_gold"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

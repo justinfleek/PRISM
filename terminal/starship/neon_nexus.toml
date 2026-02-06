@@ -1,0 +1,19 @@
+# Prism Neon Nexus - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_neon_nexus]
+background = "#040804"
+foreground = "#d0ffd0"
+accent = "#ff00ff"
+muted = "#308830"
+success = "#19ff93"
+warning = "#599f59"
+error = "#00d873"
+info = "#00ff88"
+
+# Example usage:
+# palette = "prism_neon_nexus"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

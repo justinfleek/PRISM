@@ -1,0 +1,19 @@
+# Prism Sunset - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_sunset]
+background = "#1a0820"
+foreground = "#FFBD00"
+accent = "#FF0054"
+muted = "#987080"
+success = "#ff1965"
+warning = "#b1337a"
+error = "#d80047"
+info = "#FF0054"
+
+# Example usage:
+# palette = "prism_sunset"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

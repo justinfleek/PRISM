@@ -1,0 +1,19 @@
+# Prism Fleek Gold - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_fleek_gold]
+background = "#161616"
+foreground = "#fefefe"
+accent = "#cbba9f"
+muted = "#9a886c"
+success = "#d0c0a8"
+warning = "#ae9f89"
+error = "#ac9e87"
+info = "#cbba9f"
+
+# Example usage:
+# palette = "prism_fleek_gold"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

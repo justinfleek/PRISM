@@ -1,0 +1,73 @@
+# Prism Catppuccin Mocha - Helix
+# Place in ~/.config/helix/themes/catppuccin_mocha.toml
+
+"ui.background" = { bg = "#1e1e2e" }
+"ui.text" = "#fab387"
+"ui.text.focus" = "#cba6f7"
+"ui.cursor" = { bg = "#cba6f7", fg = "#1e1e2e" }
+"ui.cursor.match" = { bg = "#28283d" }
+"ui.selection" = { bg = "#28283d" }
+"ui.linenr" = "#6c6c7e"
+"ui.linenr.selected" = "#fab387"
+"ui.cursorline.primary" = { bg = "#28283d" }
+"ui.statusline" = { fg = "#fab387", bg = "#1e1e2e" }
+"ui.statusline.inactive" = { fg = "#6c6c7e", bg = "#1e1e2e" }
+"ui.popup" = { bg = "#1e1e2e" }
+"ui.menu" = { bg = "#1e1e2e" }
+"ui.menu.selected" = { bg = "#28283d" }
+"ui.help" = { fg = "#fab387", bg = "#1e1e2e" }
+
+"comment" = { fg = "#6c6c7e", modifiers = ["italic"] }
+"keyword" = { fg = "#cba6f7", modifiers = ["bold"] }
+"keyword.control" = "#cba6f7"
+"keyword.function" = "#cba6f7"
+"keyword.return" = "#cba6f7"
+"keyword.exception" = "#cba6f7"
+"keyword.operator" = "#cba6f7"
+
+"string" = "#a6e3a1"
+"string.special" = "#a6e3a1"
+
+"function" = "#89b4fa"
+"function.builtin" = "#89b4fa"
+"function.method" = "#89b4fa"
+"function.macro" = "#89b4fa"
+
+"constant" = "#fab387"
+"constant.numeric" = "#fab387"
+"constant.character" = "#a6e3a1"
+"constant.builtin" = "#fab387"
+
+"type" = "#f9e2af"
+"type.builtin" = "#f9e2af"
+
+"variable" = "#cdd6f4"
+"variable.builtin" = "#cba6f7"
+"variable.parameter" = "#cdd6f4"
+
+"attribute" = "#94e2d5"
+"namespace" = "#f9e2af"
+
+"operator" = "#cba6f7"
+"punctuation" = "#fab387"
+"punctuation.delimiter" = "#fab387"
+"punctuation.bracket" = "#fab387"
+
+"label" = "#cba6f7"
+"tag" = "#f38ba8"
+
+"markup.heading" = { fg = "#cba6f7", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#cba6f7"
+"markup.link.text" = "#a6e3a1"
+"markup.raw" = "#a6e3a1"
+
+"diff.plus" = "#f496b0"
+"diff.minus" = "#ce768e"
+"diff.delta" = "#d5b7f8"
+
+[palette]
+background = "#1e1e2e"
+foreground = "#fab387"
+accent = "#f38ba8"

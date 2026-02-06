@@ -1,0 +1,19 @@
+# Prism Champagne Noir - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_champagne_noir]
+background = "#0a0a08"
+foreground = "#f0ece0"
+accent = "#ffffff"
+muted = "#6b6560"
+success = "#f7e9d2"
+warning = "#7b7b77"
+error = "#d1c4af"
+info = "#f7e7ce"
+
+# Example usage:
+# palette = "prism_champagne_noir"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

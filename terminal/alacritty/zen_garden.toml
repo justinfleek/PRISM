@@ -1,0 +1,32 @@
+# Prism Zen Garden - Alacritty
+[colors.primary]
+background = "#101210"
+foreground = "#e8f0e8"
+
+[colors.cursor]
+cursor = "#c8b878"
+text = "#101210"
+
+[colors.selection]
+background = "#181a18"
+text = "#e8f0e8"
+
+[colors.normal]
+black = "#101210"
+red = "#aa9c66"
+green = "#cdbf85"
+yellow = "#7f837f"
+blue = "#c8b878"
+magenta = "#968a5a"
+cyan = "#d3c693"
+white = "#e8f0e8"
+
+[colors.bright]
+black = "#606560"
+red = "#c8b878"
+green = "#d3c693"
+yellow = "#e8f0e8"
+blue = "#d0c28c"
+magenta = "#b4a56c"
+cyan = "#d8cda0"
+white = "#eaf1ea"

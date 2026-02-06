@@ -1,0 +1,23 @@
+{
+  "name": "Prism Neoform",
+  "background": "#f5f7fa",
+  "foreground": "#2d3848",
+  "cursorColor": "#0969da",
+  "selectionBackground": "#e8ecf2",
+  "black": "#2d3848",
+  "red": "#0759b9",
+  "green": "#2178dd",
+  "yellow": "#8896a8",
+  "blue": "#0969da",
+  "purple": "#064ea3",
+  "cyan": "#2d7fdf",
+  "white": "#e8ecf2",
+  "brightBlack": "#8896a8",
+  "brightRed": "#0969da",
+  "brightGreen": "#2d7fdf",
+  "brightYellow": "#93a0b0",
+  "brightBlue": "#2178dd",
+  "brightPurple": "#085ec4",
+  "brightCyan": "#468ee3",
+  "brightWhite": "#e9ecf2"
+}

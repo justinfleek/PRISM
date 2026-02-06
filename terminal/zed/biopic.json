@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Biopic",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Biopic",
+      "appearance": "#033d73",
+      "style": {
+        "background": "#faf8f5",
+        "editor.background": "#faf8f5",
+        "editor.foreground": "#33302a",
+        "editor.gutter.background": "#faf8f5",
+        "editor.line_highlight.background": "#f0ece5",
+        "editor.active_line_number": "#33302a",
+        "editor.wrap_guide": "#8a8378",
+        "terminal.background": "#faf8f5",
+        "terminal.foreground": "#33302a",
+        "terminal.ansi.black": "#33302a",
+        "terminal.ansi.red": "#0759b9",
+        "terminal.ansi.green": "#2178dd",
+        "terminal.ansi.yellow": "#8a8378",
+        "terminal.ansi.blue": "#0969da",
+        "terminal.ansi.magenta": "#064ea3",
+        "terminal.ansi.cyan": "#2d7fdf",
+        "terminal.ansi.white": "#faf8f5",
+        "syntax": {
+          "comment": {
+            "color": "#8a8378",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#0969da",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#1f6feb"
+          },
+          "function": {
+            "color": "#0550a0"
+          },
+          "number": {
+            "color": "#218bff"
+          },
+          "type": {
+            "color": "#033d73"
+          },
+          "variable": {
+            "color": "#33302a"
+          },
+          "constant": {
+            "color": "#218bff"
+          },
+          "attribute": {
+            "color": "#58a6ff"
+          },
+          "property": {
+            "color": "#33302a"
+          },
+          "punctuation": {
+            "color": "#33302a"
+          },
+          "operator": {
+            "color": "#0969da"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Constellation Map",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Constellation Map",
+      "appearance": "#b48ead",
+      "style": {
+        "background": "#050608",
+        "editor.background": "#050608",
+        "editor.foreground": "#e8f0ff",
+        "editor.gutter.background": "#050608",
+        "editor.line_highlight.background": "#0a0c10",
+        "editor.active_line_number": "#e8f0ff",
+        "editor.wrap_guide": "#485060",
+        "terminal.background": "#050608",
+        "terminal.foreground": "#e8f0ff",
+        "terminal.ansi.black": "#050608",
+        "terminal.ansi.red": "#d8b600",
+        "terminal.ansi.green": "#ffdb19",
+        "terminal.ansi.yellow": "#6c737f",
+        "terminal.ansi.blue": "#ffd700",
+        "terminal.ansi.magenta": "#bfa100",
+        "terminal.ansi.cyan": "#ffdf33",
+        "terminal.ansi.white": "#e8f0ff",
+        "syntax": {
+          "comment": {
+            "color": "#485060",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#ffd700",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#88c0d0"
+          },
+          "function": {
+            "color": "#88c0d0"
+          },
+          "number": {
+            "color": "#b48ead"
+          },
+          "type": {
+            "color": "#b48ead"
+          },
+          "variable": {
+            "color": "#e8f0ff"
+          },
+          "constant": {
+            "color": "#b48ead"
+          },
+          "attribute": {
+            "color": "#a3be8c"
+          },
+          "property": {
+            "color": "#e8f0ff"
+          },
+          "punctuation": {
+            "color": "#e8f0ff"
+          },
+          "operator": {
+            "color": "#ffd700"
+          }
+        }
+      }
+    }
+  ]
+}

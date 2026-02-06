@@ -1,0 +1,19 @@
+# Prism Soft Charcoal - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_soft_charcoal]
+background = "#2a2a32"
+foreground = "#e8e8f0"
+accent = "#fbbf24"
+muted = "#70707a"
+success = "#fbc539"
+warning = "#8c8c94"
+error = "#d5a21e"
+info = "#fbbf24"
+
+# Example usage:
+# palette = "prism_soft_charcoal"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

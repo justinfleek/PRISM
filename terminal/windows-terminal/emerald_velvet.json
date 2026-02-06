@@ -1,0 +1,23 @@
+{
+  "name": "Prism Emerald Velvet",
+  "background": "#0a0f0a",
+  "foreground": "#d8e0d0",
+  "cursorColor": "#d4af37",
+  "selectionBackground": "#081008",
+  "black": "#040806",
+  "red": "#b4942e",
+  "green": "#d8b74b",
+  "yellow": "#6c796c",
+  "blue": "#d4af37",
+  "purple": "#9f8329",
+  "cyan": "#dcbf5f",
+  "white": "#e0f0e0",
+  "brightBlack": "#485848",
+  "brightRed": "#d4af37",
+  "brightGreen": "#dcbf5f",
+  "brightYellow": "#e0f0e0",
+  "brightBlue": "#dabb55",
+  "brightPurple": "#be9d31",
+  "brightCyan": "#e0c773",
+  "brightWhite": "#e3f1e3"
+}

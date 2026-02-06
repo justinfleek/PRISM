@@ -1,0 +1,19 @@
+# Prism Tessier - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_tessier]
+background = "#ffffff"
+foreground = "#1a2028"
+accent = "#0758c9"
+muted = "#6b7a8a"
+success = "#1f68ce"
+warning = "#6b7a8a"
+error = "#054aaa"
+info = "#0758c9"
+
+# Example usage:
+# palette = "prism_tessier"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

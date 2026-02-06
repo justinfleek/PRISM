@@ -1,0 +1,19 @@
+# Prism Faded Glory - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_faded_glory]
+background = "#FDF0D5"
+foreground = "#003049"
+accent = "#C1121F"
+muted = "#669BBC"
+success = "#c72935"
+warning = "#669BBC"
+error = "#a40f1a"
+info = "#C1121F"
+
+# Example usage:
+# palette = "prism_faded_glory"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

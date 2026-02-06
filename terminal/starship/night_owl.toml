@@ -1,0 +1,19 @@
+# Prism Night Owl - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_night_owl]
+background = "#011627"
+foreground = "#d6deeb"
+accent = "#c792ea"
+muted = "#82aaff"
+success = "#cc9cec"
+warning = "#9bbbff"
+error = "#a97cc6"
+info = "#c792ea"
+
+# Example usage:
+# palette = "prism_night_owl"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

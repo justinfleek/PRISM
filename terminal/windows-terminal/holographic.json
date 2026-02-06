@@ -1,0 +1,23 @@
+{
+  "name": "Prism Holographic",
+  "background": "#0a0a0f",
+  "foreground": "#b967ff",
+  "cursorColor": "#01cdfe",
+  "selectionBackground": "#141419",
+  "black": "#0a0a0f",
+  "red": "#00aed7",
+  "green": "#1ad2fe",
+  "yellow": "#ff8dd7",
+  "blue": "#01cdfe",
+  "purple": "#0099be",
+  "cyan": "#33d7fe",
+  "white": "#b967ff",
+  "brightBlack": "#ff71ce",
+  "brightRed": "#01cdfe",
+  "brightGreen": "#33d7fe",
+  "brightYellow": "#b967ff",
+  "brightBlue": "#27d4fe",
+  "brightPurple": "#00b8e4",
+  "brightCyan": "#4ddcfe",
+  "brightWhite": "#c076ff"
+}

@@ -1,0 +1,32 @@
+# Prism Emerald Velvet - Alacritty
+[colors.primary]
+background = "#0a0f0a"
+foreground = "#d8e0d0"
+
+[colors.cursor]
+cursor = "#d4af37"
+text = "#0a0f0a"
+
+[colors.selection]
+background = "#081008"
+text = "#d8e0d0"
+
+[colors.normal]
+black = "#040806"
+red = "#b4942e"
+green = "#d8b74b"
+yellow = "#6c796c"
+blue = "#d4af37"
+magenta = "#9f8329"
+cyan = "#dcbf5f"
+white = "#e0f0e0"
+
+[colors.bright]
+black = "#485848"
+red = "#d4af37"
+green = "#dcbf5f"
+yellow = "#e0f0e0"
+blue = "#dabb55"
+magenta = "#be9d31"
+cyan = "#e0c773"
+white = "#e3f1e3"

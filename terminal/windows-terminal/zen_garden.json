@@ -1,0 +1,23 @@
+{
+  "name": "Prism Zen Garden",
+  "background": "#101210",
+  "foreground": "#e8f0e8",
+  "cursorColor": "#c8b878",
+  "selectionBackground": "#181a18",
+  "black": "#101210",
+  "red": "#aa9c66",
+  "green": "#cdbf85",
+  "yellow": "#7f837f",
+  "blue": "#c8b878",
+  "purple": "#968a5a",
+  "cyan": "#d3c693",
+  "white": "#e8f0e8",
+  "brightBlack": "#606560",
+  "brightRed": "#c8b878",
+  "brightGreen": "#d3c693",
+  "brightYellow": "#e8f0e8",
+  "brightBlue": "#d0c28c",
+  "brightPurple": "#b4a56c",
+  "brightCyan": "#d8cda0",
+  "brightWhite": "#eaf1ea"
+}

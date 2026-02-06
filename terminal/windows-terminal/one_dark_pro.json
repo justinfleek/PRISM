@@ -1,0 +1,23 @@
+{
+  "name": "Prism One Dark Pro",
+  "background": "#1e2127",
+  "foreground": "#c678dd",
+  "cursorColor": "#98c379",
+  "selectionBackground": "#31353f",
+  "black": "#282c34",
+  "red": "#81a566",
+  "green": "#a2c986",
+  "yellow": "#e68990",
+  "blue": "#98c379",
+  "purple": "#72925a",
+  "cyan": "#accf93",
+  "white": "#c678dd",
+  "brightBlack": "#e06c75",
+  "brightRed": "#98c379",
+  "brightGreen": "#accf93",
+  "brightYellow": "#c678dd",
+  "brightBlue": "#a7cc8d",
+  "brightPurple": "#88af6c",
+  "brightCyan": "#b6d5a1",
+  "brightWhite": "#cb85e0"
+}

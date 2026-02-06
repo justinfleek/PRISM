@@ -1,0 +1,32 @@
+# Prism Soft Charcoal - Alacritty
+[colors.primary]
+background = "#2a2a32"
+foreground = "#e8e8f0"
+
+[colors.cursor]
+cursor = "#fbbf24"
+text = "#2a2a32"
+
+[colors.selection]
+background = "#2a2a32"
+text = "#e8e8f0"
+
+[colors.normal]
+black = "#2a2a32"
+red = "#d5a21e"
+green = "#fbc539"
+yellow = "#8c8c94"
+blue = "#fbbf24"
+magenta = "#bc8f1b"
+cyan = "#fbcb4f"
+white = "#e8e8f0"
+
+[colors.bright]
+black = "#70707a"
+red = "#fbbf24"
+green = "#fbcb4f"
+yellow = "#e8e8f0"
+blue = "#fbc844"
+magenta = "#e1ab20"
+cyan = "#fcd265"
+white = "#eaeaf1"

@@ -1,0 +1,32 @@
+# Prism Synthwave 84 - Alacritty
+[colors.primary]
+background = "#262335"
+foreground = "#ff8b39"
+
+[colors.cursor]
+cursor = "#36f9f6"
+text = "#262335"
+
+[colors.selection]
+background = "#302a42"
+text = "#ff8b39"
+
+[colors.normal]
+black = "#262335"
+red = "#2dd3d1"
+green = "#4af9f6"
+yellow = "#ff97e2"
+blue = "#36f9f6"
+magenta = "#28bab8"
+cyan = "#5efaf7"
+white = "#ff8b39"
+
+[colors.bright]
+black = "#ff7edb"
+red = "#36f9f6"
+green = "#5efaf7"
+yellow = "#ff8b39"
+blue = "#54f9f7"
+magenta = "#30e0dd"
+cyan = "#72faf8"
+white = "#ff964c"

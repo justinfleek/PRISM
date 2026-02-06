@@ -1,0 +1,32 @@
+# Prism Gruvbox Material - Alacritty
+[colors.primary]
+background = "#282828"
+foreground = "#d3869b"
+
+[colors.cursor]
+cursor = "#b8bb26"
+text = "#282828"
+
+[colors.selection]
+background = "#3c3836"
+text = "#d3869b"
+
+[colors.normal]
+black = "#282828"
+red = "#9c9e20"
+green = "#bfc13b"
+yellow = "#fbca58"
+blue = "#b8bb26"
+magenta = "#8a8c1c"
+cyan = "#c6c851"
+white = "#d3869b"
+
+[colors.bright]
+black = "#fabd2f"
+red = "#b8bb26"
+green = "#c6c851"
+yellow = "#d3869b"
+blue = "#c2c546"
+magenta = "#a5a822"
+cyan = "#cdcf67"
+white = "#d792a5"

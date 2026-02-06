@@ -1,0 +1,32 @@
+# Prism Vaporwave - Alacritty
+[colors.primary]
+background = "#1a0828"
+foreground = "#00E5E8"
+
+[colors.cursor]
+cursor = "#FF3CC7"
+text = "#1a0828"
+
+[colors.selection]
+background = "#5f2169"
+text = "#00E5E8"
+
+[colors.normal]
+black = "#4C1A57"
+red = "#d833a9"
+green = "#ff4fcc"
+yellow = "#9dfffb"
+blue = "#FF3CC7"
+magenta = "#bf2d95"
+cyan = "#ff63d2"
+white = "#00E5E8"
+
+[colors.bright]
+black = "#85FFFB"
+red = "#FF3CC7"
+green = "#ff63d2"
+yellow = "#00E5E8"
+blue = "#ff59cf"
+magenta = "#e536b3"
+cyan = "#ff76d7"
+white = "#19e7ea"

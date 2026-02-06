@@ -1,0 +1,32 @@
+# Prism Lavender Dusk - Alacritty
+[colors.primary]
+background = "#10081a"
+foreground = "#e0d0f0"
+
+[colors.cursor]
+cursor = "#b388ff"
+text = "#10081a"
+
+[colors.selection]
+background = "#181020"
+text = "#e0d0f0"
+
+[colors.normal]
+black = "#10081a"
+red = "#9873d8"
+green = "#ba93ff"
+yellow = "#8c739f"
+blue = "#b388ff"
+magenta = "#8666bf"
+cyan = "#c29fff"
+white = "#e0d0f0"
+
+[colors.bright]
+black = "#705088"
+red = "#b388ff"
+green = "#c29fff"
+yellow = "#e0d0f0"
+blue = "#be99ff"
+magenta = "#a17ae5"
+cyan = "#c9abff"
+white = "#e3d4f1"

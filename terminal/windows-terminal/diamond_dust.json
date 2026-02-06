@@ -1,0 +1,23 @@
+{
+  "name": "Prism Diamond Dust",
+  "background": "#08090d",
+  "foreground": "#e8f0ff",
+  "cursorColor": "#38bdf8",
+  "selectionBackground": "#0f1118",
+  "black": "#08090d",
+  "red": "#2fa0d2",
+  "green": "#4bc3f8",
+  "yellow": "#73777f",
+  "blue": "#38bdf8",
+  "purple": "#2a8dba",
+  "cyan": "#5fcaf9",
+  "white": "#e8f0ff",
+  "brightBlack": "#505560",
+  "brightRed": "#38bdf8",
+  "brightGreen": "#5fcaf9",
+  "brightYellow": "#e8f0ff",
+  "brightBlue": "#55c6f9",
+  "brightPurple": "#32aadf",
+  "brightCyan": "#73d0fa",
+  "brightWhite": "#eaf1ff"
+}

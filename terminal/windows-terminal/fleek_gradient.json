@@ -1,0 +1,23 @@
+{
+  "name": "Prism Fleek Gradient",
+  "background": "#0b0b0b",
+  "foreground": "#ffffff",
+  "cursorColor": "#ffe629",
+  "selectionBackground": "#151515",
+  "black": "#0b0b0b",
+  "red": "#d8c322",
+  "green": "#ffe83e",
+  "yellow": "#33a6ff",
+  "blue": "#ffe629",
+  "purple": "#bfac1e",
+  "cyan": "#ffeb53",
+  "white": "#30a46c",
+  "brightBlack": "#0090ff",
+  "brightRed": "#ffe629",
+  "brightGreen": "#ffeb53",
+  "brightYellow": "#30a46c",
+  "brightBlue": "#ffe949",
+  "brightPurple": "#e5cf24",
+  "brightCyan": "#ffed69",
+  "brightWhite": "#44ad7a"
+}

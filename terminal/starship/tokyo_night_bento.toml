@@ -1,0 +1,19 @@
+# Prism Tokyo Night Bento - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_tokyo_night_bento]
+background = "#0f0f18"
+foreground = "#e8e8f0"
+accent = "#bb9af7"
+muted = "#6878a0"
+success = "#c1a4f7"
+warning = "#7b7b87"
+error = "#9e82d1"
+info = "#bb9af7"
+
+# Example usage:
+# palette = "prism_tokyo_night_bento"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,32 @@
+# Prism Ayu Mirage - Alacritty
+[colors.primary]
+background = "#1f2430"
+foreground = "#cccac2"
+
+[colors.cursor]
+cursor = "#ffcc66"
+text = "#1f2430"
+
+[colors.selection]
+background = "#242936"
+text = "#cccac2"
+
+[colors.normal]
+black = "#1f2430"
+red = "#d8ad56"
+green = "#ffd175"
+yellow = "#7c858f"
+blue = "#ffcc66"
+magenta = "#bf994c"
+cyan = "#ffd684"
+white = "#cccac2"
+
+[colors.bright]
+black = "#5c6773"
+red = "#ffcc66"
+green = "#ffd684"
+yellow = "#cccac2"
+blue = "#ffd37c"
+magenta = "#e5b75b"
+cyan = "#ffdb93"
+white = "#d1cfc8"

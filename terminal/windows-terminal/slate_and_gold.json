@@ -1,0 +1,23 @@
+{
+  "name": "Prism Slate & Gold",
+  "background": "#12141a",
+  "foreground": "#d8dce8",
+  "cursorColor": "#ffd700",
+  "selectionBackground": "#181a20",
+  "black": "#12141a",
+  "red": "#d8b600",
+  "green": "#ffdb19",
+  "yellow": "#7f8693",
+  "blue": "#ffd700",
+  "purple": "#bfa100",
+  "cyan": "#ffdf33",
+  "white": "#d8dce8",
+  "brightBlack": "#606878",
+  "brightRed": "#ffd700",
+  "brightGreen": "#ffdf33",
+  "brightYellow": "#d8dce8",
+  "brightBlue": "#ffdd26",
+  "brightPurple": "#e5c100",
+  "brightCyan": "#ffe34c",
+  "brightWhite": "#dbdfea"
+}

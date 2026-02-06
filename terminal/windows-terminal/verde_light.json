@@ -1,0 +1,23 @@
+{
+  "name": "Prism Verde Light",
+  "background": "#fafaf8",
+  "foreground": "#1a1a18",
+  "cursorColor": "#2a9860",
+  "selectionBackground": "#f0f0ee",
+  "black": "#1a1a18",
+  "red": "#238151",
+  "green": "#3fa26f",
+  "yellow": "#6a6a68",
+  "blue": "#2a9860",
+  "purple": "#1f7248",
+  "cyan": "#54ac7f",
+  "white": "#fafaf8",
+  "brightBlack": "#6a6a68",
+  "brightRed": "#2a9860",
+  "brightGreen": "#54ac7f",
+  "brightYellow": "#787877",
+  "brightBlue": "#49a777",
+  "brightPurple": "#258856",
+  "brightCyan": "#69b68f",
+  "brightWhite": "#fafaf8"
+}

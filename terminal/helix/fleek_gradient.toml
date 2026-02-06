@@ -1,0 +1,73 @@
+# Prism Fleek Gradient - Helix
+# Place in ~/.config/helix/themes/fleek_gradient.toml
+
+"ui.background" = { bg = "#0b0b0b" }
+"ui.text" = "#ffffff"
+"ui.text.focus" = "#ff6600"
+"ui.cursor" = { bg = "#ff6600", fg = "#0b0b0b" }
+"ui.cursor.match" = { bg = "#151515" }
+"ui.selection" = { bg = "#151515" }
+"ui.linenr" = "#0090ff"
+"ui.linenr.selected" = "#ffffff"
+"ui.cursorline.primary" = { bg = "#151515" }
+"ui.statusline" = { fg = "#ffffff", bg = "#0b0b0b" }
+"ui.statusline.inactive" = { fg = "#0090ff", bg = "#0b0b0b" }
+"ui.popup" = { bg = "#0b0b0b" }
+"ui.menu" = { bg = "#0b0b0b" }
+"ui.menu.selected" = { bg = "#151515" }
+"ui.help" = { fg = "#ffffff", bg = "#0b0b0b" }
+
+"comment" = { fg = "#0090ff", modifiers = ["italic"] }
+"keyword" = { fg = "#ff6600", modifiers = ["bold"] }
+"keyword.control" = "#ff6600"
+"keyword.function" = "#ff6600"
+"keyword.return" = "#ff6600"
+"keyword.exception" = "#ff6600"
+"keyword.operator" = "#ff6600"
+
+"string" = "#7ee787"
+"string.special" = "#7ee787"
+
+"function" = "#30a46c"
+"function.builtin" = "#30a46c"
+"function.method" = "#30a46c"
+"function.macro" = "#30a46c"
+
+"constant" = "#ffe629"
+"constant.numeric" = "#ffe629"
+"constant.character" = "#7ee787"
+"constant.builtin" = "#ffe629"
+
+"type" = "#ffe629"
+"type.builtin" = "#ffe629"
+
+"variable" = "#ffffff"
+"variable.builtin" = "#ff6600"
+"variable.parameter" = "#ffffff"
+
+"attribute" = "#7ee787"
+"namespace" = "#ffe629"
+
+"operator" = "#ff6600"
+"punctuation" = "#ffffff"
+"punctuation.delimiter" = "#ffffff"
+"punctuation.bracket" = "#ffffff"
+
+"label" = "#ff6600"
+"tag" = "#0090ff"
+
+"markup.heading" = { fg = "#ff6600", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#ff6600"
+"markup.link.text" = "#7ee787"
+"markup.raw" = "#7ee787"
+
+"diff.plus" = "#ffe83e"
+"diff.minus" = "#d8c322"
+"diff.delta" = "#33a6ff"
+
+[palette]
+background = "#0b0b0b"
+foreground = "#ffffff"
+accent = "#ffe629"

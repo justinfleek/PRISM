@@ -1,0 +1,32 @@
+# Prism Moonlight II - Alacritty
+[colors.primary]
+background = "#1b1d2c"
+foreground = "#c8d3f5"
+
+[colors.cursor]
+cursor = "#82aaff"
+text = "#1b1d2c"
+
+[colors.selection]
+background = "#212337"
+text = "#c8d3f5"
+
+[colors.normal]
+black = "#1b1d2c"
+red = "#6e90d8"
+green = "#8eb2ff"
+yellow = "#828ab7"
+blue = "#82aaff"
+magenta = "#617fbf"
+cyan = "#9bbbff"
+white = "#c8d3f5"
+
+[colors.bright]
+black = "#636da6"
+red = "#82aaff"
+green = "#9bbbff"
+yellow = "#c8d3f5"
+blue = "#94b6ff"
+magenta = "#7599e5"
+cyan = "#a7c3ff"
+white = "#cdd7f6"

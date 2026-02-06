@@ -1,0 +1,19 @@
+# Prism Holographic - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_holographic]
+background = "#0a0a0f"
+foreground = "#b967ff"
+accent = "#01cdfe"
+muted = "#7888a8"
+success = "#1ad2fe"
+warning = "#ff8dd7"
+error = "#00aed7"
+info = "#01cdfe"
+
+# Example usage:
+# palette = "prism_holographic"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

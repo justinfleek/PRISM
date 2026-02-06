@@ -1,0 +1,73 @@
+# Prism Vesper - Helix
+# Place in ~/.config/helix/themes/vesper.toml
+
+"ui.background" = { bg = "#F8F8F7" }
+"ui.text" = "#272727"
+"ui.text.focus" = "#676266"
+"ui.cursor" = { bg = "#676266", fg = "#F8F8F7" }
+"ui.cursor.match" = { bg = "#ebebea" }
+"ui.selection" = { bg = "#ebebea" }
+"ui.linenr" = "#C39B83"
+"ui.linenr.selected" = "#272727"
+"ui.cursorline.primary" = { bg = "#ebebea" }
+"ui.statusline" = { fg = "#272727", bg = "#F8F8F7" }
+"ui.statusline.inactive" = { fg = "#C39B83", bg = "#F8F8F7" }
+"ui.popup" = { bg = "#F8F8F7" }
+"ui.menu" = { bg = "#F8F8F7" }
+"ui.menu.selected" = { bg = "#ebebea" }
+"ui.help" = { fg = "#272727", bg = "#F8F8F7" }
+
+"comment" = { fg = "#C39B83", modifiers = ["italic"] }
+"keyword" = { fg = "#676266", modifiers = ["bold"] }
+"keyword.control" = "#676266"
+"keyword.function" = "#676266"
+"keyword.return" = "#676266"
+"keyword.exception" = "#676266"
+"keyword.operator" = "#676266"
+
+"string" = "#575356"
+"string.special" = "#575356"
+
+"function" = "#615d60"
+"function.builtin" = "#615d60"
+"function.method" = "#615d60"
+"function.macro" = "#615d60"
+
+"constant" = "#5c585b"
+"constant.numeric" = "#5c585b"
+"constant.character" = "#575356"
+"constant.builtin" = "#5c585b"
+
+"type" = "#272727"
+"type.builtin" = "#272727"
+
+"variable" = "#272727"
+"variable.builtin" = "#676266"
+"variable.parameter" = "#272727"
+
+"attribute" = "#232323"
+"namespace" = "#272727"
+
+"operator" = "#676266"
+"punctuation" = "#272727"
+"punctuation.delimiter" = "#272727"
+"punctuation.bracket" = "#272727"
+
+"label" = "#676266"
+"tag" = "#575356"
+
+"markup.heading" = { fg = "#676266", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#676266"
+"markup.link.text" = "#575356"
+"markup.raw" = "#575356"
+
+"diff.plus" = "#767175"
+"diff.minus" = "#575356"
+"diff.delta" = "#C39B83"
+
+[palette]
+background = "#F8F8F7"
+foreground = "#272727"
+accent = "#676266"

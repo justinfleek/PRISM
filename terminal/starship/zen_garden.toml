@@ -1,0 +1,19 @@
+# Prism Zen Garden - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_zen_garden]
+background = "#101210"
+foreground = "#e8f0e8"
+accent = "#c8b878"
+muted = "#606560"
+success = "#cdbf85"
+warning = "#7f837f"
+error = "#aa9c66"
+info = "#c8b878"
+
+# Example usage:
+# palette = "prism_zen_garden"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

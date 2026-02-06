@@ -1,19 +1,16 @@
 # Dependencies
 node_modules/
+.npm-cache/
 .pnpm-store/
 bun.lockb
 
 # Build outputs
-dist/*.vsix
 *.vsix
 build/
+dist/
 .turbo/
 out/
 *.js.map
-
-# Internal/marketing files
-marketing/
-_screenshots/
 
 # Python
 __pycache__/

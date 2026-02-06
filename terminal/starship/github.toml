@@ -1,0 +1,19 @@
+# Prism Github - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_github]
+background = "#22272e"
+foreground = "#d8e0e7"
+accent = "#54aeff"
+muted = "#545d68"
+success = "#65b6ff"
+warning = "#767d86"
+error = "#4793d8"
+info = "#54aeff"
+
+# Example usage:
+# palette = "prism_github"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

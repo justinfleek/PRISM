@@ -1,0 +1,19 @@
+# Prism Twilight Lagoon - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_twilight_lagoon]
+background = "#191724"
+foreground = "#c4a7e7"
+accent = "#31748f"
+muted = "#6e6a86"
+success = "#45819a"
+warning = "#efc9c7"
+error = "#296279"
+info = "#31748f"
+
+# Example usage:
+# palette = "prism_twilight_lagoon"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

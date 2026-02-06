@@ -1,0 +1,73 @@
+# Prism Github - Helix
+# Place in ~/.config/helix/themes/github.toml
+
+"ui.background" = { bg = "#22272e" }
+"ui.text" = "#d8e0e7"
+"ui.text.focus" = "#54aeff"
+"ui.cursor" = { bg = "#54aeff", fg = "#22272e" }
+"ui.cursor.match" = { bg = "#2d333b" }
+"ui.selection" = { bg = "#2d333b" }
+"ui.linenr" = "#545d68"
+"ui.linenr.selected" = "#d8e0e7"
+"ui.cursorline.primary" = { bg = "#2d333b" }
+"ui.statusline" = { fg = "#d8e0e7", bg = "#22272e" }
+"ui.statusline.inactive" = { fg = "#545d68", bg = "#22272e" }
+"ui.popup" = { bg = "#22272e" }
+"ui.menu" = { bg = "#22272e" }
+"ui.menu.selected" = { bg = "#2d333b" }
+"ui.help" = { fg = "#d8e0e7", bg = "#22272e" }
+
+"comment" = { fg = "#545d68", modifiers = ["italic"] }
+"keyword" = { fg = "#54aeff", modifiers = ["bold"] }
+"keyword.control" = "#54aeff"
+"keyword.function" = "#54aeff"
+"keyword.return" = "#54aeff"
+"keyword.exception" = "#54aeff"
+"keyword.operator" = "#54aeff"
+
+"string" = "#87c6ff"
+"string.special" = "#87c6ff"
+
+"function" = "#7ec2ff"
+"function.builtin" = "#7ec2ff"
+"function.method" = "#7ec2ff"
+"function.macro" = "#7ec2ff"
+
+"constant" = "#76beff"
+"constant.numeric" = "#76beff"
+"constant.character" = "#87c6ff"
+"constant.builtin" = "#76beff"
+
+"type" = "#d8e0e7"
+"type.builtin" = "#d8e0e7"
+
+"variable" = "#d8e0e7"
+"variable.builtin" = "#54aeff"
+"variable.parameter" = "#d8e0e7"
+
+"attribute" = "#d9e1e8"
+"namespace" = "#d8e0e7"
+
+"operator" = "#54aeff"
+"punctuation" = "#d8e0e7"
+"punctuation.delimiter" = "#d8e0e7"
+"punctuation.bracket" = "#d8e0e7"
+
+"label" = "#54aeff"
+"tag" = "#87c6ff"
+
+"markup.heading" = { fg = "#54aeff", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#54aeff"
+"markup.link.text" = "#87c6ff"
+"markup.raw" = "#87c6ff"
+
+"diff.plus" = "#65b6ff"
+"diff.minus" = "#4793d8"
+"diff.delta" = "#767d86"
+
+[palette]
+background = "#22272e"
+foreground = "#d8e0e7"
+accent = "#54aeff"

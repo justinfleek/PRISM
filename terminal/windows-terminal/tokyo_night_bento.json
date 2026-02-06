@@ -1,0 +1,23 @@
+{
+  "name": "Prism Tokyo Night Bento",
+  "background": "#0f0f18",
+  "foreground": "#e8e8f0",
+  "cursorColor": "#bb9af7",
+  "selectionBackground": "#16161f",
+  "black": "#0f0f18",
+  "red": "#9e82d1",
+  "green": "#c1a4f7",
+  "yellow": "#7b7b87",
+  "blue": "#bb9af7",
+  "purple": "#8c73b9",
+  "cyan": "#c8aef8",
+  "white": "#e8e8f0",
+  "brightBlack": "#5a5a6a",
+  "brightRed": "#bb9af7",
+  "brightGreen": "#c8aef8",
+  "brightYellow": "#e8e8f0",
+  "brightBlue": "#c5a9f8",
+  "brightPurple": "#a88ade",
+  "brightCyan": "#cfb8f9",
+  "brightWhite": "#eaeaf1"
+}

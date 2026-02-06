@@ -1,0 +1,73 @@
+# Prism Faded Glory - Helix
+# Place in ~/.config/helix/themes/faded_glory.toml
+
+"ui.background" = { bg = "#FDF0D5" }
+"ui.text" = "#003049"
+"ui.text.focus" = "#C1121F"
+"ui.cursor" = { bg = "#C1121F", fg = "#FDF0D5" }
+"ui.cursor.match" = { bg = "#f0e3c6" }
+"ui.selection" = { bg = "#f0e3c6" }
+"ui.linenr" = "#669BBC"
+"ui.linenr.selected" = "#003049"
+"ui.cursorline.primary" = { bg = "#f0e3c6" }
+"ui.statusline" = { fg = "#003049", bg = "#FDF0D5" }
+"ui.statusline.inactive" = { fg = "#669BBC", bg = "#FDF0D5" }
+"ui.popup" = { bg = "#FDF0D5" }
+"ui.menu" = { bg = "#FDF0D5" }
+"ui.menu.selected" = { bg = "#f0e3c6" }
+"ui.help" = { fg = "#003049", bg = "#FDF0D5" }
+
+"comment" = { fg = "#669BBC", modifiers = ["italic"] }
+"keyword" = { fg = "#C1121F", modifiers = ["bold"] }
+"keyword.control" = "#C1121F"
+"keyword.function" = "#C1121F"
+"keyword.return" = "#C1121F"
+"keyword.exception" = "#C1121F"
+"keyword.operator" = "#C1121F"
+
+"string" = "#669BBC"
+"string.special" = "#669BBC"
+
+"function" = "#003049"
+"function.builtin" = "#003049"
+"function.method" = "#003049"
+"function.macro" = "#003049"
+
+"constant" = "#780000"
+"constant.numeric" = "#780000"
+"constant.character" = "#669BBC"
+"constant.builtin" = "#780000"
+
+"type" = "#C1121F"
+"type.builtin" = "#C1121F"
+
+"variable" = "#003049"
+"variable.builtin" = "#C1121F"
+"variable.parameter" = "#003049"
+
+"attribute" = "#C1121F"
+"namespace" = "#C1121F"
+
+"operator" = "#C1121F"
+"punctuation" = "#003049"
+"punctuation.delimiter" = "#003049"
+"punctuation.bracket" = "#003049"
+
+"label" = "#C1121F"
+"tag" = "#003049"
+
+"markup.heading" = { fg = "#C1121F", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#C1121F"
+"markup.link.text" = "#669BBC"
+"markup.raw" = "#669BBC"
+
+"diff.plus" = "#c72935"
+"diff.minus" = "#a40f1a"
+"diff.delta" = "#669BBC"
+
+[palette]
+background = "#FDF0D5"
+foreground = "#003049"
+accent = "#C1121F"

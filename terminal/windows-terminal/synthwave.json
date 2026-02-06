@@ -1,0 +1,23 @@
+{
+  "name": "Prism Synthwave",
+  "background": "#0a0014",
+  "foreground": "#e0d0f0",
+  "cursorColor": "#7209B7",
+  "selectionBackground": "#4a0fd0",
+  "black": "#3A0CA3",
+  "red": "#60079b",
+  "green": "#8021be",
+  "yellow": "#773bbd",
+  "blue": "#7209B7",
+  "purple": "#550689",
+  "cyan": "#8e3ac5",
+  "white": "#F72585",
+  "brightBlack": "#560BAD",
+  "brightRed": "#7209B7",
+  "brightGreen": "#8e3ac5",
+  "brightYellow": "#F72585",
+  "brightBlue": "#872dc1",
+  "brightPurple": "#6608a4",
+  "brightCyan": "#9c52cc",
+  "brightWhite": "#f73a91"
+}

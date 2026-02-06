@@ -1,0 +1,19 @@
+# Prism Ayu Mirage - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_ayu_mirage]
+background = "#1f2430"
+foreground = "#cccac2"
+accent = "#ffa759"
+muted = "#5c6773"
+success = "#ffd175"
+warning = "#7c858f"
+error = "#d8ad56"
+info = "#ffcc66"
+
+# Example usage:
+# palette = "prism_ayu_mirage"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

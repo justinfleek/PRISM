@@ -1,0 +1,19 @@
+# Prism Golden Haze - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_golden_haze]
+background = "#e8eaee"
+foreground = "#1a1c20"
+accent = "#ca8a04"
+muted = "#585048"
+success = "#cf951d"
+warning = "#707478"
+error = "#ab7503"
+info = "#ca8a04"
+
+# Example usage:
+# palette = "prism_golden_haze"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

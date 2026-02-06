@@ -1,0 +1,32 @@
+# Prism Midnight Sapphire - Alacritty
+[colors.primary]
+background = "#050810"
+foreground = "#e0e8f8"
+
+[colors.cursor]
+cursor = "#c0c0d0"
+text = "#050810"
+
+[colors.selection]
+background = "#0a1018"
+text = "#e0e8f8"
+
+[colors.normal]
+black = "#050810"
+red = "#a3a3b0"
+green = "#c6c6d4"
+yellow = "#6e7786"
+blue = "#c0c0d0"
+magenta = "#90909c"
+cyan = "#ccccd9"
+white = "#e0e8f8"
+
+[colors.bright]
+black = "#4a5568"
+red = "#c0c0d0"
+green = "#ccccd9"
+yellow = "#e0e8f8"
+blue = "#c9c9d7"
+magenta = "#acacbb"
+cyan = "#d2d2de"
+white = "#e3eaf8"

@@ -1,0 +1,32 @@
+# Prism Twilight Lagoon - Alacritty
+[colors.primary]
+background = "#191724"
+foreground = "#c4a7e7"
+
+[colors.cursor]
+cursor = "#31748f"
+text = "#191724"
+
+[colors.selection]
+background = "#21202e"
+text = "#c4a7e7"
+
+[colors.normal]
+black = "#191724"
+red = "#296279"
+green = "#45819a"
+yellow = "#efc9c7"
+blue = "#31748f"
+magenta = "#24576b"
+cyan = "#5a8fa5"
+white = "#c4a7e7"
+
+[colors.bright]
+black = "#ebbcba"
+red = "#31748f"
+green = "#5a8fa5"
+yellow = "#c4a7e7"
+blue = "#4f889f"
+magenta = "#2c6880"
+cyan = "#6e9db0"
+white = "#c9afe9"

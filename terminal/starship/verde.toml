@@ -1,0 +1,19 @@
+# Prism Verde - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_verde]
+background = "#0a0a0a"
+foreground = "#f0ece0"
+accent = "#3cb878"
+muted = "#6a6560"
+success = "#4fbf85"
+warning = "#87837f"
+error = "#339c66"
+info = "#3cb878"
+
+# Example usage:
+# palette = "prism_verde"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

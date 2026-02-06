@@ -1,0 +1,73 @@
+# Prism Synthwave - Helix
+# Place in ~/.config/helix/themes/synthwave.toml
+
+"ui.background" = { bg = "#0a0014" }
+"ui.text" = "#e0d0f0"
+"ui.text.focus" = "#ff00ff"
+"ui.cursor" = { bg = "#ff00ff", fg = "#0a0014" }
+"ui.cursor.match" = { bg = "#4a0fd0" }
+"ui.selection" = { bg = "#4a0fd0" }
+"ui.linenr" = "#8060a0"
+"ui.linenr.selected" = "#e0d0f0"
+"ui.cursorline.primary" = { bg = "#4a0fd0" }
+"ui.statusline" = { fg = "#e0d0f0", bg = "#0a0014" }
+"ui.statusline.inactive" = { fg = "#8060a0", bg = "#0a0014" }
+"ui.popup" = { bg = "#0a0014" }
+"ui.menu" = { bg = "#0a0014" }
+"ui.menu.selected" = { bg = "#4a0fd0" }
+"ui.help" = { fg = "#e0d0f0", bg = "#0a0014" }
+
+"comment" = { fg = "#8060a0", modifiers = ["italic"] }
+"keyword" = { fg = "#ff00ff", modifiers = ["bold"] }
+"keyword.control" = "#ff00ff"
+"keyword.function" = "#ff00ff"
+"keyword.return" = "#ff00ff"
+"keyword.exception" = "#ff00ff"
+"keyword.operator" = "#ff00ff"
+
+"string" = "#00ffff"
+"string.special" = "#00ffff"
+
+"function" = "#ff79c6"
+"function.builtin" = "#ff79c6"
+"function.method" = "#ff79c6"
+"function.macro" = "#ff79c6"
+
+"constant" = "#f1fa8c"
+"constant.numeric" = "#f1fa8c"
+"constant.character" = "#00ffff"
+"constant.builtin" = "#f1fa8c"
+
+"type" = "#F72585"
+"type.builtin" = "#F72585"
+
+"variable" = "#e0d0f0"
+"variable.builtin" = "#ff00ff"
+"variable.parameter" = "#e0d0f0"
+
+"attribute" = "#f97e72"
+"namespace" = "#F72585"
+
+"operator" = "#ff00ff"
+"punctuation" = "#e0d0f0"
+"punctuation.delimiter" = "#e0d0f0"
+"punctuation.bracket" = "#e0d0f0"
+
+"label" = "#ff00ff"
+"tag" = "#7209B7"
+
+"markup.heading" = { fg = "#ff00ff", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#ff00ff"
+"markup.link.text" = "#00ffff"
+"markup.raw" = "#00ffff"
+
+"diff.plus" = "#8021be"
+"diff.minus" = "#60079b"
+"diff.delta" = "#773bbd"
+
+[palette]
+background = "#0a0014"
+foreground = "#e0d0f0"
+accent = "#7209B7"

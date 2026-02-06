@@ -1,0 +1,32 @@
+# Prism Diamond Dust - Alacritty
+[colors.primary]
+background = "#08090d"
+foreground = "#e8f0ff"
+
+[colors.cursor]
+cursor = "#38bdf8"
+text = "#08090d"
+
+[colors.selection]
+background = "#0f1118"
+text = "#e8f0ff"
+
+[colors.normal]
+black = "#08090d"
+red = "#2fa0d2"
+green = "#4bc3f8"
+yellow = "#73777f"
+blue = "#38bdf8"
+magenta = "#2a8dba"
+cyan = "#5fcaf9"
+white = "#e8f0ff"
+
+[colors.bright]
+black = "#505560"
+red = "#38bdf8"
+green = "#5fcaf9"
+yellow = "#e8f0ff"
+blue = "#55c6f9"
+magenta = "#32aadf"
+cyan = "#73d0fa"
+white = "#eaf1ff"

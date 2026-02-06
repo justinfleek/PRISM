@@ -1,0 +1,19 @@
+# Prism Amethyst Dusk - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_amethyst_dusk]
+background = "#282a36"
+foreground = "#f1fa8c"
+accent = "#ff79c6"
+muted = "#6272a4"
+success = "#c39df9"
+warning = "#ff93d1"
+error = "#a07cd3"
+info = "#bd93f9"
+
+# Example usage:
+# palette = "prism_amethyst_dusk"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

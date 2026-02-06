@@ -1,0 +1,23 @@
+{
+  "name": "Prism Lavender Dusk",
+  "background": "#10081a",
+  "foreground": "#e0d0f0",
+  "cursorColor": "#b388ff",
+  "selectionBackground": "#181020",
+  "black": "#10081a",
+  "red": "#9873d8",
+  "green": "#ba93ff",
+  "yellow": "#8c739f",
+  "blue": "#b388ff",
+  "purple": "#8666bf",
+  "cyan": "#c29fff",
+  "white": "#e0d0f0",
+  "brightBlack": "#705088",
+  "brightRed": "#b388ff",
+  "brightGreen": "#c29fff",
+  "brightYellow": "#e0d0f0",
+  "brightBlue": "#be99ff",
+  "brightPurple": "#a17ae5",
+  "brightCyan": "#c9abff",
+  "brightWhite": "#e3d4f1"
+}

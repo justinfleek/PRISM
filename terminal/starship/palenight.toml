@@ -1,0 +1,19 @@
+# Prism Palenight - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_palenight]
+background = "#1b1e2b"
+foreground = "#a6accd"
+accent = "#c792ea"
+muted = "#676e95"
+success = "#cc9cec"
+warning = "#858baa"
+error = "#a97cc6"
+info = "#c792ea"
+
+# Example usage:
+# palette = "prism_palenight"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

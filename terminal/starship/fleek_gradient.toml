@@ -1,0 +1,19 @@
+# Prism Fleek Gradient - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_fleek_gradient]
+background = "#0b0b0b"
+foreground = "#ffffff"
+accent = "#ff6600"
+muted = "#0090ff"
+success = "#ffe83e"
+warning = "#33a6ff"
+error = "#d8c322"
+info = "#ffe629"
+
+# Example usage:
+# palette = "prism_fleek_gradient"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

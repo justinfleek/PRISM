@@ -1,0 +1,23 @@
+{
+  "name": "Prism Acid Rain",
+  "background": "#0d1117",
+  "foreground": "#bc8cff",
+  "cursorColor": "#58a6ff",
+  "selectionBackground": "#161b22",
+  "black": "#0d1117",
+  "red": "#4a8dd8",
+  "green": "#68aeff",
+  "yellow": "#97eb9f",
+  "blue": "#58a6ff",
+  "purple": "#427cbf",
+  "cyan": "#79b7ff",
+  "white": "#bc8cff",
+  "brightBlack": "#7ee787",
+  "brightRed": "#58a6ff",
+  "brightGreen": "#79b7ff",
+  "brightYellow": "#bc8cff",
+  "brightBlue": "#71b3ff",
+  "brightPurple": "#4f95e5",
+  "brightCyan": "#8ac0ff",
+  "brightWhite": "#c297ff"
+}

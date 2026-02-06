@@ -1,0 +1,32 @@
+# Prism Ocean - Alacritty
+[colors.primary]
+background = "#0a1820"
+foreground = "#348FD5"
+
+[colors.cursor]
+cursor = "#34A0A4"
+text = "#0a1820"
+
+[colors.selection]
+background = "#0f2e45"
+text = "#348FD5"
+
+[colors.normal]
+black = "#0A2133"
+red = "#2c888b"
+green = "#48a9ad"
+yellow = "#3e7789"
+blue = "#34A0A4"
+magenta = "#27787b"
+cyan = "#5cb3b6"
+white = "#348FD5"
+
+[colors.bright]
+black = "#0E566C"
+red = "#34A0A4"
+green = "#5cb3b6"
+yellow = "#348FD5"
+blue = "#52aeb1"
+magenta = "#2e9093"
+cyan = "#70bcbf"
+white = "#489ad9"

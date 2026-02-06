@@ -1,0 +1,36 @@
+{
+  "name": "opencode-prism",
+  "version": "1.0.0",
+  "description": "64 curated themes for OpenCode",
+  "developer": "j-pyxal",
+  "author": {
+    "name": "Omega Agentic",
+    "url": "https://omega.ms"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinfleek/PRISM"
+  },
+  "homepage": "https://omega.ms",
+  "keywords": [
+    "opencode",
+    "themes",
+    "color-themes",
+    "base16",
+    "wcag",
+    "dark-theme",
+    "light-theme",
+    "prism"
+  ],
+  "files": [
+    "themes/*.json",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "install-themes": "bash install.sh",
+    "count": "ls themes/*.json | wc -l"
+  }
+}

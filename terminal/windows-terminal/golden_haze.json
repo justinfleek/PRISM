@@ -1,0 +1,23 @@
+{
+  "name": "Prism Golden Haze",
+  "background": "#e8eaee",
+  "foreground": "#1a1c20",
+  "cursorColor": "#ca8a04",
+  "selectionBackground": "#e8eaee",
+  "black": "#1a1c20",
+  "red": "#ab7503",
+  "green": "#cf951d",
+  "yellow": "#707478",
+  "blue": "#ca8a04",
+  "purple": "#976703",
+  "cyan": "#d4a136",
+  "white": "#e8eaee",
+  "brightBlack": "#707478",
+  "brightRed": "#ca8a04",
+  "brightGreen": "#d4a136",
+  "brightYellow": "#7e8185",
+  "brightBlue": "#d19b29",
+  "brightPurple": "#b57c03",
+  "brightCyan": "#d9ad4f",
+  "brightWhite": "#e9ebee"
+}

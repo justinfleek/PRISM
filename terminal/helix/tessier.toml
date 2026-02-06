@@ -1,0 +1,73 @@
+# Prism Tessier - Helix
+# Place in ~/.config/helix/themes/tessier.toml
+
+"ui.background" = { bg = "#ffffff" }
+"ui.text" = "#1a2028"
+"ui.text.focus" = "#0758c9"
+"ui.cursor" = { bg = "#0758c9", fg = "#ffffff" }
+"ui.cursor.match" = { bg = "#f0f3f6" }
+"ui.selection" = { bg = "#f0f3f6" }
+"ui.linenr" = "#6b7a8a"
+"ui.linenr.selected" = "#1a2028"
+"ui.cursorline.primary" = { bg = "#f0f3f6" }
+"ui.statusline" = { fg = "#1a2028", bg = "#ffffff" }
+"ui.statusline.inactive" = { fg = "#6b7a8a", bg = "#ffffff" }
+"ui.popup" = { bg = "#ffffff" }
+"ui.menu" = { bg = "#ffffff" }
+"ui.menu.selected" = { bg = "#f0f3f6" }
+"ui.help" = { fg = "#1a2028", bg = "#ffffff" }
+
+"comment" = { fg = "#6b7a8a", modifiers = ["italic"] }
+"keyword" = { fg = "#0758c9", modifiers = ["bold"] }
+"keyword.control" = "#0758c9"
+"keyword.function" = "#0758c9"
+"keyword.return" = "#0758c9"
+"keyword.exception" = "#0758c9"
+"keyword.operator" = "#0758c9"
+
+"string" = "#054090"
+"string.special" = "#054090"
+
+"function" = "#1a70e0"
+"function.builtin" = "#1a70e0"
+"function.method" = "#1a70e0"
+"function.macro" = "#1a70e0"
+
+"constant" = "#3080d0"
+"constant.numeric" = "#3080d0"
+"constant.character" = "#054090"
+"constant.builtin" = "#3080d0"
+
+"type" = "#0550b0"
+"type.builtin" = "#0550b0"
+
+"variable" = "#1a2028"
+"variable.builtin" = "#0758c9"
+"variable.parameter" = "#1a2028"
+
+"attribute" = "#064fb4"
+"namespace" = "#0550b0"
+
+"operator" = "#0758c9"
+"punctuation" = "#1a2028"
+"punctuation.delimiter" = "#1a2028"
+"punctuation.bracket" = "#1a2028"
+
+"label" = "#0758c9"
+"tag" = "#257cf7"
+
+"markup.heading" = { fg = "#0758c9", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#0758c9"
+"markup.link.text" = "#054090"
+"markup.raw" = "#054090"
+
+"diff.plus" = "#1f68ce"
+"diff.minus" = "#054aaa"
+"diff.delta" = "#6b7a8a"
+
+[palette]
+background = "#ffffff"
+foreground = "#1a2028"
+accent = "#0758c9"

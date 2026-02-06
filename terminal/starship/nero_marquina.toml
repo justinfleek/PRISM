@@ -1,0 +1,19 @@
+# Prism Nero Marquina - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_nero_marquina]
+background = "#08080a"
+foreground = "#e8e4dc"
+accent = "#d4af37"
+muted = "#5a5a68"
+success = "#d8b74b"
+warning = "#7b7b86"
+error = "#b4942e"
+info = "#d4af37"
+
+# Example usage:
+# palette = "prism_nero_marquina"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

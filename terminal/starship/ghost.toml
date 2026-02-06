@@ -1,0 +1,19 @@
+# Prism Ghost - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_ghost]
+background = "#e8ecf0"
+foreground = "#384452"
+accent = "#2060a0"
+muted = "#7a8a9c"
+success = "#538cc9"
+warning = "#7a8a9c"
+error = "#366ca6"
+info = "#4080c4"
+
+# Example usage:
+# palette = "prism_ghost"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

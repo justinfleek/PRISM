@@ -1,0 +1,32 @@
+# Prism Verde Light - Alacritty
+[colors.primary]
+background = "#fafaf8"
+foreground = "#1a1a18"
+
+[colors.cursor]
+cursor = "#2a9860"
+text = "#fafaf8"
+
+[colors.selection]
+background = "#f0f0ee"
+text = "#1a1a18"
+
+[colors.normal]
+black = "#1a1a18"
+red = "#238151"
+green = "#3fa26f"
+yellow = "#6a6a68"
+blue = "#2a9860"
+magenta = "#1f7248"
+cyan = "#54ac7f"
+white = "#fafaf8"
+
+[colors.bright]
+black = "#6a6a68"
+red = "#2a9860"
+green = "#54ac7f"
+yellow = "#787877"
+blue = "#49a777"
+magenta = "#258856"
+cyan = "#69b68f"
+white = "#fafaf8"

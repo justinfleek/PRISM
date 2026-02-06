@@ -1,0 +1,23 @@
+{
+  "name": "Prism Faded Glory",
+  "background": "#FDF0D5",
+  "foreground": "#003049",
+  "cursorColor": "#C1121F",
+  "selectionBackground": "#f0e3c6",
+  "black": "#003049",
+  "red": "#a40f1a",
+  "green": "#c72935",
+  "yellow": "#669BBC",
+  "blue": "#C1121F",
+  "purple": "#900d17",
+  "cyan": "#ca3540",
+  "white": "#FDF0D5",
+  "brightBlack": "#669BBC",
+  "brightRed": "#C1121F",
+  "brightGreen": "#ca3540",
+  "brightYellow": "#75a5c2",
+  "brightBlue": "#c72935",
+  "brightPurple": "#ad101b",
+  "brightCyan": "#d04d57",
+  "brightWhite": "#fdf0d7"
+}

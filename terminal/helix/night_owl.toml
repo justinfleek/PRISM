@@ -1,0 +1,73 @@
+# Prism Night Owl - Helix
+# Place in ~/.config/helix/themes/night_owl.toml
+
+"ui.background" = { bg = "#011627" }
+"ui.text" = "#d6deeb"
+"ui.text.focus" = "#c792ea"
+"ui.cursor" = { bg = "#c792ea", fg = "#011627" }
+"ui.cursor.match" = { bg = "#051e32" }
+"ui.selection" = { bg = "#051e32" }
+"ui.linenr" = "#82aaff"
+"ui.linenr.selected" = "#d6deeb"
+"ui.cursorline.primary" = { bg = "#051e32" }
+"ui.statusline" = { fg = "#d6deeb", bg = "#011627" }
+"ui.statusline.inactive" = { fg = "#82aaff", bg = "#011627" }
+"ui.popup" = { bg = "#011627" }
+"ui.menu" = { bg = "#011627" }
+"ui.menu.selected" = { bg = "#051e32" }
+"ui.help" = { fg = "#d6deeb", bg = "#011627" }
+
+"comment" = { fg = "#82aaff", modifiers = ["italic"] }
+"keyword" = { fg = "#c792ea", modifiers = ["bold"] }
+"keyword.control" = "#c792ea"
+"keyword.function" = "#c792ea"
+"keyword.return" = "#c792ea"
+"keyword.exception" = "#c792ea"
+"keyword.operator" = "#c792ea"
+
+"string" = "#ecc48d"
+"string.special" = "#ecc48d"
+
+"function" = "#82aaff"
+"function.builtin" = "#82aaff"
+"function.method" = "#82aaff"
+"function.macro" = "#82aaff"
+
+"constant" = "#ff5874"
+"constant.numeric" = "#ff5874"
+"constant.character" = "#ecc48d"
+"constant.builtin" = "#ff5874"
+
+"type" = "#ffcb8b"
+"type.builtin" = "#ffcb8b"
+
+"variable" = "#d6deeb"
+"variable.builtin" = "#c792ea"
+"variable.parameter" = "#d6deeb"
+
+"attribute" = "#cfa2ed"
+"namespace" = "#ffcb8b"
+
+"operator" = "#c792ea"
+"punctuation" = "#d6deeb"
+"punctuation.delimiter" = "#d6deeb"
+"punctuation.bracket" = "#d6deeb"
+
+"label" = "#c792ea"
+"tag" = "#ecc48d"
+
+"markup.heading" = { fg = "#c792ea", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#c792ea"
+"markup.link.text" = "#ecc48d"
+"markup.raw" = "#ecc48d"
+
+"diff.plus" = "#cc9cec"
+"diff.minus" = "#a97cc6"
+"diff.delta" = "#9bbbff"
+
+[palette]
+background = "#011627"
+foreground = "#d6deeb"
+accent = "#c792ea"

@@ -1,0 +1,73 @@
+# Prism Nero Marquina - Helix
+# Place in ~/.config/helix/themes/nero_marquina.toml
+
+"ui.background" = { bg = "#08080a" }
+"ui.text" = "#e8e4dc"
+"ui.text.focus" = "#d4af37"
+"ui.cursor" = { bg = "#d4af37", fg = "#08080a" }
+"ui.cursor.match" = { bg = "#101014" }
+"ui.selection" = { bg = "#101014" }
+"ui.linenr" = "#5a5a68"
+"ui.linenr.selected" = "#e8e4dc"
+"ui.cursorline.primary" = { bg = "#101014" }
+"ui.statusline" = { fg = "#e8e4dc", bg = "#08080a" }
+"ui.statusline.inactive" = { fg = "#5a5a68", bg = "#08080a" }
+"ui.popup" = { bg = "#08080a" }
+"ui.menu" = { bg = "#08080a" }
+"ui.menu.selected" = { bg = "#101014" }
+"ui.help" = { fg = "#e8e4dc", bg = "#08080a" }
+
+"comment" = { fg = "#5a5a68", modifiers = ["italic"] }
+"keyword" = { fg = "#d4af37", modifiers = ["bold"] }
+"keyword.control" = "#d4af37"
+"keyword.function" = "#d4af37"
+"keyword.return" = "#d4af37"
+"keyword.exception" = "#d4af37"
+"keyword.operator" = "#d4af37"
+
+"string" = "#e0c773"
+"string.special" = "#e0c773"
+
+"function" = "#dec369"
+"function.builtin" = "#dec369"
+"function.method" = "#dec369"
+"function.macro" = "#dec369"
+
+"constant" = "#dcbf5f"
+"constant.numeric" = "#dcbf5f"
+"constant.character" = "#e0c773"
+"constant.builtin" = "#dcbf5f"
+
+"type" = "#e8e4dc"
+"type.builtin" = "#e8e4dc"
+
+"variable" = "#e8e4dc"
+"variable.builtin" = "#d4af37"
+"variable.parameter" = "#e8e4dc"
+
+"attribute" = "#e9e5dd"
+"namespace" = "#e8e4dc"
+
+"operator" = "#d4af37"
+"punctuation" = "#e8e4dc"
+"punctuation.delimiter" = "#e8e4dc"
+"punctuation.bracket" = "#e8e4dc"
+
+"label" = "#d4af37"
+"tag" = "#e0c773"
+
+"markup.heading" = { fg = "#d4af37", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#d4af37"
+"markup.link.text" = "#e0c773"
+"markup.raw" = "#e0c773"
+
+"diff.plus" = "#d8b74b"
+"diff.minus" = "#b4942e"
+"diff.delta" = "#7b7b86"
+
+[palette]
+background = "#08080a"
+foreground = "#e8e4dc"
+accent = "#d4af37"

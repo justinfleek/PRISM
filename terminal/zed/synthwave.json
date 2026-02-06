@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Synthwave",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Synthwave",
+      "appearance": "#F72585",
+      "style": {
+        "background": "#0a0014",
+        "editor.background": "#0a0014",
+        "editor.foreground": "#e0d0f0",
+        "editor.gutter.background": "#0a0014",
+        "editor.line_highlight.background": "#4a0fd0",
+        "editor.active_line_number": "#e0d0f0",
+        "editor.wrap_guide": "#8060a0",
+        "terminal.background": "#0a0014",
+        "terminal.foreground": "#e0d0f0",
+        "terminal.ansi.black": "#3A0CA3",
+        "terminal.ansi.red": "#60079b",
+        "terminal.ansi.green": "#8021be",
+        "terminal.ansi.yellow": "#773bbd",
+        "terminal.ansi.blue": "#7209B7",
+        "terminal.ansi.magenta": "#550689",
+        "terminal.ansi.cyan": "#8e3ac5",
+        "terminal.ansi.white": "#F72585",
+        "syntax": {
+          "comment": {
+            "color": "#8060a0",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#ff00ff",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#00ffff"
+          },
+          "function": {
+            "color": "#ff79c6"
+          },
+          "number": {
+            "color": "#f1fa8c"
+          },
+          "type": {
+            "color": "#F72585"
+          },
+          "variable": {
+            "color": "#e0d0f0"
+          },
+          "constant": {
+            "color": "#f1fa8c"
+          },
+          "attribute": {
+            "color": "#f97e72"
+          },
+          "property": {
+            "color": "#e0d0f0"
+          },
+          "punctuation": {
+            "color": "#e0d0f0"
+          },
+          "operator": {
+            "color": "#ff00ff"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Prism Midnight Sapphire - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_midnight_sapphire]
+background = "#050810"
+foreground = "#e0e8f8"
+accent = "#6090d0"
+muted = "#606878"
+success = "#c6c6d4"
+warning = "#6e7786"
+error = "#a3a3b0"
+info = "#c0c0d0"
+
+# Example usage:
+# palette = "prism_midnight_sapphire"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

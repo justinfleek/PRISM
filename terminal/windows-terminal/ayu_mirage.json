@@ -1,0 +1,23 @@
+{
+  "name": "Prism Ayu Mirage",
+  "background": "#1f2430",
+  "foreground": "#cccac2",
+  "cursorColor": "#ffcc66",
+  "selectionBackground": "#242936",
+  "black": "#1f2430",
+  "red": "#d8ad56",
+  "green": "#ffd175",
+  "yellow": "#7c858f",
+  "blue": "#ffcc66",
+  "purple": "#bf994c",
+  "cyan": "#ffd684",
+  "white": "#cccac2",
+  "brightBlack": "#5c6773",
+  "brightRed": "#ffcc66",
+  "brightGreen": "#ffd684",
+  "brightYellow": "#cccac2",
+  "brightBlue": "#ffd37c",
+  "brightPurple": "#e5b75b",
+  "brightCyan": "#ffdb93",
+  "brightWhite": "#d1cfc8"
+}

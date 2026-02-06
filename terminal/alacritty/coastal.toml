@@ -1,0 +1,32 @@
+# Prism Coastal - Alacritty
+[colors.primary]
+background = "#001219"
+foreground = "#E9D8A6"
+
+[colors.cursor]
+cursor = "#0A9396"
+text = "#001219"
+
+[colors.selection]
+background = "#051e26"
+text = "#E9D8A6"
+
+[colors.normal]
+black = "#001219"
+red = "#087c7f"
+green = "#229da0"
+yellow = "#337f8f"
+blue = "#0A9396"
+magenta = "#076e70"
+cyan = "#3ba8ab"
+white = "#E9D8A6"
+
+[colors.bright]
+black = "#005F73"
+red = "#0A9396"
+green = "#3ba8ab"
+yellow = "#E9D8A6"
+blue = "#2ea3a5"
+magenta = "#098487"
+cyan = "#53b3b5"
+white = "#ebdbae"

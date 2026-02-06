@@ -1,0 +1,19 @@
+# Prism Emerald Velvet - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_emerald_velvet]
+background = "#0a0f0a"
+foreground = "#d8e0d0"
+accent = "#d4af37"
+muted = "#606050"
+success = "#d8b74b"
+warning = "#6c796c"
+error = "#b4942e"
+info = "#d4af37"
+
+# Example usage:
+# palette = "prism_emerald_velvet"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Soft Charcoal",
+  "background": "#2a2a32",
+  "foreground": "#e8e8f0",
+  "cursorColor": "#fbbf24",
+  "selectionBackground": "#2a2a32",
+  "black": "#2a2a32",
+  "red": "#d5a21e",
+  "green": "#fbc539",
+  "yellow": "#8c8c94",
+  "blue": "#fbbf24",
+  "purple": "#bc8f1b",
+  "cyan": "#fbcb4f",
+  "white": "#e8e8f0",
+  "brightBlack": "#70707a",
+  "brightRed": "#fbbf24",
+  "brightGreen": "#fbcb4f",
+  "brightYellow": "#e8e8f0",
+  "brightBlue": "#fbc844",
+  "brightPurple": "#e1ab20",
+  "brightCyan": "#fcd265",
+  "brightWhite": "#eaeaf1"
+}

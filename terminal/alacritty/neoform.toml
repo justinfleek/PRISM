@@ -1,0 +1,32 @@
+# Prism Neoform - Alacritty
+[colors.primary]
+background = "#f5f7fa"
+foreground = "#2d3848"
+
+[colors.cursor]
+cursor = "#0969da"
+text = "#f5f7fa"
+
+[colors.selection]
+background = "#e8ecf2"
+text = "#2d3848"
+
+[colors.normal]
+black = "#2d3848"
+red = "#0759b9"
+green = "#2178dd"
+yellow = "#8896a8"
+blue = "#0969da"
+magenta = "#064ea3"
+cyan = "#2d7fdf"
+white = "#e8ecf2"
+
+[colors.bright]
+black = "#8896a8"
+red = "#0969da"
+green = "#2d7fdf"
+yellow = "#93a0b0"
+blue = "#2178dd"
+magenta = "#085ec4"
+cyan = "#468ee3"
+white = "#e9ecf2"

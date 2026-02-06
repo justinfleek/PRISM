@@ -1,0 +1,73 @@
+# Prism Verde Light - Helix
+# Place in ~/.config/helix/themes/verde_light.toml
+
+"ui.background" = { bg = "#fafaf8" }
+"ui.text" = "#1a1a18"
+"ui.text.focus" = "#2a9860"
+"ui.cursor" = { bg = "#2a9860", fg = "#fafaf8" }
+"ui.cursor.match" = { bg = "#f0f0ee" }
+"ui.selection" = { bg = "#f0f0ee" }
+"ui.linenr" = "#6a6a68"
+"ui.linenr.selected" = "#1a1a18"
+"ui.cursorline.primary" = { bg = "#f0f0ee" }
+"ui.statusline" = { fg = "#1a1a18", bg = "#fafaf8" }
+"ui.statusline.inactive" = { fg = "#6a6a68", bg = "#fafaf8" }
+"ui.popup" = { bg = "#fafaf8" }
+"ui.menu" = { bg = "#fafaf8" }
+"ui.menu.selected" = { bg = "#f0f0ee" }
+"ui.help" = { fg = "#1a1a18", bg = "#fafaf8" }
+
+"comment" = { fg = "#6a6a68", modifiers = ["italic"] }
+"keyword" = { fg = "#2a9860", modifiers = ["bold"] }
+"keyword.control" = "#2a9860"
+"keyword.function" = "#2a9860"
+"keyword.return" = "#2a9860"
+"keyword.exception" = "#2a9860"
+"keyword.operator" = "#2a9860"
+
+"string" = "#238151"
+"string.special" = "#238151"
+
+"function" = "#27905b"
+"function.builtin" = "#27905b"
+"function.method" = "#27905b"
+"function.macro" = "#27905b"
+
+"constant" = "#258856"
+"constant.numeric" = "#258856"
+"constant.character" = "#238151"
+"constant.builtin" = "#258856"
+
+"type" = "#1a1a18"
+"type.builtin" = "#1a1a18"
+
+"variable" = "#1a1a18"
+"variable.builtin" = "#2a9860"
+"variable.parameter" = "#1a1a18"
+
+"attribute" = "#181816"
+"namespace" = "#1a1a18"
+
+"operator" = "#2a9860"
+"punctuation" = "#1a1a18"
+"punctuation.delimiter" = "#1a1a18"
+"punctuation.bracket" = "#1a1a18"
+
+"label" = "#2a9860"
+"tag" = "#238151"
+
+"markup.heading" = { fg = "#2a9860", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#2a9860"
+"markup.link.text" = "#238151"
+"markup.raw" = "#238151"
+
+"diff.plus" = "#3fa26f"
+"diff.minus" = "#238151"
+"diff.delta" = "#6a6a68"
+
+[palette]
+background = "#fafaf8"
+foreground = "#1a1a18"
+accent = "#2a9860"

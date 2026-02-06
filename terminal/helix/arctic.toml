@@ -1,0 +1,73 @@
+# Prism Arctic - Helix
+# Place in ~/.config/helix/themes/arctic.toml
+
+"ui.background" = { bg = "#0A090C" }
+"ui.text" = "#F0EDEE"
+"ui.text.focus" = "#2C666E"
+"ui.cursor" = { bg = "#2C666E", fg = "#0A090C" }
+"ui.cursor.match" = { bg = "#151316" }
+"ui.selection" = { bg = "#151316" }
+"ui.linenr" = "#4a6670"
+"ui.linenr.selected" = "#F0EDEE"
+"ui.cursorline.primary" = { bg = "#151316" }
+"ui.statusline" = { fg = "#F0EDEE", bg = "#0A090C" }
+"ui.statusline.inactive" = { fg = "#4a6670", bg = "#0A090C" }
+"ui.popup" = { bg = "#0A090C" }
+"ui.menu" = { bg = "#0A090C" }
+"ui.menu.selected" = { bg = "#151316" }
+"ui.help" = { fg = "#F0EDEE", bg = "#0A090C" }
+
+"comment" = { fg = "#4a6670", modifiers = ["italic"] }
+"keyword" = { fg = "#2C666E", modifiers = ["bold"] }
+"keyword.control" = "#2C666E"
+"keyword.function" = "#2C666E"
+"keyword.return" = "#2C666E"
+"keyword.exception" = "#2C666E"
+"keyword.operator" = "#2C666E"
+
+"string" = "#6b9399"
+"string.special" = "#6b9399"
+
+"function" = "#608c92"
+"function.builtin" = "#608c92"
+"function.method" = "#608c92"
+"function.macro" = "#608c92"
+
+"constant" = "#56848b"
+"constant.numeric" = "#56848b"
+"constant.character" = "#6b9399"
+"constant.builtin" = "#56848b"
+
+"type" = "#F0EDEE"
+"type.builtin" = "#F0EDEE"
+
+"variable" = "#F0EDEE"
+"variable.builtin" = "#2C666E"
+"variable.parameter" = "#F0EDEE"
+
+"attribute" = "#8eb4ba"
+"namespace" = "#F0EDEE"
+
+"operator" = "#2C666E"
+"punctuation" = "#F0EDEE"
+"punctuation.delimiter" = "#F0EDEE"
+"punctuation.bracket" = "#F0EDEE"
+
+"label" = "#2C666E"
+"tag" = "#2C666E"
+
+"markup.heading" = { fg = "#2C666E", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#2C666E"
+"markup.link.text" = "#6b9399"
+"markup.raw" = "#6b9399"
+
+"diff.plus" = "#41757c"
+"diff.minus" = "#25565d"
+"diff.delta" = "#386063"
+
+[palette]
+background = "#0A090C"
+foreground = "#F0EDEE"
+accent = "#2C666E"

@@ -1,0 +1,19 @@
+# Prism Rose Gold - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_rose_gold]
+background = "#8a2d4f"
+foreground = "#f7dcbc"
+accent = "#ffa6ab"
+muted = "#a89090"
+success = "#ffaeb3"
+warning = "#e18194"
+error = "#d88d91"
+info = "#ffa6ab"
+
+# Example usage:
+# palette = "prism_rose_gold"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

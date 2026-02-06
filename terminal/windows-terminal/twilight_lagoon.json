@@ -1,0 +1,23 @@
+{
+  "name": "Prism Twilight Lagoon",
+  "background": "#191724",
+  "foreground": "#c4a7e7",
+  "cursorColor": "#31748f",
+  "selectionBackground": "#21202e",
+  "black": "#191724",
+  "red": "#296279",
+  "green": "#45819a",
+  "yellow": "#efc9c7",
+  "blue": "#31748f",
+  "purple": "#24576b",
+  "cyan": "#5a8fa5",
+  "white": "#c4a7e7",
+  "brightBlack": "#ebbcba",
+  "brightRed": "#31748f",
+  "brightGreen": "#5a8fa5",
+  "brightYellow": "#c4a7e7",
+  "brightBlue": "#4f889f",
+  "brightPurple": "#2c6880",
+  "brightCyan": "#6e9db0",
+  "brightWhite": "#c9afe9"
+}

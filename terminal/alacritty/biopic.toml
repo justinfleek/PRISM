@@ -1,0 +1,32 @@
+# Prism Biopic - Alacritty
+[colors.primary]
+background = "#faf8f5"
+foreground = "#33302a"
+
+[colors.cursor]
+cursor = "#0969da"
+text = "#faf8f5"
+
+[colors.selection]
+background = "#f0ece5"
+text = "#33302a"
+
+[colors.normal]
+black = "#33302a"
+red = "#0759b9"
+green = "#2178dd"
+yellow = "#8a8378"
+blue = "#0969da"
+magenta = "#064ea3"
+cyan = "#2d7fdf"
+white = "#faf8f5"
+
+[colors.bright]
+black = "#8a8378"
+red = "#0969da"
+green = "#2d7fdf"
+yellow = "#958f85"
+blue = "#2178dd"
+magenta = "#085ec4"
+cyan = "#468ee3"
+white = "#faf8f5"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Biopic",
+  "background": "#faf8f5",
+  "foreground": "#33302a",
+  "cursorColor": "#0969da",
+  "selectionBackground": "#f0ece5",
+  "black": "#33302a",
+  "red": "#0759b9",
+  "green": "#2178dd",
+  "yellow": "#8a8378",
+  "blue": "#0969da",
+  "purple": "#064ea3",
+  "cyan": "#2d7fdf",
+  "white": "#faf8f5",
+  "brightBlack": "#8a8378",
+  "brightRed": "#0969da",
+  "brightGreen": "#2d7fdf",
+  "brightYellow": "#958f85",
+  "brightBlue": "#2178dd",
+  "brightPurple": "#085ec4",
+  "brightCyan": "#468ee3",
+  "brightWhite": "#faf8f5"
+}

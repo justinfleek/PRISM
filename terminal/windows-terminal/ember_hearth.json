@@ -1,0 +1,23 @@
+{
+  "name": "Prism Ember Hearth",
+  "background": "#1a1210",
+  "foreground": "#f8f0e0",
+  "cursorColor": "#ffd93d",
+  "selectionBackground": "#141010",
+  "black": "#0c0908",
+  "red": "#d8b833",
+  "green": "#ffdc50",
+  "yellow": "#7b6e66",
+  "blue": "#ffd93d",
+  "purple": "#bfa22d",
+  "cyan": "#ffe063",
+  "white": "#f8f0e0",
+  "brightBlack": "#5a4a40",
+  "brightRed": "#ffd93d",
+  "brightGreen": "#ffe063",
+  "brightYellow": "#f8f0e0",
+  "brightBlue": "#ffde5a",
+  "brightPurple": "#e5c336",
+  "brightCyan": "#ffe477",
+  "brightWhite": "#f8f1e3"
+}

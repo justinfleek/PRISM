@@ -1,0 +1,23 @@
+{
+  "name": "Prism Inferno",
+  "background": "#180808",
+  "foreground": "#FFDB99",
+  "cursorColor": "#FB590E",
+  "selectionBackground": "#451012",
+  "black": "#320B0C",
+  "red": "#d54b0b",
+  "green": "#fb6926",
+  "yellow": "#e45345",
+  "blue": "#FB590E",
+  "purple": "#bc420a",
+  "cyan": "#fb7a3e",
+  "white": "#FFDB99",
+  "brightBlack": "#DE2817",
+  "brightRed": "#FB590E",
+  "brightGreen": "#fb7a3e",
+  "brightYellow": "#FFDB99",
+  "brightBlue": "#fb7132",
+  "brightPurple": "#e1500c",
+  "brightCyan": "#fc8a56",
+  "brightWhite": "#ffdea3"
+}

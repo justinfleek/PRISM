@@ -1,0 +1,19 @@
+# Prism Arctic - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_arctic]
+background = "#0A090C"
+foreground = "#F0EDEE"
+accent = "#2C666E"
+muted = "#4a6670"
+success = "#41757c"
+warning = "#386063"
+error = "#25565d"
+info = "#2C666E"
+
+# Example usage:
+# palette = "prism_arctic"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

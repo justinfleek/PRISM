@@ -1,0 +1,32 @@
+# Prism Tokyo Night Bento - Alacritty
+[colors.primary]
+background = "#0f0f18"
+foreground = "#e8e8f0"
+
+[colors.cursor]
+cursor = "#bb9af7"
+text = "#0f0f18"
+
+[colors.selection]
+background = "#16161f"
+text = "#e8e8f0"
+
+[colors.normal]
+black = "#0f0f18"
+red = "#9e82d1"
+green = "#c1a4f7"
+yellow = "#7b7b87"
+blue = "#bb9af7"
+magenta = "#8c73b9"
+cyan = "#c8aef8"
+white = "#e8e8f0"
+
+[colors.bright]
+black = "#5a5a6a"
+red = "#bb9af7"
+green = "#c8aef8"
+yellow = "#e8e8f0"
+blue = "#c5a9f8"
+magenta = "#a88ade"
+cyan = "#cfb8f9"
+white = "#eaeaf1"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Midnight Sapphire",
+  "background": "#050810",
+  "foreground": "#e0e8f8",
+  "cursorColor": "#c0c0d0",
+  "selectionBackground": "#0a1018",
+  "black": "#050810",
+  "red": "#a3a3b0",
+  "green": "#c6c6d4",
+  "yellow": "#6e7786",
+  "blue": "#c0c0d0",
+  "purple": "#90909c",
+  "cyan": "#ccccd9",
+  "white": "#e0e8f8",
+  "brightBlack": "#4a5568",
+  "brightRed": "#c0c0d0",
+  "brightGreen": "#ccccd9",
+  "brightYellow": "#e0e8f8",
+  "brightBlue": "#c9c9d7",
+  "brightPurple": "#acacbb",
+  "brightCyan": "#d2d2de",
+  "brightWhite": "#e3eaf8"
+}

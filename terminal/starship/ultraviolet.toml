@@ -1,0 +1,19 @@
+# Prism Ultraviolet - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_ultraviolet]
+background = "#1a0a2e"
+foreground = "#50fa7b"
+accent = "#ff79c6"
+muted = "#bd93f9"
+success = "#ff86cb"
+warning = "#caa8fa"
+error = "#d866a8"
+info = "#ff79c6"
+
+# Example usage:
+# palette = "prism_ultraviolet"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

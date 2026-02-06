@@ -1,0 +1,32 @@
+# Prism Aurora Glass - Alacritty
+[colors.primary]
+background = "#0a0815"
+foreground = "#e8f0f8"
+
+[colors.cursor]
+cursor = "#a78bfa"
+text = "#0a0815"
+
+[colors.selection]
+background = "#12101f"
+text = "#e8f0f8"
+
+[colors.normal]
+black = "#0a0815"
+red = "#8d76d4"
+green = "#af96fa"
+yellow = "#7b778c"
+blue = "#a78bfa"
+magenta = "#7d68bb"
+cyan = "#b8a2fb"
+white = "#e8f0f8"
+
+[colors.bright]
+black = "#5a5570"
+red = "#a78bfa"
+green = "#b8a2fb"
+yellow = "#e8f0f8"
+blue = "#b49cfa"
+magenta = "#967de1"
+cyan = "#c1adfb"
+white = "#eaf1f8"

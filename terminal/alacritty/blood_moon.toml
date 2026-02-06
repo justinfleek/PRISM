@@ -1,0 +1,32 @@
+# Prism Blood Moon - Alacritty
+[colors.primary]
+background = "#090909"
+foreground = "#f5f5f5"
+
+[colors.cursor]
+cursor = "#d71b1f"
+text = "#090909"
+
+[colors.selection]
+background = "#121212"
+text = "#f5f5f5"
+
+[colors.normal]
+black = "#090909"
+red = "#b6161a"
+green = "#db3135"
+yellow = "#bfb9b7"
+blue = "#d71b1f"
+magenta = "#a11417"
+cyan = "#df484b"
+white = "#f5f5f5"
+
+[colors.bright]
+black = "#b0a8a6"
+red = "#d71b1f"
+green = "#df484b"
+yellow = "#f5f5f5"
+blue = "#dd3d40"
+magenta = "#c1181b"
+cyan = "#e35f62"
+white = "#f6f6f6"

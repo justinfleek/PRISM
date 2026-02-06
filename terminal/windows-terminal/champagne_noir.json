@@ -1,0 +1,23 @@
+{
+  "name": "Prism Champagne Noir",
+  "background": "#0a0a08",
+  "foreground": "#f0ece0",
+  "cursorColor": "#f7e7ce",
+  "selectionBackground": "#121210",
+  "black": "#0a0a08",
+  "red": "#d1c4af",
+  "green": "#f7e9d2",
+  "yellow": "#7b7b77",
+  "blue": "#f7e7ce",
+  "purple": "#b9ad9a",
+  "cyan": "#f8ebd7",
+  "white": "#f0ece0",
+  "brightBlack": "#5a5a55",
+  "brightRed": "#f7e7ce",
+  "brightGreen": "#f8ebd7",
+  "brightYellow": "#f0ece0",
+  "brightBlue": "#f8ead5",
+  "brightPurple": "#decfb9",
+  "brightCyan": "#f9eedc",
+  "brightWhite": "#f1ede3"
+}

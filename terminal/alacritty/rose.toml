@@ -1,0 +1,32 @@
+# Prism Rose - Alacritty
+[colors.primary]
+background = "#140006"
+foreground = "#FAE0E4"
+
+[colors.cursor]
+cursor = "#FF99AC"
+text = "#140006"
+
+[colors.selection]
+background = "#200009"
+text = "#FAE0E4"
+
+[colors.normal]
+black = "#140006"
+red = "#d88292"
+green = "#ffa3b4"
+yellow = "#ff8cab"
+blue = "#FF99AC"
+magenta = "#bf7281"
+cyan = "#ffadbc"
+white = "#FAE0E4"
+
+[colors.bright]
+black = "#FF7096"
+red = "#FF99AC"
+green = "#ffadbc"
+yellow = "#FAE0E4"
+blue = "#ffa8b8"
+magenta = "#e5899a"
+cyan = "#ffb7c4"
+white = "#fae3e6"

@@ -1,0 +1,73 @@
+# Prism Neoform - Helix
+# Place in ~/.config/helix/themes/neoform.toml
+
+"ui.background" = { bg = "#f5f7fa" }
+"ui.text" = "#2d3848"
+"ui.text.focus" = "#0969da"
+"ui.cursor" = { bg = "#0969da", fg = "#f5f7fa" }
+"ui.cursor.match" = { bg = "#e8ecf2" }
+"ui.selection" = { bg = "#e8ecf2" }
+"ui.linenr" = "#8896a8"
+"ui.linenr.selected" = "#2d3848"
+"ui.cursorline.primary" = { bg = "#e8ecf2" }
+"ui.statusline" = { fg = "#2d3848", bg = "#f5f7fa" }
+"ui.statusline.inactive" = { fg = "#8896a8", bg = "#f5f7fa" }
+"ui.popup" = { bg = "#f5f7fa" }
+"ui.menu" = { bg = "#f5f7fa" }
+"ui.menu.selected" = { bg = "#e8ecf2" }
+"ui.help" = { fg = "#2d3848", bg = "#f5f7fa" }
+
+"comment" = { fg = "#8896a8", modifiers = ["italic"] }
+"keyword" = { fg = "#0969da", modifiers = ["bold"] }
+"keyword.control" = "#0969da"
+"keyword.function" = "#0969da"
+"keyword.return" = "#0969da"
+"keyword.exception" = "#0969da"
+"keyword.operator" = "#0969da"
+
+"string" = "#0550a0"
+"string.special" = "#0550a0"
+
+"function" = "#218bff"
+"function.builtin" = "#218bff"
+"function.method" = "#218bff"
+"function.macro" = "#218bff"
+
+"constant" = "#4090d0"
+"constant.numeric" = "#4090d0"
+"constant.character" = "#0550a0"
+"constant.builtin" = "#4090d0"
+
+"type" = "#0754ae"
+"type.builtin" = "#0754ae"
+
+"variable" = "#2d3848"
+"variable.builtin" = "#0969da"
+"variable.parameter" = "#2d3848"
+
+"attribute" = "#085ec4"
+"namespace" = "#0754ae"
+
+"operator" = "#0969da"
+"punctuation" = "#2d3848"
+"punctuation.delimiter" = "#2d3848"
+"punctuation.bracket" = "#2d3848"
+
+"label" = "#0969da"
+"tag" = "#3890f6"
+
+"markup.heading" = { fg = "#0969da", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#0969da"
+"markup.link.text" = "#0550a0"
+"markup.raw" = "#0550a0"
+
+"diff.plus" = "#2178dd"
+"diff.minus" = "#0759b9"
+"diff.delta" = "#8896a8"
+
+[palette]
+background = "#f5f7fa"
+foreground = "#2d3848"
+accent = "#0969da"

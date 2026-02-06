@@ -1,0 +1,32 @@
+# Prism Arctic - Alacritty
+[colors.primary]
+background = "#0A090C"
+foreground = "#F0EDEE"
+
+[colors.cursor]
+cursor = "#2C666E"
+text = "#0A090C"
+
+[colors.selection]
+background = "#151316"
+text = "#F0EDEE"
+
+[colors.normal]
+black = "#0A090C"
+red = "#25565d"
+green = "#41757c"
+yellow = "#386063"
+blue = "#2C666E"
+magenta = "#214c52"
+cyan = "#56848b"
+white = "#F0EDEE"
+
+[colors.bright]
+black = "#07393C"
+red = "#2C666E"
+green = "#56848b"
+yellow = "#F0EDEE"
+blue = "#4b7c83"
+magenta = "#275b63"
+cyan = "#6b9399"
+white = "#f1eeef"

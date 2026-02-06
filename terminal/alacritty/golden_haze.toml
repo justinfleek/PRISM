@@ -1,0 +1,32 @@
+# Prism Golden Haze - Alacritty
+[colors.primary]
+background = "#e8eaee"
+foreground = "#1a1c20"
+
+[colors.cursor]
+cursor = "#ca8a04"
+text = "#e8eaee"
+
+[colors.selection]
+background = "#e8eaee"
+text = "#1a1c20"
+
+[colors.normal]
+black = "#1a1c20"
+red = "#ab7503"
+green = "#cf951d"
+yellow = "#707478"
+blue = "#ca8a04"
+magenta = "#976703"
+cyan = "#d4a136"
+white = "#e8eaee"
+
+[colors.bright]
+black = "#707478"
+red = "#ca8a04"
+green = "#d4a136"
+yellow = "#7e8185"
+blue = "#d19b29"
+magenta = "#b57c03"
+cyan = "#d9ad4f"
+white = "#e9ebee"

@@ -1,0 +1,73 @@
+# Prism Constellation Map - Helix
+# Place in ~/.config/helix/themes/constellation_map.toml
+
+"ui.background" = { bg = "#050608" }
+"ui.text" = "#e8f0ff"
+"ui.text.focus" = "#ffd700"
+"ui.cursor" = { bg = "#ffd700", fg = "#050608" }
+"ui.cursor.match" = { bg = "#0a0c10" }
+"ui.selection" = { bg = "#0a0c10" }
+"ui.linenr" = "#485060"
+"ui.linenr.selected" = "#e8f0ff"
+"ui.cursorline.primary" = { bg = "#0a0c10" }
+"ui.statusline" = { fg = "#e8f0ff", bg = "#050608" }
+"ui.statusline.inactive" = { fg = "#485060", bg = "#050608" }
+"ui.popup" = { bg = "#050608" }
+"ui.menu" = { bg = "#050608" }
+"ui.menu.selected" = { bg = "#0a0c10" }
+"ui.help" = { fg = "#e8f0ff", bg = "#050608" }
+
+"comment" = { fg = "#485060", modifiers = ["italic"] }
+"keyword" = { fg = "#ffd700", modifiers = ["bold"] }
+"keyword.control" = "#ffd700"
+"keyword.function" = "#ffd700"
+"keyword.return" = "#ffd700"
+"keyword.exception" = "#ffd700"
+"keyword.operator" = "#ffd700"
+
+"string" = "#88c0d0"
+"string.special" = "#88c0d0"
+
+"function" = "#88c0d0"
+"function.builtin" = "#88c0d0"
+"function.method" = "#88c0d0"
+"function.macro" = "#88c0d0"
+
+"constant" = "#b48ead"
+"constant.numeric" = "#b48ead"
+"constant.character" = "#88c0d0"
+"constant.builtin" = "#b48ead"
+
+"type" = "#b48ead"
+"type.builtin" = "#b48ead"
+
+"variable" = "#e8f0ff"
+"variable.builtin" = "#ffd700"
+"variable.parameter" = "#e8f0ff"
+
+"attribute" = "#a3be8c"
+"namespace" = "#b48ead"
+
+"operator" = "#ffd700"
+"punctuation" = "#e8f0ff"
+"punctuation.delimiter" = "#e8f0ff"
+"punctuation.bracket" = "#e8f0ff"
+
+"label" = "#ffd700"
+"tag" = "#81a1c1"
+
+"markup.heading" = { fg = "#ffd700", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#ffd700"
+"markup.link.text" = "#88c0d0"
+"markup.raw" = "#88c0d0"
+
+"diff.plus" = "#ffdb19"
+"diff.minus" = "#d8b600"
+"diff.delta" = "#6c737f"
+
+[palette]
+background = "#050608"
+foreground = "#e8f0ff"
+accent = "#ffd700"

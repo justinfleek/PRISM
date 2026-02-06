@@ -1,0 +1,32 @@
+# Prism Neon Nexus - Alacritty
+[colors.primary]
+background = "#040804"
+foreground = "#d0ffd0"
+
+[colors.cursor]
+cursor = "#00ff88"
+text = "#040804"
+
+[colors.selection]
+background = "#081008"
+text = "#d0ffd0"
+
+[colors.normal]
+black = "#040804"
+red = "#00d873"
+green = "#19ff93"
+yellow = "#599f59"
+blue = "#00ff88"
+magenta = "#00bf66"
+cyan = "#33ff9f"
+white = "#d0ffd0"
+
+[colors.bright]
+black = "#308830"
+red = "#00ff88"
+green = "#33ff9f"
+yellow = "#d0ffd0"
+blue = "#26ff99"
+magenta = "#00e57a"
+cyan = "#4cffab"
+white = "#d4ffd4"

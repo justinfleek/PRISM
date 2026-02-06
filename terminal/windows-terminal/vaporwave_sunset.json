@@ -1,0 +1,23 @@
+{
+  "name": "Prism Vaporwave Sunset",
+  "background": "#100818",
+  "foreground": "#f0e0ff",
+  "cursorColor": "#00ffff",
+  "selectionBackground": "#181020",
+  "black": "#100818",
+  "red": "#00d8d8",
+  "green": "#19ffff",
+  "yellow": "#997fb3",
+  "blue": "#00ffff",
+  "purple": "#00bfbf",
+  "cyan": "#33ffff",
+  "white": "#f0e0ff",
+  "brightBlack": "#8060a0",
+  "brightRed": "#00ffff",
+  "brightGreen": "#33ffff",
+  "brightYellow": "#f0e0ff",
+  "brightBlue": "#26ffff",
+  "brightPurple": "#00e5e5",
+  "brightCyan": "#4cffff",
+  "brightWhite": "#f1e3ff"
+}

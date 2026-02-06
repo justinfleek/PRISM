@@ -1,0 +1,32 @@
+# Prism Ghost - Alacritty
+[colors.primary]
+background = "#e8ecf0"
+foreground = "#384452"
+
+[colors.cursor]
+cursor = "#4080c4"
+text = "#e8ecf0"
+
+[colors.selection]
+background = "#dce2e9"
+text = "#384452"
+
+[colors.normal]
+black = "#384452"
+red = "#366ca6"
+green = "#538cc9"
+yellow = "#7a8a9c"
+blue = "#4080c4"
+magenta = "#306093"
+cyan = "#5c93cc"
+white = "#e8ecf0"
+
+[colors.bright]
+black = "#7a8a9c"
+red = "#4080c4"
+green = "#5c93cc"
+yellow = "#8795a5"
+blue = "#538cc9"
+magenta = "#3973b0"
+cyan = "#6f9fd2"
+white = "#e9ecf0"

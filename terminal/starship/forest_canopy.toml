@@ -1,0 +1,19 @@
+# Prism Forest Canopy - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_forest_canopy]
+background = "#0a100a"
+foreground = "#d0e8d0"
+accent = "#90d870"
+muted = "#508050"
+success = "#9bdb7e"
+warning = "#739973"
+error = "#7ab75f"
+info = "#90d870"
+
+# Example usage:
+# palette = "prism_forest_canopy"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,19 @@
+# Prism Catppuccin Mocha - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_catppuccin_mocha]
+background = "#1e1e2e"
+foreground = "#fab387"
+accent = "#cba6f7"
+muted = "#6c6c7e"
+success = "#f496b0"
+warning = "#d5b7f8"
+error = "#ce768e"
+info = "#f38ba8"
+
+# Example usage:
+# palette = "prism_catppuccin_mocha"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

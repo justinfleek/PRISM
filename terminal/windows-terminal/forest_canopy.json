@@ -1,0 +1,23 @@
+{
+  "name": "Prism Forest Canopy",
+  "background": "#0a100a",
+  "foreground": "#d0e8d0",
+  "cursorColor": "#90d870",
+  "selectionBackground": "#101810",
+  "black": "#0a100a",
+  "red": "#7ab75f",
+  "green": "#9bdb7e",
+  "yellow": "#739973",
+  "blue": "#90d870",
+  "purple": "#6ca254",
+  "cyan": "#a6df8c",
+  "white": "#d0e8d0",
+  "brightBlack": "#508050",
+  "brightRed": "#90d870",
+  "brightGreen": "#a6df8c",
+  "brightYellow": "#d0e8d0",
+  "brightBlue": "#a0dd85",
+  "brightPurple": "#81c264",
+  "brightCyan": "#b1e39a",
+  "brightWhite": "#d4ead4"
+}

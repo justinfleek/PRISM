@@ -1,0 +1,23 @@
+{
+  "name": "Prism Gruvbox Material",
+  "background": "#282828",
+  "foreground": "#d3869b",
+  "cursorColor": "#b8bb26",
+  "selectionBackground": "#3c3836",
+  "black": "#282828",
+  "red": "#9c9e20",
+  "green": "#bfc13b",
+  "yellow": "#fbca58",
+  "blue": "#b8bb26",
+  "purple": "#8a8c1c",
+  "cyan": "#c6c851",
+  "white": "#d3869b",
+  "brightBlack": "#fabd2f",
+  "brightRed": "#b8bb26",
+  "brightGreen": "#c6c851",
+  "brightYellow": "#d3869b",
+  "brightBlue": "#c2c546",
+  "brightPurple": "#a5a822",
+  "brightCyan": "#cdcf67",
+  "brightWhite": "#d792a5"
+}

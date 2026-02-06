@@ -1,0 +1,32 @@
+# Prism Vesper - Alacritty
+[colors.primary]
+background = "#F8F8F7"
+foreground = "#272727"
+
+[colors.cursor]
+cursor = "#676266"
+text = "#F8F8F7"
+
+[colors.selection]
+background = "#ebebea"
+text = "#272727"
+
+[colors.normal]
+black = "#272727"
+red = "#575356"
+green = "#767175"
+yellow = "#C39B83"
+blue = "#676266"
+magenta = "#4d494c"
+cyan = "#7d797c"
+white = "#F8F8F7"
+
+[colors.bright]
+black = "#C39B83"
+red = "#676266"
+green = "#7d797c"
+yellow = "#c9a58f"
+blue = "#767175"
+magenta = "#5c585b"
+cyan = "#8d898c"
+white = "#f8f8f7"

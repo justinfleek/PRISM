@@ -1,0 +1,23 @@
+{
+  "name": "Prism Aurora Glass",
+  "background": "#0a0815",
+  "foreground": "#e8f0f8",
+  "cursorColor": "#a78bfa",
+  "selectionBackground": "#12101f",
+  "black": "#0a0815",
+  "red": "#8d76d4",
+  "green": "#af96fa",
+  "yellow": "#7b778c",
+  "blue": "#a78bfa",
+  "purple": "#7d68bb",
+  "cyan": "#b8a2fb",
+  "white": "#e8f0f8",
+  "brightBlack": "#5a5570",
+  "brightRed": "#a78bfa",
+  "brightGreen": "#b8a2fb",
+  "brightYellow": "#e8f0f8",
+  "brightBlue": "#b49cfa",
+  "brightPurple": "#967de1",
+  "brightCyan": "#c1adfb",
+  "brightWhite": "#eaf1f8"
+}

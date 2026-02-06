@@ -1,0 +1,32 @@
+# Prism Amethyst Dusk - Alacritty
+[colors.primary]
+background = "#282a36"
+foreground = "#f1fa8c"
+
+[colors.cursor]
+cursor = "#bd93f9"
+text = "#282a36"
+
+[colors.selection]
+background = "#323442"
+text = "#f1fa8c"
+
+[colors.normal]
+black = "#282a36"
+red = "#a07cd3"
+green = "#c39df9"
+yellow = "#ff93d1"
+blue = "#bd93f9"
+magenta = "#8d6eba"
+cyan = "#caa8fa"
+white = "#f1fa8c"
+
+[colors.bright]
+black = "#ff79c6"
+red = "#bd93f9"
+green = "#caa8fa"
+yellow = "#f1fa8c"
+blue = "#c6a3f9"
+magenta = "#aa84e0"
+cyan = "#d0b3fa"
+white = "#f2fa97"

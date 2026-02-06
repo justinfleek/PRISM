@@ -1,0 +1,19 @@
+# Prism Diamond Dust - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_diamond_dust]
+background = "#08090d"
+foreground = "#e8f0ff"
+accent = "#38bdf8"
+muted = "#505560"
+success = "#4bc3f8"
+warning = "#73777f"
+error = "#2fa0d2"
+info = "#38bdf8"
+
+# Example usage:
+# palette = "prism_diamond_dust"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

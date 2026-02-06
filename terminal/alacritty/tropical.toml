@@ -1,0 +1,32 @@
+# Prism Tropical - Alacritty
+[colors.primary]
+background = "#0a1810"
+foreground = "#f0f8f0"
+
+[colors.cursor]
+cursor = "#E42565"
+text = "#0a1810"
+
+[colors.selection]
+background = "#0f8a63"
+text = "#f0f8f0"
+
+[colors.normal]
+black = "#0B6E4F"
+red = "#c11f55"
+green = "#e63a74"
+yellow = "#ce3a7b"
+blue = "#E42565"
+magenta = "#ab1b4b"
+cyan = "#e95083"
+white = "#D9E76C"
+
+[colors.bright]
+black = "#C2095A"
+red = "#E42565"
+green = "#e95083"
+yellow = "#D9E76C"
+blue = "#e8457c"
+magenta = "#cd215a"
+cyan = "#ec6693"
+white = "#dce97a"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Ghost",
+  "background": "#e8ecf0",
+  "foreground": "#384452",
+  "cursorColor": "#4080c4",
+  "selectionBackground": "#dce2e9",
+  "black": "#384452",
+  "red": "#366ca6",
+  "green": "#538cc9",
+  "yellow": "#7a8a9c",
+  "blue": "#4080c4",
+  "purple": "#306093",
+  "cyan": "#5c93cc",
+  "white": "#e8ecf0",
+  "brightBlack": "#7a8a9c",
+  "brightRed": "#4080c4",
+  "brightGreen": "#5c93cc",
+  "brightYellow": "#8795a5",
+  "brightBlue": "#538cc9",
+  "brightPurple": "#3973b0",
+  "brightCyan": "#6f9fd2",
+  "brightWhite": "#e9ecf0"
+}

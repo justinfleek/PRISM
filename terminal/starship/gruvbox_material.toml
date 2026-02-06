@@ -1,0 +1,19 @@
+# Prism Gruvbox Material - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_gruvbox_material]
+background = "#282828"
+foreground = "#d3869b"
+accent = "#fb4934"
+muted = "#7c6f64"
+success = "#bfc13b"
+warning = "#fbca58"
+error = "#9c9e20"
+info = "#b8bb26"
+
+# Example usage:
+# palette = "prism_gruvbox_material"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

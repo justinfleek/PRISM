@@ -1,0 +1,32 @@
+# Prism Ember Hearth - Alacritty
+[colors.primary]
+background = "#1a1210"
+foreground = "#f8f0e0"
+
+[colors.cursor]
+cursor = "#ffd93d"
+text = "#1a1210"
+
+[colors.selection]
+background = "#141010"
+text = "#f8f0e0"
+
+[colors.normal]
+black = "#0c0908"
+red = "#d8b833"
+green = "#ffdc50"
+yellow = "#7b6e66"
+blue = "#ffd93d"
+magenta = "#bfa22d"
+cyan = "#ffe063"
+white = "#f8f0e0"
+
+[colors.bright]
+black = "#5a4a40"
+red = "#ffd93d"
+green = "#ffe063"
+yellow = "#f8f0e0"
+blue = "#ffde5a"
+magenta = "#e5c336"
+cyan = "#ffe477"
+white = "#f8f1e3"

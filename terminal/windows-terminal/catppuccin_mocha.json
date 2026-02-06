@@ -1,0 +1,23 @@
+{
+  "name": "Prism Catppuccin Mocha",
+  "background": "#1e1e2e",
+  "foreground": "#fab387",
+  "cursorColor": "#f38ba8",
+  "selectionBackground": "#28283d",
+  "black": "#1e1e2e",
+  "red": "#ce768e",
+  "green": "#f496b0",
+  "yellow": "#d5b7f8",
+  "blue": "#f38ba8",
+  "purple": "#b6687e",
+  "cyan": "#f5a2b9",
+  "white": "#fab387",
+  "brightBlack": "#cba6f7",
+  "brightRed": "#f38ba8",
+  "brightGreen": "#f5a2b9",
+  "brightYellow": "#fab387",
+  "brightBlue": "#f49cb5",
+  "brightPurple": "#da7d97",
+  "brightCyan": "#f6adc2",
+  "brightWhite": "#faba93"
+}

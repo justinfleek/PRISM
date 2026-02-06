@@ -1,0 +1,23 @@
+{
+  "name": "Prism Minimal",
+  "background": "#f5f5f5",
+  "foreground": "#161616",
+  "cursorColor": "#e43938",
+  "selectionBackground": "#ebebeb",
+  "black": "#161616",
+  "red": "#c1302f",
+  "green": "#e64c4b",
+  "yellow": "#b0a8a6",
+  "blue": "#e43938",
+  "purple": "#ab2a2a",
+  "cyan": "#e85655",
+  "white": "#f5f5f5",
+  "brightBlack": "#b0a8a6",
+  "brightRed": "#e43938",
+  "brightGreen": "#e85655",
+  "brightYellow": "#b7b0ae",
+  "brightBlue": "#e64c4b",
+  "brightPurple": "#cd3332",
+  "brightCyan": "#ea6a69",
+  "brightWhite": "#f5f5f5"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Neon Nexus",
+  "background": "#040804",
+  "foreground": "#d0ffd0",
+  "cursorColor": "#00ff88",
+  "selectionBackground": "#081008",
+  "black": "#040804",
+  "red": "#00d873",
+  "green": "#19ff93",
+  "yellow": "#599f59",
+  "blue": "#00ff88",
+  "purple": "#00bf66",
+  "cyan": "#33ff9f",
+  "white": "#d0ffd0",
+  "brightBlack": "#308830",
+  "brightRed": "#00ff88",
+  "brightGreen": "#33ff9f",
+  "brightYellow": "#d0ffd0",
+  "brightBlue": "#26ff99",
+  "brightPurple": "#00e57a",
+  "brightCyan": "#4cffab",
+  "brightWhite": "#d4ffd4"
+}

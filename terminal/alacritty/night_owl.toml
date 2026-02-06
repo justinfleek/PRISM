@@ -1,0 +1,32 @@
+# Prism Night Owl - Alacritty
+[colors.primary]
+background = "#011627"
+foreground = "#d6deeb"
+
+[colors.cursor]
+cursor = "#c792ea"
+text = "#011627"
+
+[colors.selection]
+background = "#051e32"
+text = "#d6deeb"
+
+[colors.normal]
+black = "#011627"
+red = "#a97cc6"
+green = "#cc9cec"
+yellow = "#9bbbff"
+blue = "#c792ea"
+magenta = "#956daf"
+cyan = "#d2a7ee"
+white = "#f78c6c"
+
+[colors.bright]
+black = "#82aaff"
+red = "#c792ea"
+green = "#d2a7ee"
+yellow = "#f78c6c"
+blue = "#cfa2ed"
+magenta = "#b383d2"
+cyan = "#d7b2f0"
+white = "#f7977a"

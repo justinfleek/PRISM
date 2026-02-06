@@ -1,0 +1,73 @@
+# Prism Gruvbox Material - Helix
+# Place in ~/.config/helix/themes/gruvbox_material.toml
+
+"ui.background" = { bg = "#282828" }
+"ui.text" = "#d3869b"
+"ui.text.focus" = "#fb4934"
+"ui.cursor" = { bg = "#fb4934", fg = "#282828" }
+"ui.cursor.match" = { bg = "#3c3836" }
+"ui.selection" = { bg = "#3c3836" }
+"ui.linenr" = "#7c6f64"
+"ui.linenr.selected" = "#d3869b"
+"ui.cursorline.primary" = { bg = "#3c3836" }
+"ui.statusline" = { fg = "#d3869b", bg = "#282828" }
+"ui.statusline.inactive" = { fg = "#7c6f64", bg = "#282828" }
+"ui.popup" = { bg = "#282828" }
+"ui.menu" = { bg = "#282828" }
+"ui.menu.selected" = { bg = "#3c3836" }
+"ui.help" = { fg = "#d3869b", bg = "#282828" }
+
+"comment" = { fg = "#7c6f64", modifiers = ["italic"] }
+"keyword" = { fg = "#fb4934", modifiers = ["bold"] }
+"keyword.control" = "#fb4934"
+"keyword.function" = "#fb4934"
+"keyword.return" = "#fb4934"
+"keyword.exception" = "#fb4934"
+"keyword.operator" = "#fb4934"
+
+"string" = "#b8bb26"
+"string.special" = "#b8bb26"
+
+"function" = "#fabd2f"
+"function.builtin" = "#fabd2f"
+"function.method" = "#fabd2f"
+"function.macro" = "#fabd2f"
+
+"constant" = "#d3869b"
+"constant.numeric" = "#d3869b"
+"constant.character" = "#b8bb26"
+"constant.builtin" = "#d3869b"
+
+"type" = "#fe8019"
+"type.builtin" = "#fe8019"
+
+"variable" = "#83a598"
+"variable.builtin" = "#fb4934"
+"variable.parameter" = "#83a598"
+
+"attribute" = "#fabd2f"
+"namespace" = "#fe8019"
+
+"operator" = "#fb4934"
+"punctuation" = "#d3869b"
+"punctuation.delimiter" = "#d3869b"
+"punctuation.bracket" = "#d3869b"
+
+"label" = "#fb4934"
+"tag" = "#83a598"
+
+"markup.heading" = { fg = "#fb4934", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#fb4934"
+"markup.link.text" = "#b8bb26"
+"markup.raw" = "#b8bb26"
+
+"diff.plus" = "#bfc13b"
+"diff.minus" = "#9c9e20"
+"diff.delta" = "#fbca58"
+
+[palette]
+background = "#282828"
+foreground = "#d3869b"
+accent = "#b8bb26"

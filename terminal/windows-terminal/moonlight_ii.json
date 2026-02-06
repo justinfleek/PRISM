@@ -1,0 +1,23 @@
+{
+  "name": "Prism Moonlight II",
+  "background": "#1b1d2c",
+  "foreground": "#c8d3f5",
+  "cursorColor": "#82aaff",
+  "selectionBackground": "#212337",
+  "black": "#1b1d2c",
+  "red": "#6e90d8",
+  "green": "#8eb2ff",
+  "yellow": "#828ab7",
+  "blue": "#82aaff",
+  "purple": "#617fbf",
+  "cyan": "#9bbbff",
+  "white": "#c8d3f5",
+  "brightBlack": "#636da6",
+  "brightRed": "#82aaff",
+  "brightGreen": "#9bbbff",
+  "brightYellow": "#c8d3f5",
+  "brightBlue": "#94b6ff",
+  "brightPurple": "#7599e5",
+  "brightCyan": "#a7c3ff",
+  "brightWhite": "#cdd7f6"
+}

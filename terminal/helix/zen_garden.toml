@@ -1,0 +1,73 @@
+# Prism Zen Garden - Helix
+# Place in ~/.config/helix/themes/zen_garden.toml
+
+"ui.background" = { bg = "#101210" }
+"ui.text" = "#e8f0e8"
+"ui.text.focus" = "#c8b878"
+"ui.cursor" = { bg = "#c8b878", fg = "#101210" }
+"ui.cursor.match" = { bg = "#181a18" }
+"ui.selection" = { bg = "#181a18" }
+"ui.linenr" = "#606560"
+"ui.linenr.selected" = "#e8f0e8"
+"ui.cursorline.primary" = { bg = "#181a18" }
+"ui.statusline" = { fg = "#e8f0e8", bg = "#101210" }
+"ui.statusline.inactive" = { fg = "#606560", bg = "#101210" }
+"ui.popup" = { bg = "#101210" }
+"ui.menu" = { bg = "#101210" }
+"ui.menu.selected" = { bg = "#181a18" }
+"ui.help" = { fg = "#e8f0e8", bg = "#101210" }
+
+"comment" = { fg = "#606560", modifiers = ["italic"] }
+"keyword" = { fg = "#c8b878", modifiers = ["bold"] }
+"keyword.control" = "#c8b878"
+"keyword.function" = "#c8b878"
+"keyword.return" = "#c8b878"
+"keyword.exception" = "#c8b878"
+"keyword.operator" = "#c8b878"
+
+"string" = "#d8cda0"
+"string.special" = "#d8cda0"
+
+"function" = "#d5c999"
+"function.builtin" = "#d5c999"
+"function.method" = "#d5c999"
+"function.macro" = "#d5c999"
+
+"constant" = "#d3c693"
+"constant.numeric" = "#d3c693"
+"constant.character" = "#d8cda0"
+"constant.builtin" = "#d3c693"
+
+"type" = "#e8f0e8"
+"type.builtin" = "#e8f0e8"
+
+"variable" = "#e8f0e8"
+"variable.builtin" = "#c8b878"
+"variable.parameter" = "#e8f0e8"
+
+"attribute" = "#e9f0e9"
+"namespace" = "#e8f0e8"
+
+"operator" = "#c8b878"
+"punctuation" = "#e8f0e8"
+"punctuation.delimiter" = "#e8f0e8"
+"punctuation.bracket" = "#e8f0e8"
+
+"label" = "#c8b878"
+"tag" = "#d8cda0"
+
+"markup.heading" = { fg = "#c8b878", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#c8b878"
+"markup.link.text" = "#d8cda0"
+"markup.raw" = "#d8cda0"
+
+"diff.plus" = "#cdbf85"
+"diff.minus" = "#aa9c66"
+"diff.delta" = "#7f837f"
+
+[palette]
+background = "#101210"
+foreground = "#e8f0e8"
+accent = "#c8b878"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Palenight",
+  "background": "#1b1e2b",
+  "foreground": "#a6accd",
+  "cursorColor": "#c792ea",
+  "selectionBackground": "#21243a",
+  "black": "#1b1e2b",
+  "red": "#a97cc6",
+  "green": "#cc9cec",
+  "yellow": "#858baa",
+  "blue": "#c792ea",
+  "purple": "#956daf",
+  "cyan": "#d2a7ee",
+  "white": "#a6accd",
+  "brightBlack": "#676e95",
+  "brightRed": "#c792ea",
+  "brightGreen": "#d2a7ee",
+  "brightYellow": "#a6accd",
+  "brightBlue": "#cfa2ed",
+  "brightPurple": "#b383d2",
+  "brightCyan": "#d7b2f0",
+  "brightWhite": "#aeb4d2"
+}

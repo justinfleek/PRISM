@@ -1,0 +1,73 @@
+# Prism Biopic - Helix
+# Place in ~/.config/helix/themes/biopic.toml
+
+"ui.background" = { bg = "#faf8f5" }
+"ui.text" = "#33302a"
+"ui.text.focus" = "#0969da"
+"ui.cursor" = { bg = "#0969da", fg = "#faf8f5" }
+"ui.cursor.match" = { bg = "#f0ece5" }
+"ui.selection" = { bg = "#f0ece5" }
+"ui.linenr" = "#8a8378"
+"ui.linenr.selected" = "#33302a"
+"ui.cursorline.primary" = { bg = "#f0ece5" }
+"ui.statusline" = { fg = "#33302a", bg = "#faf8f5" }
+"ui.statusline.inactive" = { fg = "#8a8378", bg = "#faf8f5" }
+"ui.popup" = { bg = "#faf8f5" }
+"ui.menu" = { bg = "#faf8f5" }
+"ui.menu.selected" = { bg = "#f0ece5" }
+"ui.help" = { fg = "#33302a", bg = "#faf8f5" }
+
+"comment" = { fg = "#8a8378", modifiers = ["italic"] }
+"keyword" = { fg = "#0969da", modifiers = ["bold"] }
+"keyword.control" = "#0969da"
+"keyword.function" = "#0969da"
+"keyword.return" = "#0969da"
+"keyword.exception" = "#0969da"
+"keyword.operator" = "#0969da"
+
+"string" = "#1f6feb"
+"string.special" = "#1f6feb"
+
+"function" = "#0550a0"
+"function.builtin" = "#0550a0"
+"function.method" = "#0550a0"
+"function.macro" = "#0550a0"
+
+"constant" = "#218bff"
+"constant.numeric" = "#218bff"
+"constant.character" = "#1f6feb"
+"constant.builtin" = "#218bff"
+
+"type" = "#033d73"
+"type.builtin" = "#033d73"
+
+"variable" = "#33302a"
+"variable.builtin" = "#0969da"
+"variable.parameter" = "#33302a"
+
+"attribute" = "#58a6ff"
+"namespace" = "#033d73"
+
+"operator" = "#0969da"
+"punctuation" = "#33302a"
+"punctuation.delimiter" = "#33302a"
+"punctuation.bracket" = "#33302a"
+
+"label" = "#0969da"
+"tag" = "#0969da"
+
+"markup.heading" = { fg = "#0969da", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#0969da"
+"markup.link.text" = "#1f6feb"
+"markup.raw" = "#1f6feb"
+
+"diff.plus" = "#2178dd"
+"diff.minus" = "#0759b9"
+"diff.delta" = "#8a8378"
+
+[palette]
+background = "#faf8f5"
+foreground = "#33302a"
+accent = "#0969da"

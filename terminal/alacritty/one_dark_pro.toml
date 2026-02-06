@@ -1,0 +1,32 @@
+# Prism One Dark Pro - Alacritty
+[colors.primary]
+background = "#1e2127"
+foreground = "#c678dd"
+
+[colors.cursor]
+cursor = "#98c379"
+text = "#1e2127"
+
+[colors.selection]
+background = "#31353f"
+text = "#c678dd"
+
+[colors.normal]
+black = "#282c34"
+red = "#81a566"
+green = "#a2c986"
+yellow = "#e68990"
+blue = "#98c379"
+magenta = "#72925a"
+cyan = "#accf93"
+white = "#c678dd"
+
+[colors.bright]
+black = "#e06c75"
+red = "#98c379"
+green = "#accf93"
+yellow = "#c678dd"
+blue = "#a7cc8d"
+magenta = "#88af6c"
+cyan = "#b6d5a1"
+white = "#cb85e0"

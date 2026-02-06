@@ -1,0 +1,32 @@
+# Prism Palenight - Alacritty
+[colors.primary]
+background = "#1b1e2b"
+foreground = "#a6accd"
+
+[colors.cursor]
+cursor = "#c792ea"
+text = "#1b1e2b"
+
+[colors.selection]
+background = "#21243a"
+text = "#a6accd"
+
+[colors.normal]
+black = "#1b1e2b"
+red = "#a97cc6"
+green = "#cc9cec"
+yellow = "#858baa"
+blue = "#c792ea"
+magenta = "#956daf"
+cyan = "#d2a7ee"
+white = "#a6accd"
+
+[colors.bright]
+black = "#676e95"
+red = "#c792ea"
+green = "#d2a7ee"
+yellow = "#a6accd"
+blue = "#cfa2ed"
+magenta = "#b383d2"
+cyan = "#d7b2f0"
+white = "#aeb4d2"

@@ -1,0 +1,32 @@
+# Prism Vaporwave Sunset - Alacritty
+[colors.primary]
+background = "#100818"
+foreground = "#f0e0ff"
+
+[colors.cursor]
+cursor = "#00ffff"
+text = "#100818"
+
+[colors.selection]
+background = "#181020"
+text = "#f0e0ff"
+
+[colors.normal]
+black = "#100818"
+red = "#00d8d8"
+green = "#19ffff"
+yellow = "#997fb3"
+blue = "#00ffff"
+magenta = "#00bfbf"
+cyan = "#33ffff"
+white = "#f0e0ff"
+
+[colors.bright]
+black = "#8060a0"
+red = "#00ffff"
+green = "#33ffff"
+yellow = "#f0e0ff"
+blue = "#26ffff"
+magenta = "#00e5e5"
+cyan = "#4cffff"
+white = "#f1e3ff"

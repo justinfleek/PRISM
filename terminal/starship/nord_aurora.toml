@@ -1,0 +1,19 @@
+# Prism Nord Aurora - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_nord_aurora]
+background = "#2e3440"
+foreground = "#bf616a"
+accent = "#81a1c1"
+muted = "#6878a8"
+success = "#8daac7"
+warning = "#9fccd9"
+error = "#6d88a4"
+info = "#81a1c1"
+
+# Example usage:
+# palette = "prism_nord_aurora"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

@@ -1,0 +1,32 @@
+# Prism Faded Glory - Alacritty
+[colors.primary]
+background = "#FDF0D5"
+foreground = "#003049"
+
+[colors.cursor]
+cursor = "#C1121F"
+text = "#FDF0D5"
+
+[colors.selection]
+background = "#f0e3c6"
+text = "#003049"
+
+[colors.normal]
+black = "#003049"
+red = "#a40f1a"
+green = "#c72935"
+yellow = "#669BBC"
+blue = "#C1121F"
+magenta = "#900d17"
+cyan = "#ca3540"
+white = "#FDF0D5"
+
+[colors.bright]
+black = "#669BBC"
+red = "#C1121F"
+green = "#ca3540"
+yellow = "#75a5c2"
+blue = "#c72935"
+magenta = "#ad101b"
+cyan = "#d04d57"
+white = "#fdf0d7"

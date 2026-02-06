@@ -1,0 +1,32 @@
+# Prism Minimal - Alacritty
+[colors.primary]
+background = "#f5f5f5"
+foreground = "#161616"
+
+[colors.cursor]
+cursor = "#e43938"
+text = "#f5f5f5"
+
+[colors.selection]
+background = "#ebebeb"
+text = "#161616"
+
+[colors.normal]
+black = "#161616"
+red = "#c1302f"
+green = "#e64c4b"
+yellow = "#b0a8a6"
+blue = "#e43938"
+magenta = "#ab2a2a"
+cyan = "#e85655"
+white = "#f5f5f5"
+
+[colors.bright]
+black = "#b0a8a6"
+red = "#e43938"
+green = "#e85655"
+yellow = "#b7b0ae"
+blue = "#e64c4b"
+magenta = "#cd3332"
+cyan = "#ea6a69"
+white = "#f5f5f5"

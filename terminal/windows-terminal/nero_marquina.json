@@ -1,0 +1,23 @@
+{
+  "name": "Prism Nero Marquina",
+  "background": "#08080a",
+  "foreground": "#e8e4dc",
+  "cursorColor": "#d4af37",
+  "selectionBackground": "#101014",
+  "black": "#08080a",
+  "red": "#b4942e",
+  "green": "#d8b74b",
+  "yellow": "#7b7b86",
+  "blue": "#d4af37",
+  "purple": "#9f8329",
+  "cyan": "#dcbf5f",
+  "white": "#e8e4dc",
+  "brightBlack": "#5a5a68",
+  "brightRed": "#d4af37",
+  "brightGreen": "#dcbf5f",
+  "brightYellow": "#e8e4dc",
+  "brightBlue": "#dabb55",
+  "brightPurple": "#be9d31",
+  "brightCyan": "#e0c773",
+  "brightWhite": "#eae6df"
+}

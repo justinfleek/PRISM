@@ -1,0 +1,19 @@
+# Prism Lavender Dusk - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_lavender_dusk]
+background = "#10081a"
+foreground = "#e0d0f0"
+accent = "#b388ff"
+muted = "#705088"
+success = "#ba93ff"
+warning = "#8c739f"
+error = "#9873d8"
+info = "#b388ff"
+
+# Example usage:
+# palette = "prism_lavender_dusk"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

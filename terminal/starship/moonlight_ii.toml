@@ -1,0 +1,19 @@
+# Prism Moonlight II - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_moonlight_ii]
+background = "#1b1d2c"
+foreground = "#c8d3f5"
+accent = "#c792ea"
+muted = "#636da6"
+success = "#8eb2ff"
+warning = "#828ab7"
+error = "#6e90d8"
+info = "#82aaff"
+
+# Example usage:
+# palette = "prism_moonlight_ii"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

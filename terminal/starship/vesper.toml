@@ -1,0 +1,19 @@
+# Prism Vesper - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_vesper]
+background = "#F8F8F7"
+foreground = "#272727"
+accent = "#676266"
+muted = "#C39B83"
+success = "#767175"
+warning = "#C39B83"
+error = "#575356"
+info = "#676266"
+
+# Example usage:
+# palette = "prism_vesper"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

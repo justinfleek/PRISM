@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Neoform",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Neoform",
+      "appearance": "#0754ae",
+      "style": {
+        "background": "#f5f7fa",
+        "editor.background": "#f5f7fa",
+        "editor.foreground": "#2d3848",
+        "editor.gutter.background": "#f5f7fa",
+        "editor.line_highlight.background": "#e8ecf2",
+        "editor.active_line_number": "#2d3848",
+        "editor.wrap_guide": "#8896a8",
+        "terminal.background": "#f5f7fa",
+        "terminal.foreground": "#2d3848",
+        "terminal.ansi.black": "#2d3848",
+        "terminal.ansi.red": "#0759b9",
+        "terminal.ansi.green": "#2178dd",
+        "terminal.ansi.yellow": "#8896a8",
+        "terminal.ansi.blue": "#0969da",
+        "terminal.ansi.magenta": "#064ea3",
+        "terminal.ansi.cyan": "#2d7fdf",
+        "terminal.ansi.white": "#e8ecf2",
+        "syntax": {
+          "comment": {
+            "color": "#8896a8",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#0969da",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#0550a0"
+          },
+          "function": {
+            "color": "#218bff"
+          },
+          "number": {
+            "color": "#4090d0"
+          },
+          "type": {
+            "color": "#0754ae"
+          },
+          "variable": {
+            "color": "#2d3848"
+          },
+          "constant": {
+            "color": "#4090d0"
+          },
+          "attribute": {
+            "color": "#085ec4"
+          },
+          "property": {
+            "color": "#2d3848"
+          },
+          "punctuation": {
+            "color": "#2d3848"
+          },
+          "operator": {
+            "color": "#0969da"
+          }
+        }
+      }
+    }
+  ]
+}

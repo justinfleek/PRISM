@@ -1,0 +1,73 @@
+# Prism Ember Hearth - Helix
+# Place in ~/.config/helix/themes/ember_hearth.toml
+
+"ui.background" = { bg = "#1a1210" }
+"ui.text" = "#f8f0e0"
+"ui.text.focus" = "#ff8060"
+"ui.cursor" = { bg = "#ff8060", fg = "#1a1210" }
+"ui.cursor.match" = { bg = "#141010" }
+"ui.selection" = { bg = "#141010" }
+"ui.linenr" = "#886858"
+"ui.linenr.selected" = "#f8f0e0"
+"ui.cursorline.primary" = { bg = "#141010" }
+"ui.statusline" = { fg = "#f8f0e0", bg = "#1a1210" }
+"ui.statusline.inactive" = { fg = "#886858", bg = "#1a1210" }
+"ui.popup" = { bg = "#1a1210" }
+"ui.menu" = { bg = "#1a1210" }
+"ui.menu.selected" = { bg = "#141010" }
+"ui.help" = { fg = "#f8f0e0", bg = "#1a1210" }
+
+"comment" = { fg = "#886858", modifiers = ["italic"] }
+"keyword" = { fg = "#ff8060", modifiers = ["bold"] }
+"keyword.control" = "#ff8060"
+"keyword.function" = "#ff8060"
+"keyword.return" = "#ff8060"
+"keyword.exception" = "#ff8060"
+"keyword.operator" = "#ff8060"
+
+"string" = "#ffd93d"
+"string.special" = "#ffd93d"
+
+"function" = "#ffc878"
+"function.builtin" = "#ffc878"
+"function.method" = "#ffc878"
+"function.macro" = "#ffc878"
+
+"constant" = "#ff6050"
+"constant.numeric" = "#ff6050"
+"constant.character" = "#ffd93d"
+"constant.builtin" = "#ff6050"
+
+"type" = "#ffd0b0"
+"type.builtin" = "#ffd0b0"
+
+"variable" = "#f0e0d8"
+"variable.builtin" = "#ff8060"
+"variable.parameter" = "#f0e0d8"
+
+"attribute" = "#ffd93d"
+"namespace" = "#ffd0b0"
+
+"operator" = "#ff8060"
+"punctuation" = "#f8f0e0"
+"punctuation.delimiter" = "#f8f0e0"
+"punctuation.bracket" = "#f8f0e0"
+
+"label" = "#ff8060"
+"tag" = "#ff9070"
+
+"markup.heading" = { fg = "#ff8060", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#ff8060"
+"markup.link.text" = "#ffd93d"
+"markup.raw" = "#ffd93d"
+
+"diff.plus" = "#ffdc50"
+"diff.minus" = "#d8b833"
+"diff.delta" = "#7b6e66"
+
+[palette]
+background = "#1a1210"
+foreground = "#f8f0e0"
+accent = "#ffd93d"

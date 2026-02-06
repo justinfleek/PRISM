@@ -1,0 +1,19 @@
+# Prism Ocean - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_ocean]
+background = "#0a1820"
+foreground = "#348FD5"
+accent = "#34A0A4"
+muted = "#507878"
+success = "#48a9ad"
+warning = "#3e7789"
+error = "#2c888b"
+info = "#34A0A4"
+
+# Example usage:
+# palette = "prism_ocean"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

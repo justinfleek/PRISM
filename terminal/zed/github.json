@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Github",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Github",
+      "appearance": "#d8e0e7",
+      "style": {
+        "background": "#22272e",
+        "editor.background": "#22272e",
+        "editor.foreground": "#d8e0e7",
+        "editor.gutter.background": "#22272e",
+        "editor.line_highlight.background": "#2d333b",
+        "editor.active_line_number": "#d8e0e7",
+        "editor.wrap_guide": "#545d68",
+        "terminal.background": "#22272e",
+        "terminal.foreground": "#d8e0e7",
+        "terminal.ansi.black": "#22272e",
+        "terminal.ansi.red": "#4793d8",
+        "terminal.ansi.green": "#65b6ff",
+        "terminal.ansi.yellow": "#767d86",
+        "terminal.ansi.blue": "#54aeff",
+        "terminal.ansi.magenta": "#3f82bf",
+        "terminal.ansi.cyan": "#76beff",
+        "terminal.ansi.white": "#d8e0e7",
+        "syntax": {
+          "comment": {
+            "color": "#545d68",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#54aeff",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#87c6ff"
+          },
+          "function": {
+            "color": "#7ec2ff"
+          },
+          "number": {
+            "color": "#76beff"
+          },
+          "type": {
+            "color": "#d8e0e7"
+          },
+          "variable": {
+            "color": "#d8e0e7"
+          },
+          "constant": {
+            "color": "#76beff"
+          },
+          "attribute": {
+            "color": "#d9e1e8"
+          },
+          "property": {
+            "color": "#d8e0e7"
+          },
+          "punctuation": {
+            "color": "#d8e0e7"
+          },
+          "operator": {
+            "color": "#54aeff"
+          }
+        }
+      }
+    }
+  ]
+}

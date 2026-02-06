@@ -1,0 +1,19 @@
+# Prism Biopic - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_biopic]
+background = "#faf8f5"
+foreground = "#33302a"
+accent = "#0969da"
+muted = "#8a8378"
+success = "#2178dd"
+warning = "#8a8378"
+error = "#0759b9"
+info = "#0969da"
+
+# Example usage:
+# palette = "prism_biopic"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

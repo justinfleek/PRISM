@@ -1,0 +1,19 @@
+# Prism Ember Hearth - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_ember_hearth]
+background = "#1a1210"
+foreground = "#f8f0e0"
+accent = "#ff8060"
+muted = "#886858"
+success = "#ffdc50"
+warning = "#7b6e66"
+error = "#d8b833"
+info = "#ffd93d"
+
+# Example usage:
+# palette = "prism_ember_hearth"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

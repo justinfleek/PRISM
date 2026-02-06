@@ -10,39 +10,36 @@ Thank you for your interest in contributing to PRISM! This document provides gui
 
 ## Development Setup
 
-### VSCode/Cursor Themes
+Run all commands from the **project root** (the directory containing `README.md`).
+
+### Building VS Code / Cursor extensions
 ```bash
-cd cursor-prism
-# Themes are in ./themes/*.json
-# Test by copying to ~/.cursor/extensions/ or ~/.vscode/extensions/
+cd cursor
+npm install
+npm run compile
+# Package: npx vsce package
+cd ../vscode
+npm install
+npm run compile
+npx vsce package
 ```
 
-### Terminal Themes
+### Theme and terminal configs
+- **VS Code/Cursor:** Themes live in `cursor/themes/*.json` and `vscode/themes/*.json`. Test by loading the extension from the `cursor/` or `vscode/` folder.
+- **Terminal:** Configs in `terminal/` (alacritty/, kitty/, wezterm/, etc.).
+
+### Contrast verification (optional)
 ```bash
-cd terminal-themes
-# Themes organized by terminal: alacritty/, kitty/, wezterm/, windows-terminal/
+cd core/tools
+python contrast_checker.py
 ```
 
-### Color Core (Python tools)
-```bash
-cd prism-color-core/tools
-python -m pip install -r requirements.txt  # if requirements exist
-python create_theme.py --help
-```
+## Adding a new theme
 
-### Haskell Core
-```bash
-cd prism-color-core/haskell
-cabal build
-cabal test
-```
-
-## Adding a New Theme
-
-1. Create theme definition in `prism-color-core/themes/`
-2. Run the generator to produce platform-specific versions
-3. Verify WCAG contrast compliance using `tools/contrast_checker.py`
-4. Add theme to each platform's package manifest
+1. Add theme JSON to `vscode/themes/` (and `cursor/themes/` if needed)
+2. Run the sync script to produce terminal/other platform configs: `python sync_themes.py` from repo root (or `core/tools/generate_terminal_themes.py` for terminal only)
+3. Verify WCAG contrast using `core/tools/contrast_checker.py`
+4. Update each platform's manifest/README as needed
 
 ## Code Style
 
@@ -68,8 +65,7 @@ Example: `feat: add Ocean Depths theme with WCAG AA verification`
 
 1. Ensure all themes pass contrast verification
 2. Update relevant READMEs if adding features
-3. Add changelog entry for user-facing changes
-4. Request review from maintainers
+3. Request review from maintainers
 
 ## Reporting Issues
 

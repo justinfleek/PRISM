@@ -1,0 +1,32 @@
+# Prism Acid Rain - Alacritty
+[colors.primary]
+background = "#0d1117"
+foreground = "#bc8cff"
+
+[colors.cursor]
+cursor = "#58a6ff"
+text = "#0d1117"
+
+[colors.selection]
+background = "#161b22"
+text = "#bc8cff"
+
+[colors.normal]
+black = "#0d1117"
+red = "#4a8dd8"
+green = "#68aeff"
+yellow = "#97eb9f"
+blue = "#58a6ff"
+magenta = "#427cbf"
+cyan = "#79b7ff"
+white = "#bc8cff"
+
+[colors.bright]
+black = "#7ee787"
+red = "#58a6ff"
+green = "#79b7ff"
+yellow = "#bc8cff"
+blue = "#71b3ff"
+magenta = "#4f95e5"
+cyan = "#8ac0ff"
+white = "#c297ff"

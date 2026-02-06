@@ -1,0 +1,23 @@
+{
+  "name": "Prism Ocean",
+  "background": "#0a1820",
+  "foreground": "#348FD5",
+  "cursorColor": "#34A0A4",
+  "selectionBackground": "#0f2e45",
+  "black": "#0A2133",
+  "red": "#2c888b",
+  "green": "#48a9ad",
+  "yellow": "#3e7789",
+  "blue": "#34A0A4",
+  "purple": "#27787b",
+  "cyan": "#5cb3b6",
+  "white": "#348FD5",
+  "brightBlack": "#0E566C",
+  "brightRed": "#34A0A4",
+  "brightGreen": "#5cb3b6",
+  "brightYellow": "#348FD5",
+  "brightBlue": "#52aeb1",
+  "brightPurple": "#2e9093",
+  "brightCyan": "#70bcbf",
+  "brightWhite": "#489ad9"
+}

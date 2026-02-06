@@ -1,0 +1,19 @@
+# Prism Synthwave 84 - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_synthwave_84]
+background = "#262335"
+foreground = "#ff8b39"
+accent = "#ff7edb"
+muted = "#614d73"
+success = "#4af9f6"
+warning = "#ff97e2"
+error = "#2dd3d1"
+info = "#36f9f6"
+
+# Example usage:
+# palette = "prism_synthwave_84"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

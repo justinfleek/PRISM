@@ -1,0 +1,73 @@
+# Prism Inferno - Helix
+# Place in ~/.config/helix/themes/inferno.toml
+
+"ui.background" = { bg = "#180808" }
+"ui.text" = "#FFDB99"
+"ui.text.focus" = "#FB590E"
+"ui.cursor" = { bg = "#FB590E", fg = "#180808" }
+"ui.cursor.match" = { bg = "#451012" }
+"ui.selection" = { bg = "#451012" }
+"ui.linenr" = "#886848"
+"ui.linenr.selected" = "#FFDB99"
+"ui.cursorline.primary" = { bg = "#451012" }
+"ui.statusline" = { fg = "#FFDB99", bg = "#180808" }
+"ui.statusline.inactive" = { fg = "#886848", bg = "#180808" }
+"ui.popup" = { bg = "#180808" }
+"ui.menu" = { bg = "#180808" }
+"ui.menu.selected" = { bg = "#451012" }
+"ui.help" = { fg = "#FFDB99", bg = "#180808" }
+
+"comment" = { fg = "#886848", modifiers = ["italic"] }
+"keyword" = { fg = "#FB590E", modifiers = ["bold"] }
+"keyword.control" = "#FB590E"
+"keyword.function" = "#FB590E"
+"keyword.return" = "#FB590E"
+"keyword.exception" = "#FB590E"
+"keyword.operator" = "#FB590E"
+
+"string" = "#ffdd44"
+"string.special" = "#ffdd44"
+
+"function" = "#ff9040"
+"function.builtin" = "#ff9040"
+"function.method" = "#ff9040"
+"function.macro" = "#ff9040"
+
+"constant" = "#ffc830"
+"constant.numeric" = "#ffc830"
+"constant.character" = "#ffdd44"
+"constant.builtin" = "#ffc830"
+
+"type" = "#c84400"
+"type.builtin" = "#c84400"
+
+"variable" = "#ffe080"
+"variable.builtin" = "#FB590E"
+"variable.parameter" = "#ffe080"
+
+"attribute" = "#fb7132"
+"namespace" = "#c84400"
+
+"operator" = "#FB590E"
+"punctuation" = "#FFDB99"
+"punctuation.delimiter" = "#FFDB99"
+"punctuation.bracket" = "#FFDB99"
+
+"label" = "#FB590E"
+"tag" = "#ffdd44"
+
+"markup.heading" = { fg = "#FB590E", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#FB590E"
+"markup.link.text" = "#ffdd44"
+"markup.raw" = "#ffdd44"
+
+"diff.plus" = "#fb6926"
+"diff.minus" = "#d54b0b"
+"diff.delta" = "#e45345"
+
+[palette]
+background = "#180808"
+foreground = "#FFDB99"
+accent = "#FB590E"

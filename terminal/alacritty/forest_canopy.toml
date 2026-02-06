@@ -1,0 +1,32 @@
+# Prism Forest Canopy - Alacritty
+[colors.primary]
+background = "#0a100a"
+foreground = "#d0e8d0"
+
+[colors.cursor]
+cursor = "#90d870"
+text = "#0a100a"
+
+[colors.selection]
+background = "#101810"
+text = "#d0e8d0"
+
+[colors.normal]
+black = "#0a100a"
+red = "#7ab75f"
+green = "#9bdb7e"
+yellow = "#739973"
+blue = "#90d870"
+magenta = "#6ca254"
+cyan = "#a6df8c"
+white = "#d0e8d0"
+
+[colors.bright]
+black = "#508050"
+red = "#90d870"
+green = "#a6df8c"
+yellow = "#d0e8d0"
+blue = "#a0dd85"
+magenta = "#81c264"
+cyan = "#b1e39a"
+white = "#d4ead4"

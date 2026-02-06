@@ -1,0 +1,23 @@
+{
+  "name": "Prism Obsidian Rose Gold",
+  "background": "#050404",
+  "foreground": "#f0e8e8",
+  "cursorColor": "#e8b4b8",
+  "selectionBackground": "#0c0a0a",
+  "black": "#050404",
+  "red": "#c5999c",
+  "green": "#eabbbf",
+  "yellow": "#7b7777",
+  "blue": "#e8b4b8",
+  "purple": "#ae878a",
+  "cyan": "#ecc3c6",
+  "white": "#f0e8e8",
+  "brightBlack": "#5a5555",
+  "brightRed": "#e8b4b8",
+  "brightGreen": "#ecc3c6",
+  "brightYellow": "#f0e8e8",
+  "brightBlue": "#ebbfc2",
+  "brightPurple": "#d0a2a5",
+  "brightCyan": "#eecacd",
+  "brightWhite": "#f1eaea"
+}

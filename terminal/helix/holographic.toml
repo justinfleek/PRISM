@@ -1,0 +1,73 @@
+# Prism Holographic - Helix
+# Place in ~/.config/helix/themes/holographic.toml
+
+"ui.background" = { bg = "#0a0a0f" }
+"ui.text" = "#b967ff"
+"ui.text.focus" = "#01cdfe"
+"ui.cursor" = { bg = "#01cdfe", fg = "#0a0a0f" }
+"ui.cursor.match" = { bg = "#141419" }
+"ui.selection" = { bg = "#141419" }
+"ui.linenr" = "#7888a8"
+"ui.linenr.selected" = "#b967ff"
+"ui.cursorline.primary" = { bg = "#141419" }
+"ui.statusline" = { fg = "#b967ff", bg = "#0a0a0f" }
+"ui.statusline.inactive" = { fg = "#7888a8", bg = "#0a0a0f" }
+"ui.popup" = { bg = "#0a0a0f" }
+"ui.menu" = { bg = "#0a0a0f" }
+"ui.menu.selected" = { bg = "#141419" }
+"ui.help" = { fg = "#b967ff", bg = "#0a0a0f" }
+
+"comment" = { fg = "#7888a8", modifiers = ["italic"] }
+"keyword" = { fg = "#01cdfe", modifiers = ["bold"] }
+"keyword.control" = "#01cdfe"
+"keyword.function" = "#01cdfe"
+"keyword.return" = "#01cdfe"
+"keyword.exception" = "#01cdfe"
+"keyword.operator" = "#01cdfe"
+
+"string" = "#ff71ce"
+"string.special" = "#ff71ce"
+
+"function" = "#ffffff"
+"function.builtin" = "#ffffff"
+"function.method" = "#ffffff"
+"function.macro" = "#ffffff"
+
+"constant" = "#05ffa1"
+"constant.numeric" = "#05ffa1"
+"constant.character" = "#ff71ce"
+"constant.builtin" = "#05ffa1"
+
+"type" = "#b967ff"
+"type.builtin" = "#b967ff"
+
+"variable" = "#e8e8e8"
+"variable.builtin" = "#01cdfe"
+"variable.parameter" = "#e8e8e8"
+
+"attribute" = "#27d4fe"
+"namespace" = "#b967ff"
+
+"operator" = "#01cdfe"
+"punctuation" = "#b967ff"
+"punctuation.delimiter" = "#b967ff"
+"punctuation.bracket" = "#b967ff"
+
+"label" = "#01cdfe"
+"tag" = "#ff71ce"
+
+"markup.heading" = { fg = "#01cdfe", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#01cdfe"
+"markup.link.text" = "#ff71ce"
+"markup.raw" = "#ff71ce"
+
+"diff.plus" = "#1ad2fe"
+"diff.minus" = "#00aed7"
+"diff.delta" = "#ff8dd7"
+
+[palette]
+background = "#0a0a0f"
+foreground = "#b967ff"
+accent = "#01cdfe"

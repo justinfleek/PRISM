@@ -1,0 +1,32 @@
+# Prism Mint - Alacritty
+[colors.primary]
+background = "#0a1818"
+foreground = "#e8f8f0"
+
+[colors.cursor]
+cursor = "#74D2A9"
+text = "#0a1818"
+
+[colors.selection]
+background = "#0d2020"
+text = "#e8f8f0"
+
+[colors.normal]
+black = "#0d1e1e"
+red = "#62b28f"
+green = "#81d6b1"
+yellow = "#A6F2B8"
+blue = "#74D2A9"
+magenta = "#579d7e"
+cyan = "#88d8b5"
+white = "#EDFDEE"
+
+[colors.bright]
+black = "#A6F2B8"
+red = "#74D2A9"
+green = "#88d8b5"
+yellow = "#aef3bf"
+blue = "#81d6b1"
+magenta = "#68bd98"
+cyan = "#96ddbe"
+white = "#edfdee"

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Verde",
+  "background": "#0a0a0a",
+  "foreground": "#f0ece0",
+  "cursorColor": "#3cb878",
+  "selectionBackground": "#101010",
+  "black": "#0a0a0a",
+  "red": "#339c66",
+  "green": "#4fbf85",
+  "yellow": "#87837f",
+  "blue": "#3cb878",
+  "purple": "#2d8a5a",
+  "cyan": "#63c693",
+  "white": "#f0ece0",
+  "brightBlack": "#6a6560",
+  "brightRed": "#3cb878",
+  "brightGreen": "#63c693",
+  "brightYellow": "#f0ece0",
+  "brightBlue": "#59c28c",
+  "brightPurple": "#36a56c",
+  "brightCyan": "#76cda0",
+  "brightWhite": "#f1ede3"
+}

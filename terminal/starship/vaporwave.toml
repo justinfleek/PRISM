@@ -1,0 +1,19 @@
+# Prism Vaporwave - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_vaporwave]
+background = "#1a0828"
+foreground = "#00E5E8"
+accent = "#FF3CC7"
+muted = "#a090b0"
+success = "#ff4fcc"
+warning = "#9dfffb"
+error = "#d833a9"
+info = "#FF3CC7"
+
+# Example usage:
+# palette = "prism_vaporwave"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

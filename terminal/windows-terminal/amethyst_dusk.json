@@ -1,0 +1,23 @@
+{
+  "name": "Prism Amethyst Dusk",
+  "background": "#282a36",
+  "foreground": "#f1fa8c",
+  "cursorColor": "#bd93f9",
+  "selectionBackground": "#323442",
+  "black": "#282a36",
+  "red": "#a07cd3",
+  "green": "#c39df9",
+  "yellow": "#ff93d1",
+  "blue": "#bd93f9",
+  "purple": "#8d6eba",
+  "cyan": "#caa8fa",
+  "white": "#f1fa8c",
+  "brightBlack": "#ff79c6",
+  "brightRed": "#bd93f9",
+  "brightGreen": "#caa8fa",
+  "brightYellow": "#f1fa8c",
+  "brightBlue": "#c6a3f9",
+  "brightPurple": "#aa84e0",
+  "brightCyan": "#d0b3fa",
+  "brightWhite": "#f2fa97"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Prism Cyber Noir",
+  "background": "#0a0a0f",
+  "foreground": "#a0a8c0",
+  "cursorColor": "#00fff0",
+  "selectionBackground": "#101018",
+  "black": "#0a0a0f",
+  "red": "#00d8cc",
+  "green": "#19fff1",
+  "yellow": "#737986",
+  "blue": "#00fff0",
+  "purple": "#00bfb4",
+  "cyan": "#33fff3",
+  "white": "#a0a8c0",
+  "brightBlack": "#505868",
+  "brightRed": "#00fff0",
+  "brightGreen": "#33fff3",
+  "brightYellow": "#a0a8c0",
+  "brightBlue": "#26fff2",
+  "brightPurple": "#00e5d8",
+  "brightCyan": "#4cfff4",
+  "brightWhite": "#a9b0c6"
+}

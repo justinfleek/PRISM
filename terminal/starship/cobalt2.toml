@@ -1,0 +1,19 @@
+# Prism Cobalt2 - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_cobalt2]
+background = "#193549"
+foreground = "#80ffbb"
+accent = "#ff9d00"
+muted = "#6888b8"
+success = "#ffa619"
+warning = "#ffd133"
+error = "#d88500"
+info = "#ff9d00"
+
+# Example usage:
+# palette = "prism_cobalt2"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

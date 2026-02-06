@@ -1,0 +1,32 @@
+# Prism Sunset - Alacritty
+[colors.primary]
+background = "#1a0820"
+foreground = "#FFBD00"
+
+[colors.cursor]
+cursor = "#FF0054"
+text = "#1a0820"
+
+[colors.selection]
+background = "#4a00bf"
+text = "#FFBD00"
+
+[colors.normal]
+black = "#390099"
+red = "#d80047"
+green = "#ff1965"
+yellow = "#b1337a"
+blue = "#FF0054"
+magenta = "#bf003f"
+cyan = "#ff3376"
+white = "#FFBD00"
+
+[colors.bright]
+black = "#9E0059"
+red = "#FF0054"
+green = "#ff3376"
+yellow = "#FFBD00"
+blue = "#ff266d"
+magenta = "#e5004b"
+cyan = "#ff4c87"
+white = "#ffc319"

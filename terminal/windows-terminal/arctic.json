@@ -1,0 +1,23 @@
+{
+  "name": "Prism Arctic",
+  "background": "#0A090C",
+  "foreground": "#F0EDEE",
+  "cursorColor": "#2C666E",
+  "selectionBackground": "#151316",
+  "black": "#0A090C",
+  "red": "#25565d",
+  "green": "#41757c",
+  "yellow": "#386063",
+  "blue": "#2C666E",
+  "purple": "#214c52",
+  "cyan": "#56848b",
+  "white": "#F0EDEE",
+  "brightBlack": "#07393C",
+  "brightRed": "#2C666E",
+  "brightGreen": "#56848b",
+  "brightYellow": "#F0EDEE",
+  "brightBlue": "#4b7c83",
+  "brightPurple": "#275b63",
+  "brightCyan": "#6b9399",
+  "brightWhite": "#f1eeef"
+}

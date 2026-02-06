@@ -1,0 +1,19 @@
+# Prism Tropical - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_tropical]
+background = "#0a1810"
+foreground = "#f0f8f0"
+accent = "#E42565"
+muted = "#708870"
+success = "#e63a74"
+warning = "#ce3a7b"
+error = "#c11f55"
+info = "#E42565"
+
+# Example usage:
+# palette = "prism_tropical"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

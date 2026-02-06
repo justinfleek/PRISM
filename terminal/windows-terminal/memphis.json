@@ -1,0 +1,23 @@
+{
+  "name": "Prism Memphis",
+  "background": "#000000",
+  "foreground": "#d8e0e7",
+  "cursorColor": "#54aeff",
+  "selectionBackground": "#0a0d10",
+  "black": "#000000",
+  "red": "#4793d8",
+  "green": "#65b6ff",
+  "yellow": "#616772",
+  "blue": "#54aeff",
+  "purple": "#3f82bf",
+  "cyan": "#76beff",
+  "white": "#d8e0e7",
+  "brightBlack": "#3a424f",
+  "brightRed": "#54aeff",
+  "brightGreen": "#76beff",
+  "brightYellow": "#d8e0e7",
+  "brightBlue": "#6dbaff",
+  "brightPurple": "#4b9ce5",
+  "brightCyan": "#87c6ff",
+  "brightWhite": "#dbe3e9"
+}

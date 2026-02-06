@@ -1,0 +1,23 @@
+{
+  "name": "Prism Tropical",
+  "background": "#0a1810",
+  "foreground": "#f0f8f0",
+  "cursorColor": "#E42565",
+  "selectionBackground": "#0f8a63",
+  "black": "#0B6E4F",
+  "red": "#c11f55",
+  "green": "#e63a74",
+  "yellow": "#ce3a7b",
+  "blue": "#E42565",
+  "purple": "#ab1b4b",
+  "cyan": "#e95083",
+  "white": "#D9E76C",
+  "brightBlack": "#C2095A",
+  "brightRed": "#E42565",
+  "brightGreen": "#e95083",
+  "brightYellow": "#D9E76C",
+  "brightBlue": "#e8457c",
+  "brightPurple": "#cd215a",
+  "brightCyan": "#ec6693",
+  "brightWhite": "#dce97a"
+}

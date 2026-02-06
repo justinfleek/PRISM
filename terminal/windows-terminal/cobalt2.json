@@ -1,0 +1,23 @@
+{
+  "name": "Prism Cobalt2",
+  "background": "#193549",
+  "foreground": "#80ffbb",
+  "cursorColor": "#ff9d00",
+  "selectionBackground": "#1f4462",
+  "black": "#193549",
+  "red": "#d88500",
+  "green": "#ffa619",
+  "yellow": "#ffd133",
+  "blue": "#ff9d00",
+  "purple": "#bf7500",
+  "cyan": "#ffb033",
+  "white": "#80ffbb",
+  "brightBlack": "#ffc600",
+  "brightRed": "#ff9d00",
+  "brightGreen": "#ffb033",
+  "brightYellow": "#80ffbb",
+  "brightBlue": "#ffab26",
+  "brightPurple": "#e58d00",
+  "brightCyan": "#ffba4c",
+  "brightWhite": "#8cffc1"
+}

@@ -1,0 +1,32 @@
+# Prism Cyber Noir - Alacritty
+[colors.primary]
+background = "#0a0a0f"
+foreground = "#a0a8c0"
+
+[colors.cursor]
+cursor = "#00fff0"
+text = "#0a0a0f"
+
+[colors.selection]
+background = "#101018"
+text = "#a0a8c0"
+
+[colors.normal]
+black = "#0a0a0f"
+red = "#00d8cc"
+green = "#19fff1"
+yellow = "#737986"
+blue = "#00fff0"
+magenta = "#00bfb4"
+cyan = "#33fff3"
+white = "#a0a8c0"
+
+[colors.bright]
+black = "#505868"
+red = "#00fff0"
+green = "#33fff3"
+yellow = "#a0a8c0"
+blue = "#26fff2"
+magenta = "#00e5d8"
+cyan = "#4cfff4"
+white = "#a9b0c6"

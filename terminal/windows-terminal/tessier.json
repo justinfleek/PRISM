@@ -1,0 +1,23 @@
+{
+  "name": "Prism Tessier",
+  "background": "#ffffff",
+  "foreground": "#1a2028",
+  "cursorColor": "#0758c9",
+  "selectionBackground": "#f0f3f6",
+  "black": "#1a2028",
+  "red": "#054aaa",
+  "green": "#1f68ce",
+  "yellow": "#6b7a8a",
+  "blue": "#0758c9",
+  "purple": "#054296",
+  "cyan": "#2c71d1",
+  "white": "#ffffff",
+  "brightBlack": "#6b7a8a",
+  "brightRed": "#0758c9",
+  "brightGreen": "#2c71d1",
+  "brightYellow": "#798795",
+  "brightBlue": "#1f68ce",
+  "brightPurple": "#064fb4",
+  "brightCyan": "#4581d6",
+  "brightWhite": "#ffffff"
+}

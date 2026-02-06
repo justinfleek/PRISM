@@ -1,0 +1,32 @@
+# Prism Catppuccin Mocha - Alacritty
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#fab387"
+
+[colors.cursor]
+cursor = "#f38ba8"
+text = "#1e1e2e"
+
+[colors.selection]
+background = "#28283d"
+text = "#fab387"
+
+[colors.normal]
+black = "#1e1e2e"
+red = "#ce768e"
+green = "#f496b0"
+yellow = "#d5b7f8"
+blue = "#f38ba8"
+magenta = "#b6687e"
+cyan = "#f5a2b9"
+white = "#fab387"
+
+[colors.bright]
+black = "#cba6f7"
+red = "#f38ba8"
+green = "#f5a2b9"
+yellow = "#fab387"
+blue = "#f49cb5"
+magenta = "#da7d97"
+cyan = "#f6adc2"
+white = "#faba93"

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Prism Tokyo Night Bento",
+  "author": "Prism Theme System",
+  "themes": [
+    {
+      "name": "Prism Tokyo Night Bento",
+      "appearance": "#2ac3de",
+      "style": {
+        "background": "#0f0f18",
+        "editor.background": "#0f0f18",
+        "editor.foreground": "#e8e8f0",
+        "editor.gutter.background": "#0f0f18",
+        "editor.line_highlight.background": "#16161f",
+        "editor.active_line_number": "#e8e8f0",
+        "editor.wrap_guide": "#6878a0",
+        "terminal.background": "#0f0f18",
+        "terminal.foreground": "#e8e8f0",
+        "terminal.ansi.black": "#0f0f18",
+        "terminal.ansi.red": "#9e82d1",
+        "terminal.ansi.green": "#c1a4f7",
+        "terminal.ansi.yellow": "#7b7b87",
+        "terminal.ansi.blue": "#bb9af7",
+        "terminal.ansi.magenta": "#8c73b9",
+        "terminal.ansi.cyan": "#c8aef8",
+        "terminal.ansi.white": "#e8e8f0",
+        "syntax": {
+          "comment": {
+            "color": "#6878a0",
+            "font_style": "italic"
+          },
+          "keyword": {
+            "color": "#bb9af7",
+            "font_weight": 600
+          },
+          "string": {
+            "color": "#9ece6a"
+          },
+          "function": {
+            "color": "#8b53f1"
+          },
+          "number": {
+            "color": "#ff9e64"
+          },
+          "type": {
+            "color": "#2ac3de"
+          },
+          "variable": {
+            "color": "#7aa2f7"
+          },
+          "constant": {
+            "color": "#ff9e64"
+          },
+          "attribute": {
+            "color": "#c5a9f8"
+          },
+          "property": {
+            "color": "#7aa2f7"
+          },
+          "punctuation": {
+            "color": "#e8e8f0"
+          },
+          "operator": {
+            "color": "#bb9af7"
+          }
+        }
+      }
+    }
+  ]
+}

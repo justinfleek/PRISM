@@ -1,0 +1,19 @@
+# Prism Grape - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_grape]
+background = "#120820"
+foreground = "#F0D6FF"
+accent = "#a855f7"
+muted = "#685878"
+success = "#8841c5"
+warning = "#633a89"
+error = "#6825a2"
+info = "#7B2CBF"
+
+# Example usage:
+# palette = "prism_grape"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

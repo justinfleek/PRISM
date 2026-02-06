@@ -1,0 +1,32 @@
+# Prism Tessier - Alacritty
+[colors.primary]
+background = "#ffffff"
+foreground = "#1a2028"
+
+[colors.cursor]
+cursor = "#0758c9"
+text = "#ffffff"
+
+[colors.selection]
+background = "#f0f3f6"
+text = "#1a2028"
+
+[colors.normal]
+black = "#1a2028"
+red = "#054aaa"
+green = "#1f68ce"
+yellow = "#6b7a8a"
+blue = "#0758c9"
+magenta = "#054296"
+cyan = "#2c71d1"
+white = "#ffffff"
+
+[colors.bright]
+black = "#6b7a8a"
+red = "#0758c9"
+green = "#2c71d1"
+yellow = "#798795"
+blue = "#1f68ce"
+magenta = "#064fb4"
+cyan = "#4581d6"
+white = "#ffffff"

@@ -1,0 +1,73 @@
+# Prism Cyber Noir - Helix
+# Place in ~/.config/helix/themes/cyber_noir.toml
+
+"ui.background" = { bg = "#0a0a0f" }
+"ui.text" = "#a0a8c0"
+"ui.text.focus" = "#00fff0"
+"ui.cursor" = { bg = "#00fff0", fg = "#0a0a0f" }
+"ui.cursor.match" = { bg = "#101018" }
+"ui.selection" = { bg = "#101018" }
+"ui.linenr" = "#506868"
+"ui.linenr.selected" = "#a0a8c0"
+"ui.cursorline.primary" = { bg = "#101018" }
+"ui.statusline" = { fg = "#a0a8c0", bg = "#0a0a0f" }
+"ui.statusline.inactive" = { fg = "#506868", bg = "#0a0a0f" }
+"ui.popup" = { bg = "#0a0a0f" }
+"ui.menu" = { bg = "#0a0a0f" }
+"ui.menu.selected" = { bg = "#101018" }
+"ui.help" = { fg = "#a0a8c0", bg = "#0a0a0f" }
+
+"comment" = { fg = "#506868", modifiers = ["italic"] }
+"keyword" = { fg = "#00fff0", modifiers = ["bold"] }
+"keyword.control" = "#00fff0"
+"keyword.function" = "#00fff0"
+"keyword.return" = "#00fff0"
+"keyword.exception" = "#00fff0"
+"keyword.operator" = "#00fff0"
+
+"string" = "#ff6b9d"
+"string.special" = "#ff6b9d"
+
+"function" = "#b0fffc"
+"function.builtin" = "#b0fffc"
+"function.method" = "#b0fffc"
+"function.macro" = "#b0fffc"
+
+"constant" = "#ffd700"
+"constant.numeric" = "#ffd700"
+"constant.character" = "#ff6b9d"
+"constant.builtin" = "#ffd700"
+
+"type" = "#ffd700"
+"type.builtin" = "#ffd700"
+
+"variable" = "#d0f0f0"
+"variable.builtin" = "#00fff0"
+"variable.parameter" = "#d0f0f0"
+
+"attribute" = "#00fff0"
+"namespace" = "#ffd700"
+
+"operator" = "#00fff0"
+"punctuation" = "#a0a8c0"
+"punctuation.delimiter" = "#a0a8c0"
+"punctuation.bracket" = "#a0a8c0"
+
+"label" = "#00fff0"
+"tag" = "#ff6b9d"
+
+"markup.heading" = { fg = "#00fff0", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#00fff0"
+"markup.link.text" = "#ff6b9d"
+"markup.raw" = "#ff6b9d"
+
+"diff.plus" = "#19fff1"
+"diff.minus" = "#00d8cc"
+"diff.delta" = "#737986"
+
+[palette]
+background = "#0a0a0f"
+foreground = "#a0a8c0"
+accent = "#00fff0"

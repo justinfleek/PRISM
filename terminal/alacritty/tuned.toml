@@ -1,0 +1,32 @@
+# Prism Tuned - Alacritty
+[colors.primary]
+background = "#191c20"
+foreground = "#c5d0dd"
+
+[colors.cursor]
+cursor = "#54aeff"
+text = "#191c20"
+
+[colors.selection]
+background = "#1f232a"
+text = "#c5d0dd"
+
+[colors.normal]
+black = "#191c20"
+red = "#4793d8"
+green = "#65b6ff"
+yellow = "#616772"
+blue = "#54aeff"
+magenta = "#3f82bf"
+cyan = "#76beff"
+white = "#c5d0dd"
+
+[colors.bright]
+black = "#3a424f"
+red = "#54aeff"
+green = "#76beff"
+yellow = "#c5d0dd"
+blue = "#6dbaff"
+magenta = "#4b9ce5"
+cyan = "#87c6ff"
+white = "#cad4e0"

@@ -1,0 +1,19 @@
+# Prism Cyber Noir - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_cyber_noir]
+background = "#0a0a0f"
+foreground = "#a0a8c0"
+accent = "#00fff0"
+muted = "#506868"
+success = "#19fff1"
+warning = "#737986"
+error = "#00d8cc"
+info = "#00fff0"
+
+# Example usage:
+# palette = "prism_cyber_noir"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

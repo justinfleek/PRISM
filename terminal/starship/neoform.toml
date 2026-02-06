@@ -1,0 +1,19 @@
+# Prism Neoform - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_neoform]
+background = "#f5f7fa"
+foreground = "#2d3848"
+accent = "#0969da"
+muted = "#8896a8"
+success = "#2178dd"
+warning = "#8896a8"
+error = "#0759b9"
+info = "#0969da"
+
+# Example usage:
+# palette = "prism_neoform"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

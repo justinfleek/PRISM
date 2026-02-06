@@ -1,0 +1,73 @@
+# Prism Blood Moon - Helix
+# Place in ~/.config/helix/themes/blood_moon.toml
+
+"ui.background" = { bg = "#090909" }
+"ui.text" = "#f5f5f5"
+"ui.text.focus" = "#d71b1f"
+"ui.cursor" = { bg = "#d71b1f", fg = "#090909" }
+"ui.cursor.match" = { bg = "#121212" }
+"ui.selection" = { bg = "#121212" }
+"ui.linenr" = "#6b5a5a"
+"ui.linenr.selected" = "#f5f5f5"
+"ui.cursorline.primary" = { bg = "#121212" }
+"ui.statusline" = { fg = "#f5f5f5", bg = "#090909" }
+"ui.statusline.inactive" = { fg = "#6b5a5a", bg = "#090909" }
+"ui.popup" = { bg = "#090909" }
+"ui.menu" = { bg = "#090909" }
+"ui.menu.selected" = { bg = "#121212" }
+"ui.help" = { fg = "#f5f5f5", bg = "#090909" }
+
+"comment" = { fg = "#6b5a5a", modifiers = ["italic"] }
+"keyword" = { fg = "#d71b1f", modifiers = ["bold"] }
+"keyword.control" = "#d71b1f"
+"keyword.function" = "#d71b1f"
+"keyword.return" = "#d71b1f"
+"keyword.exception" = "#d71b1f"
+"keyword.operator" = "#d71b1f"
+
+"string" = "#ff9e9e"
+"string.special" = "#ff9e9e"
+
+"function" = "#ffcccc"
+"function.builtin" = "#ffcccc"
+"function.method" = "#ffcccc"
+"function.macro" = "#ffcccc"
+
+"constant" = "#ffb8a0"
+"constant.numeric" = "#ffb8a0"
+"constant.character" = "#ff9e9e"
+"constant.builtin" = "#ffb8a0"
+
+"type" = "#ff7070"
+"type.builtin" = "#ff7070"
+
+"variable" = "#e0d0d0"
+"variable.builtin" = "#d71b1f"
+"variable.parameter" = "#e0d0d0"
+
+"attribute" = "#ffa0a0"
+"namespace" = "#ff7070"
+
+"operator" = "#d71b1f"
+"punctuation" = "#f5f5f5"
+"punctuation.delimiter" = "#f5f5f5"
+"punctuation.bracket" = "#f5f5f5"
+
+"label" = "#d71b1f"
+"tag" = "#ff5555"
+
+"markup.heading" = { fg = "#d71b1f", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#d71b1f"
+"markup.link.text" = "#ff9e9e"
+"markup.raw" = "#ff9e9e"
+
+"diff.plus" = "#db3135"
+"diff.minus" = "#b6161a"
+"diff.delta" = "#bfb9b7"
+
+[palette]
+background = "#090909"
+foreground = "#f5f5f5"
+accent = "#d71b1f"

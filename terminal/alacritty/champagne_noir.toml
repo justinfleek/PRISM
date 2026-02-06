@@ -1,0 +1,32 @@
+# Prism Champagne Noir - Alacritty
+[colors.primary]
+background = "#0a0a08"
+foreground = "#f0ece0"
+
+[colors.cursor]
+cursor = "#f7e7ce"
+text = "#0a0a08"
+
+[colors.selection]
+background = "#121210"
+text = "#f0ece0"
+
+[colors.normal]
+black = "#0a0a08"
+red = "#d1c4af"
+green = "#f7e9d2"
+yellow = "#7b7b77"
+blue = "#f7e7ce"
+magenta = "#b9ad9a"
+cyan = "#f8ebd7"
+white = "#f0ece0"
+
+[colors.bright]
+black = "#5a5a55"
+red = "#f7e7ce"
+green = "#f8ebd7"
+yellow = "#f0ece0"
+blue = "#f8ead5"
+magenta = "#decfb9"
+cyan = "#f9eedc"
+white = "#f1ede3"

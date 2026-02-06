@@ -1,0 +1,19 @@
+# Prism Aurora Glass - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_aurora_glass]
+background = "#0a0815"
+foreground = "#e8f0f8"
+accent = "#a78bfa"
+muted = "#5a5570"
+success = "#af96fa"
+warning = "#7b778c"
+error = "#8d76d4"
+info = "#a78bfa"
+
+# Example usage:
+# palette = "prism_aurora_glass"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

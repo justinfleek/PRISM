@@ -1,0 +1,73 @@
+# Prism Memphis - Helix
+# Place in ~/.config/helix/themes/memphis.toml
+
+"ui.background" = { bg = "#000000" }
+"ui.text" = "#d8e0e7"
+"ui.text.focus" = "#54aeff"
+"ui.cursor" = { bg = "#54aeff", fg = "#000000" }
+"ui.cursor.match" = { bg = "#0a0d10" }
+"ui.selection" = { bg = "#0a0d10" }
+"ui.linenr" = "#1a1f24"
+"ui.linenr.selected" = "#d8e0e7"
+"ui.cursorline.primary" = { bg = "#0a0d10" }
+"ui.statusline" = { fg = "#d8e0e7", bg = "#000000" }
+"ui.statusline.inactive" = { fg = "#1a1f24", bg = "#000000" }
+"ui.popup" = { bg = "#000000" }
+"ui.menu" = { bg = "#000000" }
+"ui.menu.selected" = { bg = "#0a0d10" }
+"ui.help" = { fg = "#d8e0e7", bg = "#000000" }
+
+"comment" = { fg = "#1a1f24", modifiers = ["italic"] }
+"keyword" = { fg = "#54aeff", modifiers = ["bold"] }
+"keyword.control" = "#54aeff"
+"keyword.function" = "#54aeff"
+"keyword.return" = "#54aeff"
+"keyword.exception" = "#54aeff"
+"keyword.operator" = "#54aeff"
+
+"string" = "#b6e3ff"
+"string.special" = "#b6e3ff"
+
+"function" = "#80ccff"
+"function.builtin" = "#80ccff"
+"function.method" = "#80ccff"
+"function.macro" = "#80ccff"
+
+"constant" = "#7ec2ff"
+"constant.numeric" = "#7ec2ff"
+"constant.character" = "#b6e3ff"
+"constant.builtin" = "#7ec2ff"
+
+"type" = "#3888c8"
+"type.builtin" = "#3888c8"
+
+"variable" = "#d8e0e7"
+"variable.builtin" = "#54aeff"
+"variable.parameter" = "#d8e0e7"
+
+"attribute" = "#6dbaff"
+"namespace" = "#3888c8"
+
+"operator" = "#54aeff"
+"punctuation" = "#d8e0e7"
+"punctuation.delimiter" = "#d8e0e7"
+"punctuation.bracket" = "#d8e0e7"
+
+"label" = "#54aeff"
+"tag" = "#7fc2ff"
+
+"markup.heading" = { fg = "#54aeff", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#54aeff"
+"markup.link.text" = "#b6e3ff"
+"markup.raw" = "#b6e3ff"
+
+"diff.plus" = "#65b6ff"
+"diff.minus" = "#4793d8"
+"diff.delta" = "#616772"
+
+[palette]
+background = "#000000"
+foreground = "#d8e0e7"
+accent = "#54aeff"

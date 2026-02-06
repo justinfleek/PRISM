@@ -1,0 +1,32 @@
+# Prism Cobalt2 - Alacritty
+[colors.primary]
+background = "#193549"
+foreground = "#80ffbb"
+
+[colors.cursor]
+cursor = "#ff9d00"
+text = "#193549"
+
+[colors.selection]
+background = "#1f4462"
+text = "#80ffbb"
+
+[colors.normal]
+black = "#193549"
+red = "#d88500"
+green = "#ffa619"
+yellow = "#ffd133"
+blue = "#ff9d00"
+magenta = "#bf7500"
+cyan = "#ffb033"
+white = "#80ffbb"
+
+[colors.bright]
+black = "#ffc600"
+red = "#ff9d00"
+green = "#ffb033"
+yellow = "#80ffbb"
+blue = "#ffab26"
+magenta = "#e58d00"
+cyan = "#ffba4c"
+white = "#8cffc1"

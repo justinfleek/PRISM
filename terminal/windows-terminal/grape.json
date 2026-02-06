@@ -1,0 +1,23 @@
+{
+  "name": "Prism Grape",
+  "background": "#120820",
+  "foreground": "#F0D6FF",
+  "cursorColor": "#7B2CBF",
+  "selectionBackground": "#1a0042",
+  "black": "#10002B",
+  "red": "#6825a2",
+  "green": "#8841c5",
+  "yellow": "#633a89",
+  "blue": "#7B2CBF",
+  "purple": "#5c218f",
+  "cyan": "#9556cb",
+  "white": "#F0D6FF",
+  "brightBlack": "#3C096C",
+  "brightRed": "#7B2CBF",
+  "brightGreen": "#9556cb",
+  "brightYellow": "#F0D6FF",
+  "brightBlue": "#8e4bc8",
+  "brightPurple": "#6e27ab",
+  "brightCyan": "#a26bd2",
+  "brightWhite": "#f1daff"
+}

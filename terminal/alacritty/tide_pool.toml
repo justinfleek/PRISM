@@ -1,0 +1,32 @@
+# Prism Tide Pool - Alacritty
+[colors.primary]
+background = "#06090c"
+foreground = "#e0f0f8"
+
+[colors.cursor]
+cursor = "#40e0d0"
+text = "#06090c"
+
+[colors.selection]
+background = "#0c1218"
+text = "#e0f0f8"
+
+[colors.normal]
+black = "#06090c"
+red = "#36beb0"
+green = "#53e3d4"
+yellow = "#6c777f"
+blue = "#40e0d0"
+magenta = "#30a89c"
+cyan = "#66e6d9"
+white = "#e0f0f8"
+
+[colors.bright]
+black = "#485560"
+red = "#40e0d0"
+green = "#66e6d9"
+yellow = "#e0f0f8"
+blue = "#5ce4d7"
+magenta = "#39c9bb"
+cyan = "#79e9de"
+white = "#e3f1f8"

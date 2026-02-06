@@ -1,0 +1,23 @@
+{
+  "name": "Prism Tide Pool",
+  "background": "#06090c",
+  "foreground": "#e0f0f8",
+  "cursorColor": "#40e0d0",
+  "selectionBackground": "#0c1218",
+  "black": "#06090c",
+  "red": "#36beb0",
+  "green": "#53e3d4",
+  "yellow": "#6c777f",
+  "blue": "#40e0d0",
+  "purple": "#30a89c",
+  "cyan": "#66e6d9",
+  "white": "#e0f0f8",
+  "brightBlack": "#485560",
+  "brightRed": "#40e0d0",
+  "brightGreen": "#66e6d9",
+  "brightYellow": "#e0f0f8",
+  "brightBlue": "#5ce4d7",
+  "brightPurple": "#39c9bb",
+  "brightCyan": "#79e9de",
+  "brightWhite": "#e3f1f8"
+}

@@ -1,0 +1,15 @@
+.git/**
+.vscode/**
+.vscode-test/**
+src/**
+node_modules/**
+.npm-cache/**
+*.vsix
+*.ts
+tsconfig.json
+BUILD.bat
+BUILD.sh
+generate-icon.js
+.gitignore
+package-lock.json
+.vscodeignore

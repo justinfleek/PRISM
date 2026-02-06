@@ -1,0 +1,32 @@
+# Prism Forest - Alacritty
+[colors.primary]
+background = "#050a08"
+foreground = "#c8e8d0"
+
+[colors.cursor]
+cursor = "#62A527"
+text = "#050a08"
+
+[colors.selection]
+background = "#152910"
+text = "#c8e8d0"
+
+[colors.normal]
+black = "#0D1F0A"
+red = "#538c21"
+green = "#71ae3c"
+yellow = "#4b6c63"
+blue = "#62A527"
+magenta = "#497b1d"
+cyan = "#81b752"
+white = "#ACD322"
+
+[colors.bright]
+black = "#1E483C"
+red = "#62A527"
+green = "#81b752"
+yellow = "#ACD322"
+blue = "#79b247"
+magenta = "#589423"
+cyan = "#91c067"
+white = "#b4d738"

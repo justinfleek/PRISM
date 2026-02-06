@@ -1,0 +1,32 @@
+# Prism Holographic - Alacritty
+[colors.primary]
+background = "#0a0a0f"
+foreground = "#b967ff"
+
+[colors.cursor]
+cursor = "#01cdfe"
+text = "#0a0a0f"
+
+[colors.selection]
+background = "#141419"
+text = "#b967ff"
+
+[colors.normal]
+black = "#0a0a0f"
+red = "#00aed7"
+green = "#1ad2fe"
+yellow = "#ff8dd7"
+blue = "#01cdfe"
+magenta = "#0099be"
+cyan = "#33d7fe"
+white = "#b967ff"
+
+[colors.bright]
+black = "#ff71ce"
+red = "#01cdfe"
+green = "#33d7fe"
+yellow = "#b967ff"
+blue = "#27d4fe"
+magenta = "#00b8e4"
+cyan = "#4ddcfe"
+white = "#c076ff"

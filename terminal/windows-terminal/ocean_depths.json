@@ -1,0 +1,23 @@
+{
+  "name": "Prism Ocean Depths",
+  "background": "#0a1018",
+  "foreground": "#d0e0f0",
+  "cursorColor": "#61e8e1",
+  "selectionBackground": "#101820",
+  "black": "#0a1018",
+  "red": "#52c5bf",
+  "green": "#70eae4",
+  "yellow": "#737f8c",
+  "blue": "#61e8e1",
+  "purple": "#48aea8",
+  "cyan": "#80ece7",
+  "white": "#d0e0f0",
+  "brightBlack": "#506070",
+  "brightRed": "#61e8e1",
+  "brightGreen": "#80ece7",
+  "brightYellow": "#d0e0f0",
+  "brightBlue": "#78ebe5",
+  "brightPurple": "#57d0ca",
+  "brightCyan": "#90eeea",
+  "brightWhite": "#d4e3f1"
+}

@@ -1,0 +1,19 @@
+# Prism Minimal - Starship prompt colors
+# Add to ~/.config/starship.toml
+
+[palettes.prism_minimal]
+background = "#f5f5f5"
+foreground = "#161616"
+accent = "#e43938"
+muted = "#b0a8a6"
+success = "#e64c4b"
+warning = "#b0a8a6"
+error = "#c1302f"
+info = "#e43938"
+
+# Example usage:
+# palette = "prism_minimal"
+# 
+# [character]
+# success_symbol = "[❯](accent)"
+# error_symbol = "[❯](error)"

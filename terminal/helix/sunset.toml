@@ -1,0 +1,73 @@
+# Prism Sunset - Helix
+# Place in ~/.config/helix/themes/sunset.toml
+
+"ui.background" = { bg = "#1a0820" }
+"ui.text" = "#FFBD00"
+"ui.text.focus" = "#FF0054"
+"ui.cursor" = { bg = "#FF0054", fg = "#1a0820" }
+"ui.cursor.match" = { bg = "#4a00bf" }
+"ui.selection" = { bg = "#4a00bf" }
+"ui.linenr" = "#987080"
+"ui.linenr.selected" = "#FFBD00"
+"ui.cursorline.primary" = { bg = "#4a00bf" }
+"ui.statusline" = { fg = "#FFBD00", bg = "#1a0820" }
+"ui.statusline.inactive" = { fg = "#987080", bg = "#1a0820" }
+"ui.popup" = { bg = "#1a0820" }
+"ui.menu" = { bg = "#1a0820" }
+"ui.menu.selected" = { bg = "#4a00bf" }
+"ui.help" = { fg = "#FFBD00", bg = "#1a0820" }
+
+"comment" = { fg = "#987080", modifiers = ["italic"] }
+"keyword" = { fg = "#FF0054", modifiers = ["bold"] }
+"keyword.control" = "#FF0054"
+"keyword.function" = "#FF0054"
+"keyword.return" = "#FF0054"
+"keyword.exception" = "#FF0054"
+"keyword.operator" = "#FF0054"
+
+"string" = "#ffb080"
+"string.special" = "#ffb080"
+
+"function" = "#ff6090"
+"function.builtin" = "#ff6090"
+"function.method" = "#ff6090"
+"function.macro" = "#ff6090"
+
+"constant" = "#c8a8b0"
+"constant.numeric" = "#c8a8b0"
+"constant.character" = "#ffb080"
+"constant.builtin" = "#c8a8b0"
+
+"type" = "#FFBD00"
+"type.builtin" = "#FFBD00"
+
+"variable" = "#e0c0c8"
+"variable.builtin" = "#FF0054"
+"variable.parameter" = "#e0c0c8"
+
+"attribute" = "#ff266d"
+"namespace" = "#FFBD00"
+
+"operator" = "#FF0054"
+"punctuation" = "#FFBD00"
+"punctuation.delimiter" = "#FFBD00"
+"punctuation.bracket" = "#FFBD00"
+
+"label" = "#FF0054"
+"tag" = "#ffb080"
+
+"markup.heading" = { fg = "#FF0054", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#FF0054"
+"markup.link.text" = "#ffb080"
+"markup.raw" = "#ffb080"
+
+"diff.plus" = "#ff1965"
+"diff.minus" = "#d80047"
+"diff.delta" = "#b1337a"
+
+[palette]
+background = "#1a0820"
+foreground = "#FFBD00"
+accent = "#FF0054"
